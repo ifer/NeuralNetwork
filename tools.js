@@ -16,16 +16,21 @@ var show = (entry) => {
     console.log (entry);
 }
 
-var showtable = (obj, format) => {
+var showtable = (obj, format, title) => {
     let array;
     if(math.typeOf(obj)==='Matrix')
         array = obj._data;
     else
         array = obj;
 
+    if (title){
+        console.log(title + ":");
+    }
+
     for (let i=0; i<array.length; i++){
         console.log(vsprintf(format, array[i]));
     }
+    console.log('');
 }
 
 

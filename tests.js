@@ -1,5 +1,6 @@
 const fs = require ('fs');
 const yargs = require ('yargs');
+const math = require('mathjs');
 
 const tools = require('./tools.js');
 const log = tools.log;
@@ -15,8 +16,16 @@ const showtable = tools.showtable;
 //
 // logtab(a, fmt);
 
-var sprintf = require('sprintf-js').sprintf;
-
-let n =  0.2345;
-console.log(sprintf("%+.15f", n));
+// var sprintf = require('sprintf-js').sprintf;
+//
+// let n =  0.2345;
+// console.log(sprintf("%+.15f", n));
 // console.log(n.toFixed(20));
+
+// let one = math.matrix(math.ones([3, 1]));
+// showtable(one, "%d");
+
+const A = [[1, 2, 3], [4, 5, 6]]
+let B = math.transpose(A)               // returns [[1, 4], [2, 5], [3, 6]]
+showtable(B, "%d");
+// console.log (B);
