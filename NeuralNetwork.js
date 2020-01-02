@@ -39,17 +39,22 @@ class NeuralNetwork {
         this.weights_ho = math.matrix(who);
         showtable(this.weights_ho,  'this.weights_ho');
 
-        let bh = [
-            [-0.20274250936739868],
-            [-0.37579441132890823],
-            [-0.38689842114593986],
-            [-0.5385956218791592 ]
-        ];
+
+        //Initalize bias nodes for hidden and output layers
+
+        // let bh = [
+        //     [-0.20274250936739868],
+        //     [-0.37579441132890823],
+        //     [-0.38689842114593986],
+        //     [-0.5385956218791592 ]
+        // ];
+        let bh = math.random([this.hidden_nodes, 1], -0.5, 0.5);
         this.bias_h = math.matrix(bh);
         showtable(this.bias_h, 'this.bias_h');
 
 ;
-        let bo =[[-0.8436717079312817]];
+        // let bo =[[-0.8436717079312817]];
+        let bo = math.random([this.output_nodes, 1], -0.5, 0.5);
         this.bias_o = math.matrix(bo);
         showtable(this.bias_o,  'this.bias_o');
 
