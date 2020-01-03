@@ -48,15 +48,15 @@ class NeuralNetwork {
         //     [-0.38689842114593986],
         //     [-0.5385956218791592 ]
         // ];
-        let bh = math.random([this.hidden_nodes, 1], -0.5, 0.5);
-        this.bias_h = math.matrix(bh);
-        showtable(this.bias_h, 'this.bias_h');
+        let bi = math.random([this.hidden_nodes, 1], -0.5, 0.5);
+        this.bias_i = math.matrix(bi);
+        showtable(this.bias_i, 'this.bias_i');
 
 ;
         // let bo =[[-0.8436717079312817]];
-        let bo = math.random([this.output_nodes, 1], -0.5, 0.5);
-        this.bias_o = math.matrix(bo);
-        showtable(this.bias_o,  'this.bias_o');
+        let bh = math.random([this.output_nodes, 1], -0.5, 0.5);
+        this.bias_h = math.matrix(bh);
+        showtable(this.bias_h,  'this.bias_h');
 
     }
 
@@ -71,8 +71,8 @@ class NeuralNetwork {
         let hidden_inputs = math.multiply(this.weights_ih, inputs);
         showtable(hidden_inputs,  "hidden_inputs");
 
-        //Add the hidden bias
-        hidden_inputs = math.add(hidden_inputs, this.bias_h);
+        //Add the input->hidden bias
+        hidden_inputs = math.add(hidden_inputs, this.bias_i);
         showtable(hidden_inputs,  "hidden_inputs after bias");
 
 
@@ -85,8 +85,8 @@ class NeuralNetwork {
         let final_inputs = math.multiply(this.weights_ho, hidden_outputs);
         showtable(final_inputs,  "final_inputs");
 
-        //Add the output bias
-        final_inputs = math.add(final_inputs, this.bias_o);
+        //Add the hidden->output bias
+        final_inputs = math.add(final_inputs, this.bias_h);
         showtable(final_inputs,  "final_inputs after bias");
 
         //Get the matrix containing output values of hidden nodes,
@@ -130,8 +130,9 @@ class NeuralNetwork {
         this.weights_ho = math.add(this.weights_ho, weightDeltas_ho);
         showtable(this.weights_ho, "this.weights_ho");
 
-        this.bias_o = math.add(this.bias_o, gradient_ho);
-        showtable(this.bias_o,  "this.bias_o adjusted");
+        //Adjust bias weights
+        this.bias_h = math.add(this.bias_h, gradient_ho);
+        showtable(this.bias_h,  "this.bias_h adjusted");
 
 
         // 2. Update weights between input layer and hidden layer
@@ -158,8 +159,9 @@ class NeuralNetwork {
         this.weights_ih = math.add(this.weights_ih, weightDeltas_ih);
         showtable(this.weights_ih,  "this.weights_ih");
 
-        this.bias_h = math.add(this.bias_h, gradient_ih);
-        showtable(this.bias_h,  "this.bias_h adjusted");
+        //Adjust bias weights
+        this.bias_i = math.add(this.bias_i, gradient_ih);
+        showtable(this.bias_i,  "this.bias_i adjusted");
     }
 
     query(input_array){
