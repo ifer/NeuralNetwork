@@ -102,6 +102,7 @@ class NeuralNetwork {
         // showtable(output_errors,  "output_errors");
 
         lastErrors = math.abs(math.mean(output_errors));
+        // show(lastErrors);
         // console.log('lastErrors=' + lastErrors);
 
         //Calculate errors in hidden layer
