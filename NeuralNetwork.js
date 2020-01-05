@@ -8,6 +8,7 @@ const show = tools.show;
 const showtable = tools.showtable;
 // const showmatrix = tools.showmatrix;
 
+
 var lastErrors;
 
 class NeuralNetwork {
@@ -17,7 +18,6 @@ class NeuralNetwork {
         this.hidden_nodes = hidden_nodes;
         this.output_nodes = output_nodes;
         this.learning_rate = learning_rate
-
 
         //Initialize weights input -> hidden
 
@@ -61,7 +61,7 @@ class NeuralNetwork {
 
     }
 
-    train(input_array, target_array){
+    train(input_array, target_array, metadata){
         // FEED FORWARD PROCEDURE
         let inputs = math.matrix(input_array);
         // showtable(inputs, "inputs")
@@ -102,6 +102,14 @@ class NeuralNetwork {
         // showtable(output_errors,  "output_errors");
 
         lastErrors = math.abs(math.mean(output_errors));
+
+        let nKm = this.denormalize('km', inputs._data[0], metadata);
+        let nFuel = this.denormalize('fuel', inputs._data[1], metadata);
+        let nAge = this.denormalize('age', inputs._data[2], metadata);
+        let nPrice = this.denormalize('price', final_outputs._data[0][0], metadata);
+        let nTarget = this.denormalize('target', target_array[0], metadata);
+        let error = math.abs((nTarget - nPrice)/nTarget).toFixed(5);
+        console.log(`km=${nKm} fuel=${nFuel} age=${nAge} price=${nPrice} target=${nTarget} error=${error}`);
         // show(lastErrors);
         // console.log('lastErrors=' + lastErrors);
 
@@ -197,6 +205,7 @@ class NeuralNetwork {
         //i.e. after application of the activation function;
         let final_outputs = math.map(final_inputs, sigmoid);
         showtable(final_outputs, "final_outputs");
+        return (final_outputs._data);
 
         // //Get the matrix containing values entering hidden nodes
         // let hidden_inputs = math.multiply(this.weights_ih, inputs);
@@ -219,6 +228,32 @@ class NeuralNetwork {
 
     setLearningRate(learning_rate = 0.1) {
       this.learning_rate = learning_rate;
+    }
+
+    denormalize(key, value, md){
+        if (key == 'price'){
+            let price = value * (md.max_price - md.min_price) + md.min_price;
+            return (price.toFixed(0));
+        }
+        if (key == 'target'){
+            let target = value * (md.max_price - md.min_price) + md.min_price;
+            return (target.toFixed(0));
+        }
+        else if (key == 'km'){
+            let km = (value * md.std_km) + md.mean_km;
+            return km.toFixed(0);
+        }
+        else if (key == 'fuel'){
+            let fuel = (value == -1) ? 'Diesel' : 'Essence';
+            return fuel;
+        }
+        else if (key == 'age'){
+            let age = (value * md.std_age) + md.mean_age;
+            return age.toFixed(0);
+        }
+        else {
+            return undefined;
+        }
     }
 
     testMe(input_array, target_array) {
@@ -244,5 +279,8 @@ function sigmoid(x){
 function sigmoidDeriv(y){
     return y * (1-y);
 }
+
+
+
 
 module.exports = NeuralNetwork;

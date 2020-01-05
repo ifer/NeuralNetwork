@@ -1,0 +1,6 @@
+input:
+km       fuel     age
+168000  "Diesel"   5
+
+output:
+price 13348.91847563
