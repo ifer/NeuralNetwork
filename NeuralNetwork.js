@@ -50,18 +50,18 @@ class NeuralNetwork {
         //     [-0.38689842114593986],
         //     [-0.5385956218791592 ]
         // ];
-        let bi = math.random([this.hidden_nodes, 1], -0.5, 0.5);
+        let bi = math.random([this.hidden_nodes, 1], -0.1, 0.1);
         this.bias_i = math.matrix(bi);
         // showtable(this.bias_i, 'this.bias_i');
 
         // let bh =[[-0.8436717079312817]];
-        let bh = math.random([this.output_nodes, 1], -0.5, 0.5);
+        let bh = math.random([this.output_nodes, 1], -0.1, 0.1);
         this.bias_h = math.matrix(bh);
         // showtable(this.bias_h,  'this.bias_h');
 
     }
 
-    train(input_array, target_array, metadata){
+    train(input_array, target_array, calc_error=false){
         // FEED FORWARD PROCEDURE
         let inputs = math.matrix(input_array);
         // showtable(inputs, "inputs")
@@ -74,7 +74,7 @@ class NeuralNetwork {
         // showtable(hidden_inputs,  "hidden_inputs");
 
         //Add the input->hidden bias
-        hidden_inputs = math.add(hidden_inputs, this.bias_i);
+        // hidden_inputs = math.add(hidden_inputs, this.bias_i);
         // showtable(hidden_inputs,  "hidden_inputs after bias");
 
 
@@ -88,7 +88,7 @@ class NeuralNetwork {
         // showtable(final_inputs,  "final_inputs");
 
         //Add the hidden->output bias
-        final_inputs = math.add(final_inputs, this.bias_h);
+        // final_inputs = math.add(final_inputs, this.bias_h);
         // showtable(final_inputs,  "final_inputs after bias");
 
         //Get the matrix containing output values of hidden nodes,
@@ -101,18 +101,12 @@ class NeuralNetwork {
         let output_errors = math.subtract(targets, final_outputs);
         // showtable(output_errors,  "output_errors");
 
-        lastErrors = math.abs(math.mean(output_errors));
-
-        let nKm = this.denormalize('km', inputs._data[0], metadata);
-        let nFuel = this.denormalize('fuel', inputs._data[1], metadata);
-        let nAge = this.denormalize('age', inputs._data[2], metadata);
-        let nPrice = this.denormalize('price', final_outputs._data[0][0], metadata);
-        let nTarget = this.denormalize('target', target_array[0], metadata);
-        let error = math.abs((nTarget - nPrice)/nTarget).toFixed(5);
-        console.log(`km=${nKm} fuel=${nFuel} age=${nAge} price=${nPrice} target=${nTarget} error=${error}`);
-        // show(lastErrors);
-        // console.log('lastErrors=' + lastErrors);
-
+        let lastErrors;
+        if (calc_error){
+            lastErrors = cost_function(final_outputs, targets);
+            // console.log(lastErrors);
+            // lastErrors = calcError(final_outputs, targets);
+        }
         //Calculate errors in hidden layer
         let weights_ho_t = math.transpose(this.weights_ho);
         let hidden_errors = math.multiply(weights_ho_t, output_errors);
@@ -143,7 +137,7 @@ class NeuralNetwork {
         // showtable(this.weights_ho, "this.weights_ho");
 
         //Adjust bias weights
-        this.bias_h = math.add(this.bias_h, gradient_ho);
+        // this.bias_h = math.add(this.bias_h, gradient_ho);
         // showtable(this.bias_h,  "this.bias_h adjusted");
 
 
@@ -169,92 +163,69 @@ class NeuralNetwork {
         // showtable(this.weights_ih,  "this.weights_ih");
 
         //Adjust bias weights
-        this.bias_i = math.add(this.bias_i, gradient_ih);
+        // this.bias_i = math.add(this.bias_i, gradient_ih);
         // showtable(this.bias_i,  "this.bias_i adjusted");
 
         return lastErrors;
     }
 
-    query(input_array){
+    query(input_array, target_array, calc_error=false){
         let inputs = math.matrix(input_array);
         // showtable(inputs, "inputs")
+
+        let targets;
+        if (target_array){
+            targets = math.matrix(target_array);
+        }
+        // showtable(targets, "targets")
+
+        // showtable(this.weights_ih,  "this.weights_ih");
 
         //Get the matrix containing values entering hidden nodes
         let hidden_inputs = math.multiply(this.weights_ih, inputs);
         // showtable(hidden_inputs,  "hidden_inputs");
 
         //Add the input->hidden bias
-        hidden_inputs = math.add(hidden_inputs, this.bias_i);
+        // hidden_inputs = math.add(hidden_inputs, this.bias_i);
         // showtable(hidden_inputs,  "hidden_inputs after bias");
 
+        // showtable(this.bias_i,  "this.bias_i");
 
         //Get the matrix containing output values of hidden nodes,
         //i.e. after application of the activation function;
         let hidden_outputs = math.map(hidden_inputs, sigmoid);
         // showtable(hidden_outputs, "hidden_outputs");
 
+        // showtable(this.weights_ho,  "this.weights_ho");
+
         //Get the matrix containing values entering final output nodes
         let final_inputs = math.multiply(this.weights_ho, hidden_outputs);
         // showtable(final_inputs,  "final_inputs");
 
         //Add the hidden->output bias
-        final_inputs = math.add(final_inputs, this.bias_h);
+        // final_inputs = math.add(final_inputs, this.bias_h);
         // showtable(final_inputs,  "final_inputs after bias");
+        // showtable(this.bias_h,  "this.bias_h");
 
         //Get the matrix containing output values of hidden nodes,
         //i.e. after application of the activation function;
         let final_outputs = math.map(final_inputs, sigmoid);
-        showtable(final_outputs, "final_outputs");
-        return (final_outputs._data);
-
-        // //Get the matrix containing values entering hidden nodes
-        // let hidden_inputs = math.multiply(this.weights_ih, inputs);
-        // showtable(hidden_inputs,  "hidden_inputs");
-        //
-        // //Get the matrix containing output values of hidden nodes,
-        // //i.e. after application of the activation function;
-        // let hidden_outputs = math.map(hidden_inputs, sigmoid);
-        // showtable(hidden_outputs,  "hidden_outputs");
-        //
-        // //Get the matrix containing values entering final output nodes
-        // let final_inputs = math.multiply(this.weights_ho, hidden_outputs);
-        // showtable(final_inputs,  "final_inputs");
-        //
-        // //Get the matrix containing output values of hidden nodes,
-        // //i.e. after application of the activation function;
-        // let final_outputs = math.map(final_inputs, sigmoid);
         // showtable(final_outputs, "final_outputs");
+        let lastErrors;
+        if (calc_error && targets){
+            lastErrors = cost_function(final_outputs, targets);
+            // console.log(lastErrors);
+            // lastErrors = calcError(final_outputs, targets);
+            return lastErrors;
+        }
+        return (final_outputs._data);
     }
 
     setLearningRate(learning_rate = 0.1) {
       this.learning_rate = learning_rate;
     }
 
-    denormalize(key, value, md){
-        if (key == 'price'){
-            let price = value * (md.max_price - md.min_price) + md.min_price;
-            return (price.toFixed(0));
-        }
-        if (key == 'target'){
-            let target = value * (md.max_price - md.min_price) + md.min_price;
-            return (target.toFixed(0));
-        }
-        else if (key == 'km'){
-            let km = (value * md.std_km) + md.mean_km;
-            return km.toFixed(0);
-        }
-        else if (key == 'fuel'){
-            let fuel = (value == -1) ? 'Diesel' : 'Essence';
-            return fuel;
-        }
-        else if (key == 'age'){
-            let age = (value * md.std_age) + md.mean_age;
-            return age.toFixed(0);
-        }
-        else {
-            return undefined;
-        }
-    }
+
 
     testMe(input_array, target_array) {
         // console.log(input_array);
@@ -280,6 +251,29 @@ function sigmoidDeriv(y){
     return y * (1-y);
 }
 
+function calcError(output, target ){
+    let size = math.size(output);
+    let outarr = output._data;
+    let tararr = target._data;
+    let errors = [];
+
+    for (let i=0; i<outarr.length; i++){
+        let err = [];
+        for (let j=0; j<outarr[i].length; j++){
+            err[j] = math.abs((tararr[i][j] - outarr[i][j])/tararr[i][j]).toFixed(5);
+            // console.log(`output=${outarr[i][j]} target=${tararr[i][j]} err=${err[j]}`);
+        }
+        errors.push(err);
+    }
+
+    return (math.matrix(errors));
+}
+
+function cost_function (output, target){
+    let sum = math.sum(math.square(math.subtract(target, output)));
+    return (0.5 * sum).toFixed(8);
+
+}
 
 
 

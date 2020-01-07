@@ -10,67 +10,100 @@ const logtab = tools.logtab;
 
 const NeuralNetwork = require('./NeuralNetwork');
 
-var neuralNetwork = new NeuralNetwork(3,5,1,0.1);
 
+
+const trainingDatathreshold = 0.8;
+const iterations = 100;
+const learning_rate = 0.2;
+
+var neuralNetwork = new NeuralNetwork(3, 5, 1, learning_rate);
 
 //Get the data and metadata
-var md = {};
+var metadata = {};
 let abort=false;
-let e;
+let errors;
 let n=0;
 
 var data = readData('normalized_car_features.csv');
-console.log(data.length);
+// console.log(data.length);
 
-var md = readMetadata('normalized_car_features.csv');
-console.log(md.length);
+metadata = readMetadata('normalized_car_features.csv');
+// console.log(metadata);
 
-for (let i=0; i<data.length; i++){
-    console.log(data[i]);
+[trainingData, testData ] = splitData(data, trainingDatathreshold);
+
+// let smallSet =  data.filter((value, index) => {
+//                         if(index < 10)
+//                             return true;
+//                         else
+//                             return false;
+//                     });
+
+//train(smallSet);
+
+console.log("## TRAINING ##");
+train(trainingData);
+// console.log("## TESTING ##");
+// test(testData);
+console.log("## PREDICTING ##");
+runPredictions();
+
+
+function train(dataset){
+    shuffle(dataset);
+    for (let j=0; j<iterations; j++){
+        for (let i=0; i<dataset.length; i++){
+            if (dataset[i].length == 0){  //empty line
+                continue;
+            }
+            let a = dataset[i].split(',');
+            if (a.length != 4){
+                console.log (`Error: number of columns=${a.length} instead of 4 at line ${n}. Aborting..`);
+                break;
+            }
+            //Convert input and output into 2-dimensional arrays
+            let input = [];
+            let output = [];
+            input.push([parseFloat(a[0])],[parseFloat(a[1])],[parseFloat(a[2])]);
+            output.push([parseFloat(a[3])]);
+            let getErrors = (j % 10 == 0) ? true : false;
+            errors = neuralNetwork.train(input, output, getErrors);
+        }
+        if (j % 10 == 0){
+            // console.log(`j=${j} error=${(math.transpose(errors))._data[0]}`);
+            console.log(`j=${j} error=${errors}`);
+        }
+    }
 }
 
-// const readInterface = readline.createInterface({
-//     input: fs.createReadStream('normalized_car_features.csv')
-// });
-//
-// readInterface
-//     .on('line', (line) => {
-//         n++;
-//         if (n == 1){ //header1: read metadata
-//             let m = line.split(',');
-//             if (m.length != 6){
-//                 console.log (`Error: number of columns=${m.length} instead of 6 at line ${n} (metadata header). Aborting..`);
-//                 abort=true;
-//                 readInterface.close();
-//                 readInterface.removeAllListeners();
-//                 return;
-//             }
-//             md.mean_km = parseFloat(m[0]);
-//             md.std_km = parseFloat(m[1]);
-//             md.mean_age = parseFloat(m[2]);
-//             md.std_age = parseFloat(m[3]);
-//             md.min_price = parseFloat(m[4]);
-//             md.max_price = parseFloat(m[5]);
-//             return;
-//         }
-//         else if (n == 2){ //header2: skip
-//             return;
-//         }
-//
-//         let a = line.split(',');
-//         if (a.length != 4){
-//             console.log (`Error: number of columns=${a.length} instead of 4 at line ${n}. Aborting..`);
-//             abort=true;
-//             readInterface.close();
-//             readInterface.removeAllListeners();
-//         }
-//         data.push(line);
-//     })
-//     .on('close', () => {
-//         if (!abort){
-//             console.log (`Finished: e=${e} n=${n}`);
-//         }
-//     });
+function test(dataset){
+
+    for (let i=0; i<dataset.length; i++){
+        if (dataset[i].length == 0){  //empty line
+            continue;
+        }
+        let a = dataset[i].split(',');
+        if (a.length != 4){
+            console.log (`Error: number of columns=${a.length} instead of 4 at line ${n}. Aborting..`);
+            break;
+        }
+        //Convert input and output into 2-dimensional arrays
+        let input = [];
+        let output = [];
+        input.push([parseFloat(a[0])],[parseFloat(a[1])],[parseFloat(a[2])]);
+        output.push([parseFloat(a[3])]);
+
+        let getErrors = (i % 10 == 0) ? true : false;
+        errors = neuralNetwork.query(input, output, getErrors);
+        if (i % 50 == 0){
+            // console.log(`j=${j} error=${(math.transpose(errors))._data[0]}`);
+            console.log(`i=${i} error=${errors}`);
+        }
+    }
+}
+
+
+
 
 function readData (filename){
     let lines = fs.readFileSync(filename, 'utf-8')
@@ -83,11 +116,48 @@ function readMetadata (filename){
     let lines = fs.readFileSync(filename, 'utf-8')
                     .split('\n')
                     .filter(isMetadata);
-    return (lines);
+    let line = lines[0];
+
+    let m = line.split(',');
+    if (m.length != 6){
+        console.log (`Error: number of columns=${m.length} instead of 6 at line 1 (metadata header). Aborting..`);
+        return;
+    }
+    md={};
+    md.mean_km = parseFloat(m[0]);
+    md.std_km = parseFloat(m[1]);
+    md.mean_age = parseFloat(m[2]);
+    md.std_age = parseFloat(m[3]);
+    md.min_price = parseFloat(m[4]);
+    md.max_price = parseFloat(m[5]);
+
+    return (md);
+}
+
+function splitData (data, threshold){
+    trainRows = math.floor(data.length * threshold);
+    trainingSet = data.filter((value, index) => {
+                        if(index < trainRows)
+                            return true;
+                        else
+                            return false;
+                    });
+
+
+    testRows = data.length - trainRows;
+    testSet = data.filter((value, index) => {
+                        if(index >= trainRows)
+                            return true;
+                        else
+                            return false;
+                    });
+
+    return [trainingSet, testSet]
+
 }
 
 function isMetadata(value, index){
-    if (index == 1){
+    if (index == 0){
         return true;
     }
     else {
@@ -106,41 +176,61 @@ function isData(value, index){
 }
 
 
+function runPredictions(){
+    let features = [
+        {km: 9000, fuel:'Essence', age:3},
+        {km:168000, fuel:'Diesel', age:5},
+    ];
 
-//Convert input and output into 2-dimensional arrays
-// let input = [];
-// let output = [];
-// input.push([parseFloat(a[0])],[parseFloat(a[1])],[parseFloat(a[2])]);
-// output.push([parseFloat(a[3])]);
-// e = neuralNetwork.train(input, output, md);
-
-
-
-
-
-function runTests(){
-    let normInput = normalize(16800, 'Diesel', 5);
-    let nKm = normInput[0];
-    let nFuel = normInput[1];
-    let nAge = normInput[2];
-
-    let ans = neuralNetwork.query([[nKm], [nFuel], [nAge]]);
-    show(denormalize(ans[0][0]));
+    for (let i=0; i<features.length; i++){
+        let criteria = normalize(features[i]);
+        let nPrice = neuralNetwork.query(criteria);
+        let price = denormalize('price', nPrice, metadata);
+        show(`km=${features[i].km}, fuel=${features[i].fuel}, age=${features[i].age}, predicted price: ${price}`);
+    }
 }
 
-function normalize(km, fuel, age){
-    let nKm = (km - md.mean_km) / md.std_km;
-    let nFuel = (fuel == 'Diesel') ? -1 : 1;
-    let nAge = (age - md.mean_age) / md.std_age;
-    return [md.nKm, md.nFuel, md.nAge];
+function normalize(features){
+    nKm = (features.km - metadata.mean_km) / metadata.std_km;
+    nFuel = (features.fuel == 'Diesel') ? -1 : 1;
+    nAge = (features.age - metadata.mean_age) / metadata.std_age;
+    return [[nKm], [nFuel], [nAge]];
+}
+
+// EXAMPLES denormalize
+// let km     = denormalize('km',     nKm    , metadata);
+// let fuel   = denormalize('fuel',   nFuel  , metadata);
+// let age    = denormalize('age',    nAge   , metadata);
+// let price  = denormalize('price',  nPrice , metadata);
+// let target = denormalize('target', nTarget, metadata);
+
+function denormalize(key, value, md){
+    if (key == 'price'){
+        let price = value * (md.max_price - md.min_price) + md.min_price;
+        return (price.toFixed(0));
+    }
+    if (key == 'target'){
+        let target = value * (md.max_price - md.min_price) + md.min_price;
+        return (target.toFixed(0));
+    }
+    else if (key == 'km'){
+        let km = (value * md.std_km) + md.mean_km;
+        return km.toFixed(0);
+    }
+    else if (key == 'fuel'){
+        let fuel = (value == -1) ? 'Diesel' : 'Essence';
+        return fuel;
+    }
+    else if (key == 'age'){
+        let age = (value * md.std_age) + md.mean_age;
+        return age.toFixed(0);
+    }
+    else {
+        return undefined;
+    }
 }
 
 
-
-function denormalize(nPrice) {
-    let price = nPrice * (md.max_price - md.min_price) + md.min_price;
-    return (price);
-}
 
 function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
