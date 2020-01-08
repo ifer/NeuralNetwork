@@ -66,40 +66,26 @@ function normalize(){
     let km = cleanedData.map((value, index) => {return value['km']});
     mean_km = math.mean(km);
     std_km = math.std(km);
-    // console.log(`mean_km=${mean_km}, std_km=${std_km}`);
     cleanedData.map((x) => {x['km']=((parseInt(x['km']) - mean_km)/std_km).toFixed(5)});
-    // for(let i=0; i<8; i++){
-    //     show(cleanedData[i]["km"]);
-    // }
 
     // binary convert fuel: Diesel = -1, Essence = 1
     cleanedData.map((x) => {x['fuel'] = (x['fuel'] == 'Diesel')? -1 : 1});
-    // for(let i=0; i<8; i++){
-    //     show(cleanedData[i]['fuel']);
-    // }
 
     // standardize age: (x - mean)/std
     let age = cleanedData.map((value, index) => {return value['age']});
     mean_age = math.mean(age);
     std_age = math.std(age);
-    // console.log(`mean_age=${mean_age}, std_age=${std_age}`);
     cleanedData.map((x) => {x['age']=((parseInt(x['age']) - mean_age)/std_age).toFixed(5)});
-    // for(let i=0; i<8; i++){
-    //     show(cleanedData[i]['age']);
-    // }
 
     // standardize price: (x - min)/(max - min)
     let price = cleanedData.map((value, index) => {return value['price']});
     min_price = math.min(price);
     max_price = math.max(price);
     cleanedData.map((x) => {x['price'] = ((parseInt(x['price']) - min_price)/(max_price - min_price)).toFixed(5) });
-    // for(let i=0; i<8; i++){
-    //     show(cleanedData[i]['price']);
-    // }
 }
 
 function writeToFile(){
-    var wstream = fs.createWriteStream('./normalized_car_features.csv');
+    var wstream = fs.createWriteStream('./car_normalized_features.csv');
 
     let header1 =  mean_km + "," + std_km  + "," + mean_age +   "," +  std_age  + "," +  min_price  + "," +  max_price;
     wstream.write(header1 + '\n');
@@ -108,8 +94,6 @@ function writeToFile(){
     wstream.write(header2 + '\n');
 
     for(let i=0; i<cleanedData.length; i++){
-    // for(let i=0; i<10; i++){
-        // show(cleanedData[i]);
         let line = cleanedData[i]['km'] + ',' + cleanedData[i]['fuel'] + ',' + cleanedData[i]['age'] + ',' + cleanedData[i]['price'];
         wstream.write(line + '\n');
     }

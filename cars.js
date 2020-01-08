@@ -10,9 +10,7 @@ const logtab = tools.logtab;
 
 const NeuralNetwork = require('./NeuralNetwork');
 
-
-
-const trainingDatathreshold = 0.8;
+const trainingDatathreshold = 0.8; //percentage of training set
 const iterations = 100;
 const learning_rate = 0.2;
 
@@ -24,14 +22,15 @@ let abort=false;
 let errors;
 let n=0;
 
-var data = readData('normalized_car_features.csv');
+var data = readData('car_normalized_features.csv');
 // console.log(data.length);
 
-metadata = readMetadata('normalized_car_features.csv');
+metadata = readMetadata('car_normalized_features.csv');
 // console.log(metadata);
 
 [trainingData, testData ] = splitData(data, trainingDatathreshold);
 
+//For debugging
 // let smallSet =  data.filter((value, index) => {
 //                         if(index < 10)
 //                             return true;
@@ -43,9 +42,12 @@ metadata = readMetadata('normalized_car_features.csv');
 
 console.log("## TRAINING ##");
 train(trainingData);
-// console.log("## TESTING ##");
-// test(testData);
+
+console.log("## TESTING ##");
+
+test(testData);
 console.log("## PREDICTING ##");
+
 runPredictions();
 
 
@@ -95,7 +97,7 @@ function test(dataset){
 
         let getErrors = (i % 10 == 0) ? true : false;
         errors = neuralNetwork.query(input, output, getErrors);
-        if (i % 50 == 0){
+        if (i % 100 == 0){
             // console.log(`j=${j} error=${(math.transpose(errors))._data[0]}`);
             console.log(`i=${i} error=${errors}`);
         }
@@ -175,18 +177,31 @@ function isData(value, index){
 
 }
 
+/*
+
+
+
+200000	Diesel	12	7386
+*/
 
 function runPredictions(){
     let features = [
-        {km: 9000, fuel:'Essence', age:3},
-        {km:168000, fuel:'Diesel', age:5},
+        {km: 9000, fuel:'Essence', age:1, target:32180},
+        {km:100000, fuel:'Essence', age:5, target:16689},
+        {km:50000, fuel:'Diesel', age:1, target: 21838},
+        {km:1500, fuel:'Diesel', age:1, target:31352},
+        {km:150000, fuel:'Diesel', age:10, target:8919},
+        {km:200000, fuel:'Essence', age:10, target:6236},
+        {km:200000, fuel:'Diesel', age:12, target:6327},
+        {km:168000, fuel:'Diesel', age:5, target:11654},
     ];
 
     for (let i=0; i<features.length; i++){
         let criteria = normalize(features[i]);
         let nPrice = neuralNetwork.query(criteria);
         let price = denormalize('price', nPrice, metadata);
-        show(`km=${features[i].km}, fuel=${features[i].fuel}, age=${features[i].age}, predicted price: ${price}`);
+        let diffrate = ((price - features[i].target)*100/features[i].target).toFixed(3);
+        show(`km=${features[i].km}, fuel=${features[i].fuel}, age=${features[i].age}, predicted price: ${price}, target: ${features[i].target} diff: ${diffrate}%`);
     }
 }
 

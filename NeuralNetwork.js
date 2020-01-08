@@ -20,22 +20,12 @@ class NeuralNetwork {
         this.learning_rate = learning_rate
 
         //Initialize weights input -> hidden
-
-       // let wih = [
-     	// [-0.13329451999669395, 0.5356847145240633],
-     	// [ 0.13253193590206358, 0.7026761896813469],
-       //   [-0.7112199236248813, -0.4533100789471374],
-       //   [-0.8771618765666478,  0.09962577233243053]
-       //  ];
-
         // Make a matrix of size hidden_nodes * input_nodes and fill with random values between -0.5 and 0.5
         let wih = math.random([hidden_nodes, input_nodes], -0.5, 0.5);
         this.weights_ih = math.matrix(wih);
         // showtable(this.weights_ih,'this.weights_ih');
 
         //Initialize weights hidden -> output
-
-        // let who = [[0.9386712269606536, 0.3014595084274925, 0.9414543269154678, 0.677659877263221]];
         // Make a matrix of size output_nodes * hidden_nodes and fill with random values between -0.5 and 0.5
         let who = math.random([output_nodes, hidden_nodes], -0.5, 0.5);
         this.weights_ho = math.matrix(who);
@@ -43,24 +33,18 @@ class NeuralNetwork {
 
 
         //Initalize bias nodes for hidden and output layers
-
-        // let bi = [
-        //     [-0.20274250936739868],
-        //     [-0.37579441132890823],
-        //     [-0.38689842114593986],
-        //     [-0.5385956218791592 ]
-        // ];
         let bi = math.random([this.hidden_nodes, 1], -0.1, 0.1);
         this.bias_i = math.matrix(bi);
         // showtable(this.bias_i, 'this.bias_i');
 
-        // let bh =[[-0.8436717079312817]];
         let bh = math.random([this.output_nodes, 1], -0.1, 0.1);
         this.bias_h = math.matrix(bh);
         // showtable(this.bias_h,  'this.bias_h');
 
     }
 
+    //When called with calc_error = true, applies the cost function
+    //and returns the result
     train(input_array, target_array, calc_error=false){
         // FEED FORWARD PROCEDURE
         let inputs = math.matrix(input_array);
@@ -74,7 +58,7 @@ class NeuralNetwork {
         // showtable(hidden_inputs,  "hidden_inputs");
 
         //Add the input->hidden bias
-        // hidden_inputs = math.add(hidden_inputs, this.bias_i);
+        hidden_inputs = math.add(hidden_inputs, this.bias_i);
         // showtable(hidden_inputs,  "hidden_inputs after bias");
 
 
@@ -88,7 +72,7 @@ class NeuralNetwork {
         // showtable(final_inputs,  "final_inputs");
 
         //Add the hidden->output bias
-        // final_inputs = math.add(final_inputs, this.bias_h);
+        final_inputs = math.add(final_inputs, this.bias_h);
         // showtable(final_inputs,  "final_inputs after bias");
 
         //Get the matrix containing output values of hidden nodes,
@@ -137,7 +121,7 @@ class NeuralNetwork {
         // showtable(this.weights_ho, "this.weights_ho");
 
         //Adjust bias weights
-        // this.bias_h = math.add(this.bias_h, gradient_ho);
+        this.bias_h = math.add(this.bias_h, gradient_ho);
         // showtable(this.bias_h,  "this.bias_h adjusted");
 
 
@@ -149,7 +133,7 @@ class NeuralNetwork {
 
         //Calculate sigmoid derivative  O_k(1-O_k)
         let sigderiv_ih = math.map(hidden_outputs, sigmoidDeriv);
-        // showtable(sigderiv_ih,  "sigderiv_ih");
+
         //Calculate gradient:  a * E_k * O_k(1-O_k)
         let gradient_ih =  math.multiply(math.dotMultiply(hidden_errors, sigderiv_ih), this.learning_rate) ;
         // showtable(gradient_ih,  "gradient_ih");
@@ -163,13 +147,15 @@ class NeuralNetwork {
         // showtable(this.weights_ih,  "this.weights_ih");
 
         //Adjust bias weights
-        // this.bias_i = math.add(this.bias_i, gradient_ih);
+        this.bias_i = math.add(this.bias_i, gradient_ih);
         // showtable(this.bias_i,  "this.bias_i adjusted");
 
         return lastErrors;
     }
 
-    query(input_array, target_array, calc_error=false){
+    //When called with target_array and calc_error = true,
+    //applies the cost function and returns the result
+    query(input_array, target_array=undefined, calc_error=false){
         let inputs = math.matrix(input_array);
         // showtable(inputs, "inputs")
 
@@ -179,43 +165,37 @@ class NeuralNetwork {
         }
         // showtable(targets, "targets")
 
-        // showtable(this.weights_ih,  "this.weights_ih");
-
         //Get the matrix containing values entering hidden nodes
         let hidden_inputs = math.multiply(this.weights_ih, inputs);
         // showtable(hidden_inputs,  "hidden_inputs");
 
         //Add the input->hidden bias
-        // hidden_inputs = math.add(hidden_inputs, this.bias_i);
+        hidden_inputs = math.add(hidden_inputs, this.bias_i);
         // showtable(hidden_inputs,  "hidden_inputs after bias");
-
-        // showtable(this.bias_i,  "this.bias_i");
 
         //Get the matrix containing output values of hidden nodes,
         //i.e. after application of the activation function;
         let hidden_outputs = math.map(hidden_inputs, sigmoid);
         // showtable(hidden_outputs, "hidden_outputs");
 
-        // showtable(this.weights_ho,  "this.weights_ho");
 
         //Get the matrix containing values entering final output nodes
         let final_inputs = math.multiply(this.weights_ho, hidden_outputs);
         // showtable(final_inputs,  "final_inputs");
 
         //Add the hidden->output bias
-        // final_inputs = math.add(final_inputs, this.bias_h);
+        final_inputs = math.add(final_inputs, this.bias_h);
         // showtable(final_inputs,  "final_inputs after bias");
-        // showtable(this.bias_h,  "this.bias_h");
 
         //Get the matrix containing output values of hidden nodes,
         //i.e. after application of the activation function;
         let final_outputs = math.map(final_inputs, sigmoid);
         // showtable(final_outputs, "final_outputs");
+
         let lastErrors;
         if (calc_error && targets){
             lastErrors = cost_function(final_outputs, targets);
             // console.log(lastErrors);
-            // lastErrors = calcError(final_outputs, targets);
             return lastErrors;
         }
         return (final_outputs._data);
@@ -225,20 +205,6 @@ class NeuralNetwork {
       this.learning_rate = learning_rate;
     }
 
-
-
-    testMe(input_array, target_array) {
-        // console.log(input_array);
-        let ia = [1,2,4]
-        let inputs = math.matrix(input_array);
-        let inputs_t = math.transpose(inputs);
-        console.log(inputs_t);
-        // let inputs = math.matrix(input_array);
-        // inputs = math.transpose(inputs);
-        showtable(inputs_t, "inputs")
-
-console.log(math.matrix([0, 1, 2])._data);
-    }
 }
 
 function sigmoid(x){
@@ -251,24 +217,7 @@ function sigmoidDeriv(y){
     return y * (1-y);
 }
 
-function calcError(output, target ){
-    let size = math.size(output);
-    let outarr = output._data;
-    let tararr = target._data;
-    let errors = [];
-
-    for (let i=0; i<outarr.length; i++){
-        let err = [];
-        for (let j=0; j<outarr[i].length; j++){
-            err[j] = math.abs((tararr[i][j] - outarr[i][j])/tararr[i][j]).toFixed(5);
-            // console.log(`output=${outarr[i][j]} target=${tararr[i][j]} err=${err[j]}`);
-        }
-        errors.push(err);
-    }
-
-    return (math.matrix(errors));
-}
-
+//Implement the cost function to calculate errors
 function cost_function (output, target){
     let sum = math.sum(math.square(math.subtract(target, output)));
     return (0.5 * sum).toFixed(8);
