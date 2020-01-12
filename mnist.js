@@ -26,8 +26,8 @@ const prod_test_file = 'mnist_dataset/mnist_test.csv';
 var neuralNetwork = new NeuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate);
 
 
-var traindata = readData(prod_train_file);
-var testdata = readData(prod_test_file);
+var traindata = readData(dev_train_file);
+var testdata = readData(dev_test_file);
 
 console.log("Training...");
 train(traindata);
