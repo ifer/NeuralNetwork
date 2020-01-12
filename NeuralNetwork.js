@@ -1,5 +1,4 @@
 const fs = require('fs');
-const yargs = require('yargs');
 const math = require('mathjs');
 
 const tools = require('./tools.js');
@@ -43,9 +42,13 @@ class NeuralNetwork {
 
     }
 
-    //When called with calc_error = true, applies the cost function
+    //When called with calcError = true, applies the squaredError function
     //and returns the result
-    train(input_array, target_array, calc_error=false){
+    train(input_array, target_array, calcError=false){
+        //Convert input and output into 2-dimensional arrays
+        input_array = math.reshape(input_array, [input_array.length, 1]);
+        target_array = math.reshape(target_array, [target_array.length, 1]);
+
         // FEED FORWARD PROCEDURE
         let inputs = math.matrix(input_array);
         // showtable(inputs, "inputs")
@@ -85,11 +88,10 @@ class NeuralNetwork {
         let output_errors = math.subtract(targets, final_outputs);
         // showtable(output_errors,  "output_errors");
 
-        let lastErrors;
-        if (calc_error){
-            lastErrors = cost_function(final_outputs, targets);
-            // console.log(lastErrors);
-            // lastErrors = calcError(final_outputs, targets);
+        let sqerr;
+        if (calcError){
+            sqerr = this.squaredError(targets, final_outputs);
+            // console.log(sqerr);
         }
         //Calculate errors in hidden layer
         let weights_ho_t = math.transpose(this.weights_ho);
@@ -107,14 +109,15 @@ class NeuralNetwork {
         //Calculate sigmoid derivative  O_k(1-O_k)
         let sigderiv_ho = math.map(final_outputs, sigmoidDeriv);
         // showtable(sigderiv_ho,  "sigderiv_ho");
+
         //Calculate gradient:  a * E_k * O_k(1-O_k)
         let gradient_ho =  math.multiply(math.dotMultiply(output_errors, sigderiv_ho), this.learning_rate) ;
         // showtable(gradient_ho,  "gradient_ho");
 
         //Calculate \deltaW_jk multiplying by a and by the transposed hidden layer output matrix
-        // let weightDiffs_a = math.multiply(math.multiply(deriv_product_a,   math.transpose(hidden_outputs)), this.learning_rate);
         let weightDeltas_ho = math.multiply(gradient_ho,   math.transpose(hidden_outputs));
         // showtable(weightDeltas_ho,  "weightDeltas_ho");
+
 
         //Adjust weights between hidden layer and output layer
         this.weights_ho = math.add(this.weights_ho, weightDeltas_ho);
@@ -150,17 +153,21 @@ class NeuralNetwork {
         this.bias_i = math.add(this.bias_i, gradient_ih);
         // showtable(this.bias_i,  "this.bias_i adjusted");
 
-        return lastErrors;
+        return sqerr;
     }
 
-    //When called with target_array and calc_error = true,
-    //applies the cost function and returns the result
-    query(input_array, target_array=undefined, calc_error=false){
+    //When called with target_array and calcError = true,
+    //applies the squaredError function and returns the result
+    query(input_array, target_array=undefined, calcError=false){
+        //Convert input and output into 2-dimensional arrays
+        input_array = math.reshape(input_array, [input_array.length, 1]);
+
         let inputs = math.matrix(input_array);
         // showtable(inputs, "inputs")
 
         let targets;
         if (target_array){
+            target_array = math.reshape(target_array, [target_array.length, 1]);
             targets = math.matrix(target_array);
         }
         // showtable(targets, "targets")
@@ -192,11 +199,9 @@ class NeuralNetwork {
         let final_outputs = math.map(final_inputs, sigmoid);
         // showtable(final_outputs, "final_outputs");
 
-        let lastErrors;
-        if (calc_error && targets){
-            lastErrors = cost_function(final_outputs, targets);
-            // console.log(lastErrors);
-            return lastErrors;
+
+        if (calcError && targets){
+            return ([targets, final_outputs]);
         }
         return (final_outputs._data);
     }
@@ -205,8 +210,86 @@ class NeuralNetwork {
       this.learning_rate = learning_rate;
     }
 
-}
+    //Error function for regression. Consecutive calls should be added and
+    //at the and be devised by the sample size n.
+    squaredError (target, output){
+        //If matrix length > 1, return the average of sum of squares
+        //of differences element wise
 
+        let diff = math.subtract(target, output);
+
+        if (diff.length > 1){
+            diff = math.squeeze(diff);
+        }
+
+        let sqerr;
+        if (diff.length)
+            sqerr = (math.sum(math.square(diff))) / diff.length;
+        else
+            sqerr = (math.sum(math.square(diff)));
+
+        // console.log(sqerr);
+
+        return sqerr;
+    }
+
+    saveModel(filename){
+        let wih = 'weights_ih' + '||' + JSON.stringify(this.weights_ih._data);
+        let who = 'weights_ho' + '||' + JSON.stringify(this.weights_ho._data);
+        let bi = 'bias_i' + '||' + JSON.stringify(this.bias_i._data);
+        let bh = 'bias_o' + '||' + JSON.stringify(this.bias_h._data);
+
+        let data = wih + '\n' + who + '\n' + bi + '\n' + bh;
+
+
+
+        fs.writeFile(filename, data,
+            function(err) {
+                if (err) {
+                    throw err;
+                }
+                else {
+                    console.log("Model saved successfully in " + filename);
+                }
+            }
+        );
+    }
+
+    loadModel(filename){
+        let data = fs.readFileSync(filename,
+            function(err) {
+                if (err) {
+                    throw err;
+                }
+            }
+        );
+
+        let lines = data.toString().split("\n");
+
+        for (let i=0; i<lines.length; i++){
+            if (lines[i].length == 0){  //empty line
+                continue;
+            }
+            let a = lines[i].split('||');
+            if (a[0] == 'weights_ih'){
+                this.weights_ih = math.matrix(JSON.parse(a[1]));
+            }
+            else if (a[0] == 'weights_ho'){
+                this.weights_ho = math.matrix(JSON.parse(a[1]));
+            }
+            else if (a[0] == 'bias_i'){
+                this.bias_i = math.matrix(JSON.parse(a[1]));
+            }
+            else if (a[0] == 'bias_h'){
+                this.bias_h = math.matrix(JSON.parse(a[1]));
+            }
+        }
+        showtable(this.weights_ih, 'this.weights_ih');
+        showtable(this.weights_ho, 'this.weights_ho');
+        showtable(this.bias_i, 'this.bias_i');
+        showtable(this.bias_h, 'this.bias_h');
+    }
+}
 function sigmoid(x){
     return (1 / (1 + math.exp(-x)));
 }
@@ -217,13 +300,6 @@ function sigmoidDeriv(y){
     return y * (1-y);
 }
 
-//Implement the cost function to calculate errors
-function cost_function (output, target){
-    let sum = math.sum(math.square(math.subtract(target, output)));
-    return (0.5 * sum).toFixed(8);
-
-}
-
-
 
 module.exports = NeuralNetwork;
+// module.exports.squaredError=squaredError;

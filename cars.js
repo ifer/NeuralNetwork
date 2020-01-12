@@ -6,21 +6,23 @@ const math = require('mathjs');
 const tools = require('./tools.js');
 const log = tools.log;
 const show = tools.show;
-const logtab = tools.logtab;
+const showtable = tools.showtable;
 
 const NeuralNetwork = require('./NeuralNetwork');
 
-const trainingDatathreshold = 0.8; //percentage of training set
-const iterations = 100;
-const learning_rate = 0.2;
 
-var neuralNetwork = new NeuralNetwork(3, 5, 1, learning_rate);
+const trainingDatathreshold = 0.8; //percentage of training set
+const epochs = 10;
+const learning_rate = 0.1;
+
+var neuralNetwork = new NeuralNetwork(3, 10, 1, learning_rate);
 
 //Get the data and metadata
 var metadata = {};
 let abort=false;
 let errors;
 let n=0;
+
 
 var data = readData('car_normalized_features.csv');
 // console.log(data.length);
@@ -37,53 +39,71 @@ metadata = readMetadata('car_normalized_features.csv');
 //                         else
 //                             return false;
 //                     });
-
-//train(smallSet);
+//
+// train(smallSet);
 
 console.log("## TRAINING ##");
 train(trainingData);
 
+try {
+    neuralNetwork.saveModel("cars_model.dat");
+}
+catch(error) {
+  console.error(error);
+  return;
+}
+
 console.log("## TESTING ##");
-
 test(testData);
-console.log("## PREDICTING ##");
 
+console.log("## PREDICTING ##");
 runPredictions();
 
 
 function train(dataset){
     shuffle(dataset);
-    for (let j=0; j<iterations; j++){
+    for (let j=0; j<epochs; j++){
+        let sqerr = 0.0;
+        let n = 0;
         for (let i=0; i<dataset.length; i++){
             if (dataset[i].length == 0){  //empty line
                 continue;
             }
+            n++;
+
             let a = dataset[i].split(',');
             if (a.length != 4){
                 console.log (`Error: number of columns=${a.length} instead of 4 at line ${n}. Aborting..`);
                 break;
             }
-            //Convert input and output into 2-dimensional arrays
-            let input = [];
-            let output = [];
-            input.push([parseFloat(a[0])],[parseFloat(a[1])],[parseFloat(a[2])]);
-            output.push([parseFloat(a[3])]);
-            let getErrors = (j % 10 == 0) ? true : false;
-            errors = neuralNetwork.train(input, output, getErrors);
+            a = a.map((x)=>{return parseFloat(x)});
+            let input = [a[0], a[1], a[2]];
+            let output = [a[3]];
+
+            sqerr += neuralNetwork.train(input, output, true);
+            //Add square errors
+            // sqerr += neuralNetwork.train(input, output, true);
+            // show(`sqerr=${sqerr}`);
+
         }
-        if (j % 10 == 0){
-            // console.log(`j=${j} error=${(math.transpose(errors))._data[0]}`);
-            console.log(`j=${j} error=${errors}`);
-        }
+        let meanSquaredError = (sqerr / n).toFixed(8);
+        console.log (`Epoch: ${j+1}  Mean squared error=${meanSquaredError}`);
     }
 }
 
 function test(dataset){
 
+    let sqerr = 0;
+    let n =  0;
+    let sumdiff = 0.0;
+    let sumsqerr = 0.0;
+
     for (let i=0; i<dataset.length; i++){
         if (dataset[i].length == 0){  //empty line
             continue;
         }
+        n++;
+
         let a = dataset[i].split(',');
         if (a.length != 4){
             console.log (`Error: number of columns=${a.length} instead of 4 at line ${n}. Aborting..`);
@@ -95,16 +115,23 @@ function test(dataset){
         input.push([parseFloat(a[0])],[parseFloat(a[1])],[parseFloat(a[2])]);
         output.push([parseFloat(a[3])]);
 
-        let getErrors = (i % 10 == 0) ? true : false;
-        errors = neuralNetwork.query(input, output, getErrors);
-        if (i % 100 == 0){
-            // console.log(`j=${j} error=${(math.transpose(errors))._data[0]}`);
-            console.log(`i=${i} error=${errors}`);
-        }
+        [target, output] = neuralNetwork.query(input, output, true);
+
+
+        sqerr = neuralNetwork.squaredError(target, output);
+        sumsqerr += sqerr;
+        let targetPrice = denormalize('price',  target._data , metadata);
+        let outputPrice = denormalize('price',  output._data , metadata);
+        let diff = math.abs(targetPrice - outputPrice) / targetPrice;
+        sumdiff+=diff;
+        // console.log(`Predicted: ${outputPrice} actual:${targetPrice} diff=${diff.toFixed(5)} squared error=${sqerr.toFixed(8)}` );
     }
+    // let meanSquaredError = (sqerr / n).toFixed(8);
+    // console.log (`Testing result: Mean Squared Error=${meanSquaredError}`);
+    let meanDiff = (sumdiff / n).toFixed(8);
+    let meanSquaredError = (sumsqerr / n).toFixed(4);
+    console.log (`Testing result: Mean diff=${meanDiff} Mean squared error=${meanSquaredError}`);
 }
-
-
 
 
 function readData (filename){
@@ -253,4 +280,32 @@ function shuffle(a) {
         [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
+}
+
+
+
+function denormalize(key, value, md){
+    if (key == 'price'){
+        let price = value * (md.max_price - md.min_price) + md.min_price;
+        return (price.toFixed(0));
+    }
+    if (key == 'target'){
+        let target = value * (md.max_price - md.min_price) + md.min_price;
+        return (target.toFixed(0));
+    }
+    else if (key == 'km'){
+        let km = (value * md.std_km) + md.mean_km;
+        return km.toFixed(0);
+    }
+    else if (key == 'fuel'){
+        let fuel = (value == -1) ? 'Diesel' : 'Essence';
+        return fuel;
+    }
+    else if (key == 'age'){
+        let age = (value * md.std_age) + md.mean_age;
+        return age.toFixed(0);
+    }
+    else {
+        return undefined;
+    }
 }

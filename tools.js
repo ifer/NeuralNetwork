@@ -34,11 +34,16 @@ var showtable = (obj,  title) => {
     }
 
     let n = array[0].length; //Count columns
+    if (n == undefined){ // If one-dim array convert to 2-d
+        n = array.length;
+        array = math.reshape(array, [1, array.length]);
+    }
+    
     let format = '';
     for (let i=0; i<n; i++){ //Build format as float
         format += "%+.15f ";
     }
-
+// console.log("len="+array.length);
     for (let i=0; i<array.length; i++){
         console.log(vsprintf(format, array[i]));
     }

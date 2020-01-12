@@ -1,0 +1,2815 @@
+## TRAINING ##
+Epoch: 1 Cost=0.00025427
+Epoch: 2 Cost=0.00027432
+Epoch: 3 Cost=0.00027457
+Epoch: 4 Cost=0.00026977
+Epoch: 5 Cost=0.00026407
+Epoch: 6 Cost=0.00025842
+Epoch: 7 Cost=0.00025299
+Epoch: 8 Cost=0.00024786
+Epoch: 9 Cost=0.00024303
+Epoch: 10 Cost=0.00023851
+Epoch: 11 Cost=0.00023430
+Epoch: 12 Cost=0.00023042
+Epoch: 13 Cost=0.00022685
+Epoch: 14 Cost=0.00022361
+Epoch: 15 Cost=0.00022068
+Epoch: 16 Cost=0.00021804
+Epoch: 17 Cost=0.00021568
+Epoch: 18 Cost=0.00021357
+Epoch: 19 Cost=0.00021168
+Epoch: 20 Cost=0.00020999
+Epoch: 21 Cost=0.00020846
+Epoch: 22 Cost=0.00020707
+Epoch: 23 Cost=0.00020579
+Epoch: 24 Cost=0.00020460
+Epoch: 25 Cost=0.00020348
+Epoch: 26 Cost=0.00020241
+Epoch: 27 Cost=0.00020138
+Epoch: 28 Cost=0.00020037
+Epoch: 29 Cost=0.00019939
+Epoch: 30 Cost=0.00019842
+Epoch: 31 Cost=0.00019750
+Epoch: 32 Cost=0.00019663
+Epoch: 33 Cost=0.00019583
+Epoch: 34 Cost=0.00019511
+Epoch: 35 Cost=0.00019448
+Epoch: 36 Cost=0.00019392
+Epoch: 37 Cost=0.00019341
+Epoch: 38 Cost=0.00019293
+Epoch: 39 Cost=0.00019246
+Epoch: 40 Cost=0.00019198
+Epoch: 41 Cost=0.00019149
+Epoch: 42 Cost=0.00019098
+Epoch: 43 Cost=0.00019045
+Epoch: 44 Cost=0.00018989
+Epoch: 45 Cost=0.00018932
+Epoch: 46 Cost=0.00018872
+Epoch: 47 Cost=0.00018810
+Epoch: 48 Cost=0.00018746
+Epoch: 49 Cost=0.00018681
+Epoch: 50 Cost=0.00018615
+Epoch: 51 Cost=0.00018548
+Epoch: 52 Cost=0.00018480
+Epoch: 53 Cost=0.00018412
+Epoch: 54 Cost=0.00018343
+Epoch: 55 Cost=0.00018274
+Epoch: 56 Cost=0.00018206
+Epoch: 57 Cost=0.00018137
+Epoch: 58 Cost=0.00018070
+Epoch: 59 Cost=0.00018002
+Epoch: 60 Cost=0.00017936
+Epoch: 61 Cost=0.00017870
+Epoch: 62 Cost=0.00017805
+Epoch: 63 Cost=0.00017741
+Epoch: 64 Cost=0.00017678
+Epoch: 65 Cost=0.00017616
+Epoch: 66 Cost=0.00017556
+Epoch: 67 Cost=0.00017496
+Epoch: 68 Cost=0.00017437
+Epoch: 69 Cost=0.00017379
+Epoch: 70 Cost=0.00017322
+Epoch: 71 Cost=0.00017266
+Epoch: 72 Cost=0.00017210
+Epoch: 73 Cost=0.00017156
+Epoch: 74 Cost=0.00017103
+Epoch: 75 Cost=0.00017050
+Epoch: 76 Cost=0.00016998
+Epoch: 77 Cost=0.00016947
+Epoch: 78 Cost=0.00016897
+Epoch: 79 Cost=0.00016847
+Epoch: 80 Cost=0.00016798
+Epoch: 81 Cost=0.00016749
+Epoch: 82 Cost=0.00016701
+Epoch: 83 Cost=0.00016653
+Epoch: 84 Cost=0.00016606
+Epoch: 85 Cost=0.00016559
+Epoch: 86 Cost=0.00016512
+Epoch: 87 Cost=0.00016465
+Epoch: 88 Cost=0.00016419
+Epoch: 89 Cost=0.00016373
+Epoch: 90 Cost=0.00016327
+Epoch: 91 Cost=0.00016281
+Epoch: 92 Cost=0.00016236
+Epoch: 93 Cost=0.00016190
+Epoch: 94 Cost=0.00016144
+Epoch: 95 Cost=0.00016099
+Epoch: 96 Cost=0.00016053
+Epoch: 97 Cost=0.00016007
+Epoch: 98 Cost=0.00015961
+Epoch: 99 Cost=0.00015915
+Epoch: 100 Cost=0.00015869
+Epoch: 101 Cost=0.00015822
+Epoch: 102 Cost=0.00015776
+Epoch: 103 Cost=0.00015729
+Epoch: 104 Cost=0.00015682
+Epoch: 105 Cost=0.00015635
+Epoch: 106 Cost=0.00015587
+Epoch: 107 Cost=0.00015540
+Epoch: 108 Cost=0.00015492
+Epoch: 109 Cost=0.00015444
+Epoch: 110 Cost=0.00015395
+Epoch: 111 Cost=0.00015347
+Epoch: 112 Cost=0.00015298
+Epoch: 113 Cost=0.00015249
+Epoch: 114 Cost=0.00015200
+Epoch: 115 Cost=0.00015151
+Epoch: 116 Cost=0.00015102
+Epoch: 117 Cost=0.00015053
+Epoch: 118 Cost=0.00015003
+Epoch: 119 Cost=0.00014953
+Epoch: 120 Cost=0.00014904
+Epoch: 121 Cost=0.00014854
+Epoch: 122 Cost=0.00014804
+Epoch: 123 Cost=0.00014754
+Epoch: 124 Cost=0.00014704
+Epoch: 125 Cost=0.00014655
+Epoch: 126 Cost=0.00014605
+Epoch: 127 Cost=0.00014555
+Epoch: 128 Cost=0.00014505
+Epoch: 129 Cost=0.00014456
+Epoch: 130 Cost=0.00014406
+Epoch: 131 Cost=0.00014356
+Epoch: 132 Cost=0.00014307
+Epoch: 133 Cost=0.00014258
+Epoch: 134 Cost=0.00014209
+Epoch: 135 Cost=0.00014160
+Epoch: 136 Cost=0.00014111
+Epoch: 137 Cost=0.00014062
+Epoch: 138 Cost=0.00014014
+Epoch: 139 Cost=0.00013966
+Epoch: 140 Cost=0.00013917
+Epoch: 141 Cost=0.00013870
+Epoch: 142 Cost=0.00013822
+Epoch: 143 Cost=0.00013774
+Epoch: 144 Cost=0.00013727
+Epoch: 145 Cost=0.00013680
+Epoch: 146 Cost=0.00013633
+Epoch: 147 Cost=0.00013586
+Epoch: 148 Cost=0.00013540
+Epoch: 149 Cost=0.00013493
+Epoch: 150 Cost=0.00013447
+Epoch: 151 Cost=0.00013401
+Epoch: 152 Cost=0.00013355
+Epoch: 153 Cost=0.00013310
+Epoch: 154 Cost=0.00013264
+Epoch: 155 Cost=0.00013219
+Epoch: 156 Cost=0.00013174
+Epoch: 157 Cost=0.00013129
+Epoch: 158 Cost=0.00013084
+Epoch: 159 Cost=0.00013039
+Epoch: 160 Cost=0.00012994
+Epoch: 161 Cost=0.00012950
+Epoch: 162 Cost=0.00012905
+Epoch: 163 Cost=0.00012861
+Epoch: 164 Cost=0.00012817
+Epoch: 165 Cost=0.00012773
+Epoch: 166 Cost=0.00012728
+Epoch: 167 Cost=0.00012684
+Epoch: 168 Cost=0.00012640
+Epoch: 169 Cost=0.00012596
+Epoch: 170 Cost=0.00012551
+Epoch: 171 Cost=0.00012507
+Epoch: 172 Cost=0.00012463
+Epoch: 173 Cost=0.00012418
+Epoch: 174 Cost=0.00012374
+Epoch: 175 Cost=0.00012329
+Epoch: 176 Cost=0.00012284
+Epoch: 177 Cost=0.00012239
+Epoch: 178 Cost=0.00012194
+Epoch: 179 Cost=0.00012148
+Epoch: 180 Cost=0.00012102
+Epoch: 181 Cost=0.00012056
+Epoch: 182 Cost=0.00012010
+Epoch: 183 Cost=0.00011963
+Epoch: 184 Cost=0.00011917
+Epoch: 185 Cost=0.00011869
+Epoch: 186 Cost=0.00011822
+Epoch: 187 Cost=0.00011774
+Epoch: 188 Cost=0.00011726
+Epoch: 189 Cost=0.00011678
+Epoch: 190 Cost=0.00011629
+Epoch: 191 Cost=0.00011580
+Epoch: 192 Cost=0.00011532
+Epoch: 193 Cost=0.00011483
+Epoch: 194 Cost=0.00011434
+Epoch: 195 Cost=0.00011386
+Epoch: 196 Cost=0.00011338
+Epoch: 197 Cost=0.00011291
+Epoch: 198 Cost=0.00011244
+Epoch: 199 Cost=0.00011198
+Epoch: 200 Cost=0.00011152
+Epoch: 201 Cost=0.00011108
+Epoch: 202 Cost=0.00011065
+Epoch: 203 Cost=0.00011022
+Epoch: 204 Cost=0.00010981
+Epoch: 205 Cost=0.00010940
+Epoch: 206 Cost=0.00010901
+Epoch: 207 Cost=0.00010862
+Epoch: 208 Cost=0.00010824
+Epoch: 209 Cost=0.00010787
+Epoch: 210 Cost=0.00010751
+Epoch: 211 Cost=0.00010715
+Epoch: 212 Cost=0.00010680
+Epoch: 213 Cost=0.00010645
+Epoch: 214 Cost=0.00010611
+Epoch: 215 Cost=0.00010578
+Epoch: 216 Cost=0.00010545
+Epoch: 217 Cost=0.00010512
+Epoch: 218 Cost=0.00010480
+Epoch: 219 Cost=0.00010448
+Epoch: 220 Cost=0.00010417
+Epoch: 221 Cost=0.00010386
+Epoch: 222 Cost=0.00010355
+Epoch: 223 Cost=0.00010325
+Epoch: 224 Cost=0.00010295
+Epoch: 225 Cost=0.00010265
+Epoch: 226 Cost=0.00010235
+Epoch: 227 Cost=0.00010206
+Epoch: 228 Cost=0.00010177
+Epoch: 229 Cost=0.00010148
+Epoch: 230 Cost=0.00010120
+Epoch: 231 Cost=0.00010092
+Epoch: 232 Cost=0.00010064
+Epoch: 233 Cost=0.00010036
+Epoch: 234 Cost=0.00010008
+Epoch: 235 Cost=0.00009981
+Epoch: 236 Cost=0.00009954
+Epoch: 237 Cost=0.00009927
+Epoch: 238 Cost=0.00009901
+Epoch: 239 Cost=0.00009874
+Epoch: 240 Cost=0.00009848
+Epoch: 241 Cost=0.00009823
+Epoch: 242 Cost=0.00009797
+Epoch: 243 Cost=0.00009772
+Epoch: 244 Cost=0.00009746
+Epoch: 245 Cost=0.00009722
+Epoch: 246 Cost=0.00009697
+Epoch: 247 Cost=0.00009672
+Epoch: 248 Cost=0.00009648
+Epoch: 249 Cost=0.00009624
+Epoch: 250 Cost=0.00009600
+Epoch: 251 Cost=0.00009577
+Epoch: 252 Cost=0.00009554
+Epoch: 253 Cost=0.00009531
+Epoch: 254 Cost=0.00009508
+Epoch: 255 Cost=0.00009485
+Epoch: 256 Cost=0.00009463
+Epoch: 257 Cost=0.00009441
+Epoch: 258 Cost=0.00009420
+Epoch: 259 Cost=0.00009398
+Epoch: 260 Cost=0.00009377
+Epoch: 261 Cost=0.00009356
+Epoch: 262 Cost=0.00009335
+Epoch: 263 Cost=0.00009315
+Epoch: 264 Cost=0.00009295
+Epoch: 265 Cost=0.00009275
+Epoch: 266 Cost=0.00009256
+Epoch: 267 Cost=0.00009236
+Epoch: 268 Cost=0.00009217
+Epoch: 269 Cost=0.00009199
+Epoch: 270 Cost=0.00009180
+Epoch: 271 Cost=0.00009162
+Epoch: 272 Cost=0.00009144
+Epoch: 273 Cost=0.00009127
+Epoch: 274 Cost=0.00009110
+Epoch: 275 Cost=0.00009093
+Epoch: 276 Cost=0.00009076
+Epoch: 277 Cost=0.00009060
+Epoch: 278 Cost=0.00009043
+Epoch: 279 Cost=0.00009028
+Epoch: 280 Cost=0.00009012
+Epoch: 281 Cost=0.00008997
+Epoch: 282 Cost=0.00008982
+Epoch: 283 Cost=0.00008967
+Epoch: 284 Cost=0.00008952
+Epoch: 285 Cost=0.00008938
+Epoch: 286 Cost=0.00008924
+Epoch: 287 Cost=0.00008910
+Epoch: 288 Cost=0.00008896
+Epoch: 289 Cost=0.00008883
+Epoch: 290 Cost=0.00008870
+Epoch: 291 Cost=0.00008857
+Epoch: 292 Cost=0.00008844
+Epoch: 293 Cost=0.00008832
+Epoch: 294 Cost=0.00008819
+Epoch: 295 Cost=0.00008807
+Epoch: 296 Cost=0.00008795
+Epoch: 297 Cost=0.00008783
+Epoch: 298 Cost=0.00008772
+Epoch: 299 Cost=0.00008761
+Epoch: 300 Cost=0.00008749
+Epoch: 301 Cost=0.00008738
+Epoch: 302 Cost=0.00008727
+Epoch: 303 Cost=0.00008717
+Epoch: 304 Cost=0.00008706
+Epoch: 305 Cost=0.00008696
+Epoch: 306 Cost=0.00008685
+Epoch: 307 Cost=0.00008675
+Epoch: 308 Cost=0.00008665
+Epoch: 309 Cost=0.00008655
+Epoch: 310 Cost=0.00008645
+Epoch: 311 Cost=0.00008635
+Epoch: 312 Cost=0.00008626
+Epoch: 313 Cost=0.00008616
+Epoch: 314 Cost=0.00008607
+Epoch: 315 Cost=0.00008598
+Epoch: 316 Cost=0.00008588
+Epoch: 317 Cost=0.00008579
+Epoch: 318 Cost=0.00008570
+Epoch: 319 Cost=0.00008561
+Epoch: 320 Cost=0.00008552
+Epoch: 321 Cost=0.00008543
+Epoch: 322 Cost=0.00008534
+Epoch: 323 Cost=0.00008526
+Epoch: 324 Cost=0.00008517
+Epoch: 325 Cost=0.00008508
+Epoch: 326 Cost=0.00008500
+Epoch: 327 Cost=0.00008491
+Epoch: 328 Cost=0.00008483
+Epoch: 329 Cost=0.00008474
+Epoch: 330 Cost=0.00008466
+Epoch: 331 Cost=0.00008457
+Epoch: 332 Cost=0.00008449
+Epoch: 333 Cost=0.00008441
+Epoch: 334 Cost=0.00008432
+Epoch: 335 Cost=0.00008424
+Epoch: 336 Cost=0.00008416
+Epoch: 337 Cost=0.00008407
+Epoch: 338 Cost=0.00008399
+Epoch: 339 Cost=0.00008391
+Epoch: 340 Cost=0.00008382
+Epoch: 341 Cost=0.00008374
+Epoch: 342 Cost=0.00008366
+Epoch: 343 Cost=0.00008358
+Epoch: 344 Cost=0.00008349
+Epoch: 345 Cost=0.00008341
+Epoch: 346 Cost=0.00008333
+Epoch: 347 Cost=0.00008324
+Epoch: 348 Cost=0.00008316
+Epoch: 349 Cost=0.00008307
+Epoch: 350 Cost=0.00008299
+Epoch: 351 Cost=0.00008291
+Epoch: 352 Cost=0.00008282
+Epoch: 353 Cost=0.00008274
+Epoch: 354 Cost=0.00008265
+Epoch: 355 Cost=0.00008257
+Epoch: 356 Cost=0.00008248
+Epoch: 357 Cost=0.00008240
+Epoch: 358 Cost=0.00008231
+Epoch: 359 Cost=0.00008222
+Epoch: 360 Cost=0.00008214
+Epoch: 361 Cost=0.00008205
+Epoch: 362 Cost=0.00008196
+Epoch: 363 Cost=0.00008187
+Epoch: 364 Cost=0.00008179
+Epoch: 365 Cost=0.00008170
+Epoch: 366 Cost=0.00008161
+Epoch: 367 Cost=0.00008152
+Epoch: 368 Cost=0.00008143
+Epoch: 369 Cost=0.00008134
+Epoch: 370 Cost=0.00008125
+Epoch: 371 Cost=0.00008116
+Epoch: 372 Cost=0.00008107
+Epoch: 373 Cost=0.00008098
+Epoch: 374 Cost=0.00008089
+Epoch: 375 Cost=0.00008080
+Epoch: 376 Cost=0.00008071
+Epoch: 377 Cost=0.00008061
+Epoch: 378 Cost=0.00008052
+Epoch: 379 Cost=0.00008043
+Epoch: 380 Cost=0.00008034
+Epoch: 381 Cost=0.00008025
+Epoch: 382 Cost=0.00008015
+Epoch: 383 Cost=0.00008006
+Epoch: 384 Cost=0.00007997
+Epoch: 385 Cost=0.00007987
+Epoch: 386 Cost=0.00007978
+Epoch: 387 Cost=0.00007969
+Epoch: 388 Cost=0.00007960
+Epoch: 389 Cost=0.00007950
+Epoch: 390 Cost=0.00007941
+Epoch: 391 Cost=0.00007932
+Epoch: 392 Cost=0.00007922
+Epoch: 393 Cost=0.00007913
+Epoch: 394 Cost=0.00007904
+Epoch: 395 Cost=0.00007894
+Epoch: 396 Cost=0.00007885
+Epoch: 397 Cost=0.00007876
+Epoch: 398 Cost=0.00007867
+Epoch: 399 Cost=0.00007857
+Epoch: 400 Cost=0.00007848
+Epoch: 401 Cost=0.00007839
+Epoch: 402 Cost=0.00007830
+Epoch: 403 Cost=0.00007820
+Epoch: 404 Cost=0.00007811
+Epoch: 405 Cost=0.00007802
+Epoch: 406 Cost=0.00007793
+Epoch: 407 Cost=0.00007784
+Epoch: 408 Cost=0.00007775
+Epoch: 409 Cost=0.00007766
+Epoch: 410 Cost=0.00007757
+Epoch: 411 Cost=0.00007748
+Epoch: 412 Cost=0.00007739
+Epoch: 413 Cost=0.00007730
+Epoch: 414 Cost=0.00007721
+Epoch: 415 Cost=0.00007712
+Epoch: 416 Cost=0.00007703
+Epoch: 417 Cost=0.00007695
+Epoch: 418 Cost=0.00007686
+Epoch: 419 Cost=0.00007677
+Epoch: 420 Cost=0.00007668
+Epoch: 421 Cost=0.00007660
+Epoch: 422 Cost=0.00007651
+Epoch: 423 Cost=0.00007643
+Epoch: 424 Cost=0.00007634
+Epoch: 425 Cost=0.00007626
+Epoch: 426 Cost=0.00007617
+Epoch: 427 Cost=0.00007609
+Epoch: 428 Cost=0.00007601
+Epoch: 429 Cost=0.00007592
+Epoch: 430 Cost=0.00007584
+Epoch: 431 Cost=0.00007576
+Epoch: 432 Cost=0.00007568
+Epoch: 433 Cost=0.00007560
+Epoch: 434 Cost=0.00007552
+Epoch: 435 Cost=0.00007544
+Epoch: 436 Cost=0.00007536
+Epoch: 437 Cost=0.00007528
+Epoch: 438 Cost=0.00007520
+Epoch: 439 Cost=0.00007512
+Epoch: 440 Cost=0.00007504
+Epoch: 441 Cost=0.00007496
+Epoch: 442 Cost=0.00007489
+Epoch: 443 Cost=0.00007481
+Epoch: 444 Cost=0.00007474
+Epoch: 445 Cost=0.00007466
+Epoch: 446 Cost=0.00007458
+Epoch: 447 Cost=0.00007451
+Epoch: 448 Cost=0.00007444
+Epoch: 449 Cost=0.00007436
+Epoch: 450 Cost=0.00007429
+Epoch: 451 Cost=0.00007422
+Epoch: 452 Cost=0.00007414
+Epoch: 453 Cost=0.00007407
+Epoch: 454 Cost=0.00007400
+Epoch: 455 Cost=0.00007393
+Epoch: 456 Cost=0.00007386
+Epoch: 457 Cost=0.00007379
+Epoch: 458 Cost=0.00007372
+Epoch: 459 Cost=0.00007365
+Epoch: 460 Cost=0.00007358
+Epoch: 461 Cost=0.00007352
+Epoch: 462 Cost=0.00007345
+Epoch: 463 Cost=0.00007338
+Epoch: 464 Cost=0.00007331
+Epoch: 465 Cost=0.00007325
+Epoch: 466 Cost=0.00007318
+Epoch: 467 Cost=0.00007311
+Epoch: 468 Cost=0.00007305
+Epoch: 469 Cost=0.00007298
+Epoch: 470 Cost=0.00007292
+Epoch: 471 Cost=0.00007286
+Epoch: 472 Cost=0.00007279
+Epoch: 473 Cost=0.00007273
+Epoch: 474 Cost=0.00007267
+Epoch: 475 Cost=0.00007260
+Epoch: 476 Cost=0.00007254
+Epoch: 477 Cost=0.00007248
+Epoch: 478 Cost=0.00007242
+Epoch: 479 Cost=0.00007236
+Epoch: 480 Cost=0.00007230
+Epoch: 481 Cost=0.00007223
+Epoch: 482 Cost=0.00007217
+Epoch: 483 Cost=0.00007211
+Epoch: 484 Cost=0.00007206
+Epoch: 485 Cost=0.00007200
+Epoch: 486 Cost=0.00007194
+Epoch: 487 Cost=0.00007188
+Epoch: 488 Cost=0.00007182
+Epoch: 489 Cost=0.00007176
+Epoch: 490 Cost=0.00007171
+Epoch: 491 Cost=0.00007165
+Epoch: 492 Cost=0.00007159
+Epoch: 493 Cost=0.00007154
+Epoch: 494 Cost=0.00007148
+Epoch: 495 Cost=0.00007142
+Epoch: 496 Cost=0.00007137
+Epoch: 497 Cost=0.00007131
+Epoch: 498 Cost=0.00007126
+Epoch: 499 Cost=0.00007120
+Epoch: 500 Cost=0.00007115
+Epoch: 501 Cost=0.00007109
+Epoch: 502 Cost=0.00007104
+Epoch: 503 Cost=0.00007099
+Epoch: 504 Cost=0.00007093
+Epoch: 505 Cost=0.00007088
+Epoch: 506 Cost=0.00007083
+Epoch: 507 Cost=0.00007077
+Epoch: 508 Cost=0.00007072
+Epoch: 509 Cost=0.00007067
+Epoch: 510 Cost=0.00007062
+Epoch: 511 Cost=0.00007057
+Epoch: 512 Cost=0.00007051
+Epoch: 513 Cost=0.00007046
+Epoch: 514 Cost=0.00007041
+Epoch: 515 Cost=0.00007036
+Epoch: 516 Cost=0.00007031
+Epoch: 517 Cost=0.00007026
+Epoch: 518 Cost=0.00007021
+Epoch: 519 Cost=0.00007016
+Epoch: 520 Cost=0.00007011
+Epoch: 521 Cost=0.00007006
+Epoch: 522 Cost=0.00007001
+Epoch: 523 Cost=0.00006997
+Epoch: 524 Cost=0.00006992
+Epoch: 525 Cost=0.00006987
+Epoch: 526 Cost=0.00006982
+Epoch: 527 Cost=0.00006977
+Epoch: 528 Cost=0.00006973
+Epoch: 529 Cost=0.00006968
+Epoch: 530 Cost=0.00006963
+Epoch: 531 Cost=0.00006959
+Epoch: 532 Cost=0.00006954
+Epoch: 533 Cost=0.00006949
+Epoch: 534 Cost=0.00006945
+Epoch: 535 Cost=0.00006940
+Epoch: 536 Cost=0.00006936
+Epoch: 537 Cost=0.00006931
+Epoch: 538 Cost=0.00006927
+Epoch: 539 Cost=0.00006922
+Epoch: 540 Cost=0.00006918
+Epoch: 541 Cost=0.00006913
+Epoch: 542 Cost=0.00006909
+Epoch: 543 Cost=0.00006904
+Epoch: 544 Cost=0.00006900
+Epoch: 545 Cost=0.00006896
+Epoch: 546 Cost=0.00006891
+Epoch: 547 Cost=0.00006887
+Epoch: 548 Cost=0.00006883
+Epoch: 549 Cost=0.00006879
+Epoch: 550 Cost=0.00006874
+Epoch: 551 Cost=0.00006870
+Epoch: 552 Cost=0.00006866
+Epoch: 553 Cost=0.00006862
+Epoch: 554 Cost=0.00006858
+Epoch: 555 Cost=0.00006854
+Epoch: 556 Cost=0.00006850
+Epoch: 557 Cost=0.00006846
+Epoch: 558 Cost=0.00006842
+Epoch: 559 Cost=0.00006838
+Epoch: 560 Cost=0.00006834
+Epoch: 561 Cost=0.00006830
+Epoch: 562 Cost=0.00006826
+Epoch: 563 Cost=0.00006822
+Epoch: 564 Cost=0.00006818
+Epoch: 565 Cost=0.00006814
+Epoch: 566 Cost=0.00006810
+Epoch: 567 Cost=0.00006806
+Epoch: 568 Cost=0.00006803
+Epoch: 569 Cost=0.00006799
+Epoch: 570 Cost=0.00006795
+Epoch: 571 Cost=0.00006791
+Epoch: 572 Cost=0.00006788
+Epoch: 573 Cost=0.00006784
+Epoch: 574 Cost=0.00006780
+Epoch: 575 Cost=0.00006777
+Epoch: 576 Cost=0.00006773
+Epoch: 577 Cost=0.00006770
+Epoch: 578 Cost=0.00006766
+Epoch: 579 Cost=0.00006762
+Epoch: 580 Cost=0.00006759
+Epoch: 581 Cost=0.00006755
+Epoch: 582 Cost=0.00006752
+Epoch: 583 Cost=0.00006749
+Epoch: 584 Cost=0.00006745
+Epoch: 585 Cost=0.00006742
+Epoch: 586 Cost=0.00006738
+Epoch: 587 Cost=0.00006735
+Epoch: 588 Cost=0.00006732
+Epoch: 589 Cost=0.00006728
+Epoch: 590 Cost=0.00006725
+Epoch: 591 Cost=0.00006722
+Epoch: 592 Cost=0.00006719
+Epoch: 593 Cost=0.00006715
+Epoch: 594 Cost=0.00006712
+Epoch: 595 Cost=0.00006709
+Epoch: 596 Cost=0.00006706
+Epoch: 597 Cost=0.00006703
+Epoch: 598 Cost=0.00006700
+Epoch: 599 Cost=0.00006697
+Epoch: 600 Cost=0.00006694
+Epoch: 601 Cost=0.00006691
+Epoch: 602 Cost=0.00006688
+Epoch: 603 Cost=0.00006685
+Epoch: 604 Cost=0.00006682
+Epoch: 605 Cost=0.00006679
+Epoch: 606 Cost=0.00006676
+Epoch: 607 Cost=0.00006673
+Epoch: 608 Cost=0.00006670
+Epoch: 609 Cost=0.00006668
+Epoch: 610 Cost=0.00006665
+Epoch: 611 Cost=0.00006662
+Epoch: 612 Cost=0.00006659
+Epoch: 613 Cost=0.00006657
+Epoch: 614 Cost=0.00006654
+Epoch: 615 Cost=0.00006651
+Epoch: 616 Cost=0.00006649
+Epoch: 617 Cost=0.00006646
+Epoch: 618 Cost=0.00006643
+Epoch: 619 Cost=0.00006641
+Epoch: 620 Cost=0.00006638
+Epoch: 621 Cost=0.00006636
+Epoch: 622 Cost=0.00006633
+Epoch: 623 Cost=0.00006631
+Epoch: 624 Cost=0.00006629
+Epoch: 625 Cost=0.00006626
+Epoch: 626 Cost=0.00006624
+Epoch: 627 Cost=0.00006621
+Epoch: 628 Cost=0.00006619
+Epoch: 629 Cost=0.00006617
+Epoch: 630 Cost=0.00006615
+Epoch: 631 Cost=0.00006612
+Epoch: 632 Cost=0.00006610
+Epoch: 633 Cost=0.00006608
+Epoch: 634 Cost=0.00006606
+Epoch: 635 Cost=0.00006604
+Epoch: 636 Cost=0.00006602
+Epoch: 637 Cost=0.00006599
+Epoch: 638 Cost=0.00006597
+Epoch: 639 Cost=0.00006595
+Epoch: 640 Cost=0.00006593
+Epoch: 641 Cost=0.00006591
+Epoch: 642 Cost=0.00006590
+Epoch: 643 Cost=0.00006588
+Epoch: 644 Cost=0.00006586
+Epoch: 645 Cost=0.00006584
+Epoch: 646 Cost=0.00006582
+Epoch: 647 Cost=0.00006580
+Epoch: 648 Cost=0.00006579
+Epoch: 649 Cost=0.00006577
+Epoch: 650 Cost=0.00006575
+Epoch: 651 Cost=0.00006573
+Epoch: 652 Cost=0.00006572
+Epoch: 653 Cost=0.00006570
+Epoch: 654 Cost=0.00006569
+Epoch: 655 Cost=0.00006567
+Epoch: 656 Cost=0.00006566
+Epoch: 657 Cost=0.00006564
+Epoch: 658 Cost=0.00006563
+Epoch: 659 Cost=0.00006561
+Epoch: 660 Cost=0.00006560
+Epoch: 661 Cost=0.00006558
+Epoch: 662 Cost=0.00006557
+Epoch: 663 Cost=0.00006556
+Epoch: 664 Cost=0.00006554
+Epoch: 665 Cost=0.00006553
+Epoch: 666 Cost=0.00006552
+Epoch: 667 Cost=0.00006551
+Epoch: 668 Cost=0.00006550
+Epoch: 669 Cost=0.00006549
+Epoch: 670 Cost=0.00006547
+Epoch: 671 Cost=0.00006546
+Epoch: 672 Cost=0.00006545
+Epoch: 673 Cost=0.00006544
+Epoch: 674 Cost=0.00006543
+Epoch: 675 Cost=0.00006542
+Epoch: 676 Cost=0.00006542
+Epoch: 677 Cost=0.00006541
+Epoch: 678 Cost=0.00006540
+Epoch: 679 Cost=0.00006539
+Epoch: 680 Cost=0.00006538
+Epoch: 681 Cost=0.00006538
+Epoch: 682 Cost=0.00006537
+Epoch: 683 Cost=0.00006536
+Epoch: 684 Cost=0.00006536
+Epoch: 685 Cost=0.00006535
+Epoch: 686 Cost=0.00006534
+Epoch: 687 Cost=0.00006534
+Epoch: 688 Cost=0.00006533
+Epoch: 689 Cost=0.00006533
+Epoch: 690 Cost=0.00006533
+Epoch: 691 Cost=0.00006532
+Epoch: 692 Cost=0.00006532
+Epoch: 693 Cost=0.00006531
+Epoch: 694 Cost=0.00006531
+Epoch: 695 Cost=0.00006531
+Epoch: 696 Cost=0.00006531
+Epoch: 697 Cost=0.00006531
+Epoch: 698 Cost=0.00006530
+Epoch: 699 Cost=0.00006530
+Epoch: 700 Cost=0.00006530
+Epoch: 701 Cost=0.00006530
+Epoch: 702 Cost=0.00006530
+Epoch: 703 Cost=0.00006530
+Epoch: 704 Cost=0.00006530
+Epoch: 705 Cost=0.00006530
+Epoch: 706 Cost=0.00006530
+Epoch: 707 Cost=0.00006531
+Epoch: 708 Cost=0.00006531
+Epoch: 709 Cost=0.00006531
+Epoch: 710 Cost=0.00006531
+Epoch: 711 Cost=0.00006532
+Epoch: 712 Cost=0.00006532
+Epoch: 713 Cost=0.00006532
+Epoch: 714 Cost=0.00006533
+Epoch: 715 Cost=0.00006533
+Epoch: 716 Cost=0.00006534
+Epoch: 717 Cost=0.00006534
+Epoch: 718 Cost=0.00006535
+Epoch: 719 Cost=0.00006536
+Epoch: 720 Cost=0.00006536
+Epoch: 721 Cost=0.00006537
+Epoch: 722 Cost=0.00006538
+Epoch: 723 Cost=0.00006538
+Epoch: 724 Cost=0.00006539
+Epoch: 725 Cost=0.00006540
+Epoch: 726 Cost=0.00006541
+Epoch: 727 Cost=0.00006542
+Epoch: 728 Cost=0.00006543
+Epoch: 729 Cost=0.00006544
+Epoch: 730 Cost=0.00006545
+Epoch: 731 Cost=0.00006546
+Epoch: 732 Cost=0.00006547
+Epoch: 733 Cost=0.00006548
+Epoch: 734 Cost=0.00006549
+Epoch: 735 Cost=0.00006551
+Epoch: 736 Cost=0.00006552
+Epoch: 737 Cost=0.00006553
+Epoch: 738 Cost=0.00006555
+Epoch: 739 Cost=0.00006556
+Epoch: 740 Cost=0.00006557
+Epoch: 741 Cost=0.00006559
+Epoch: 742 Cost=0.00006560
+Epoch: 743 Cost=0.00006562
+Epoch: 744 Cost=0.00006563
+Epoch: 745 Cost=0.00006565
+Epoch: 746 Cost=0.00006567
+Epoch: 747 Cost=0.00006569
+Epoch: 748 Cost=0.00006570
+Epoch: 749 Cost=0.00006572
+Epoch: 750 Cost=0.00006574
+Epoch: 751 Cost=0.00006576
+Epoch: 752 Cost=0.00006578
+Epoch: 753 Cost=0.00006580
+Epoch: 754 Cost=0.00006582
+Epoch: 755 Cost=0.00006584
+Epoch: 756 Cost=0.00006586
+Epoch: 757 Cost=0.00006588
+Epoch: 758 Cost=0.00006590
+Epoch: 759 Cost=0.00006592
+Epoch: 760 Cost=0.00006594
+Epoch: 761 Cost=0.00006597
+Epoch: 762 Cost=0.00006599
+Epoch: 763 Cost=0.00006601
+Epoch: 764 Cost=0.00006604
+Epoch: 765 Cost=0.00006606
+Epoch: 766 Cost=0.00006609
+Epoch: 767 Cost=0.00006611
+Epoch: 768 Cost=0.00006614
+Epoch: 769 Cost=0.00006617
+Epoch: 770 Cost=0.00006619
+Epoch: 771 Cost=0.00006622
+Epoch: 772 Cost=0.00006625
+Epoch: 773 Cost=0.00006628
+Epoch: 774 Cost=0.00006630
+Epoch: 775 Cost=0.00006633
+Epoch: 776 Cost=0.00006636
+Epoch: 777 Cost=0.00006639
+Epoch: 778 Cost=0.00006642
+Epoch: 779 Cost=0.00006645
+Epoch: 780 Cost=0.00006649
+Epoch: 781 Cost=0.00006652
+Epoch: 782 Cost=0.00006655
+Epoch: 783 Cost=0.00006658
+Epoch: 784 Cost=0.00006661
+Epoch: 785 Cost=0.00006665
+Epoch: 786 Cost=0.00006668
+Epoch: 787 Cost=0.00006672
+Epoch: 788 Cost=0.00006675
+Epoch: 789 Cost=0.00006679
+Epoch: 790 Cost=0.00006682
+Epoch: 791 Cost=0.00006686
+Epoch: 792 Cost=0.00006689
+Epoch: 793 Cost=0.00006693
+Epoch: 794 Cost=0.00006697
+Epoch: 795 Cost=0.00006701
+Epoch: 796 Cost=0.00006705
+Epoch: 797 Cost=0.00006709
+Epoch: 798 Cost=0.00006712
+Epoch: 799 Cost=0.00006716
+Epoch: 800 Cost=0.00006721
+Epoch: 801 Cost=0.00006725
+Epoch: 802 Cost=0.00006729
+Epoch: 803 Cost=0.00006733
+Epoch: 804 Cost=0.00006737
+Epoch: 805 Cost=0.00006742
+Epoch: 806 Cost=0.00006746
+Epoch: 807 Cost=0.00006750
+Epoch: 808 Cost=0.00006755
+Epoch: 809 Cost=0.00006759
+Epoch: 810 Cost=0.00006764
+Epoch: 811 Cost=0.00006768
+Epoch: 812 Cost=0.00006773
+Epoch: 813 Cost=0.00006778
+Epoch: 814 Cost=0.00006782
+Epoch: 815 Cost=0.00006787
+Epoch: 816 Cost=0.00006792
+Epoch: 817 Cost=0.00006797
+Epoch: 818 Cost=0.00006802
+Epoch: 819 Cost=0.00006807
+Epoch: 820 Cost=0.00006812
+Epoch: 821 Cost=0.00006817
+Epoch: 822 Cost=0.00006822
+Epoch: 823 Cost=0.00006827
+Epoch: 824 Cost=0.00006833
+Epoch: 825 Cost=0.00006838
+Epoch: 826 Cost=0.00006843
+Epoch: 827 Cost=0.00006849
+Epoch: 828 Cost=0.00006854
+Epoch: 829 Cost=0.00006860
+Epoch: 830 Cost=0.00006866
+Epoch: 831 Cost=0.00006871
+Epoch: 832 Cost=0.00006877
+Epoch: 833 Cost=0.00006883
+Epoch: 834 Cost=0.00006889
+Epoch: 835 Cost=0.00006895
+Epoch: 836 Cost=0.00006900
+Epoch: 837 Cost=0.00006906
+Epoch: 838 Cost=0.00006913
+Epoch: 839 Cost=0.00006919
+Epoch: 840 Cost=0.00006925
+Epoch: 841 Cost=0.00006931
+Epoch: 842 Cost=0.00006937
+Epoch: 843 Cost=0.00006944
+Epoch: 844 Cost=0.00006950
+Epoch: 845 Cost=0.00006957
+Epoch: 846 Cost=0.00006963
+Epoch: 847 Cost=0.00006970
+Epoch: 848 Cost=0.00006977
+Epoch: 849 Cost=0.00006983
+Epoch: 850 Cost=0.00006990
+Epoch: 851 Cost=0.00006997
+Epoch: 852 Cost=0.00007004
+Epoch: 853 Cost=0.00007011
+Epoch: 854 Cost=0.00007018
+Epoch: 855 Cost=0.00007025
+Epoch: 856 Cost=0.00007033
+Epoch: 857 Cost=0.00007040
+Epoch: 858 Cost=0.00007047
+Epoch: 859 Cost=0.00007055
+Epoch: 860 Cost=0.00007062
+Epoch: 861 Cost=0.00007070
+Epoch: 862 Cost=0.00007077
+Epoch: 863 Cost=0.00007085
+Epoch: 864 Cost=0.00007093
+Epoch: 865 Cost=0.00007101
+Epoch: 866 Cost=0.00007109
+Epoch: 867 Cost=0.00007117
+Epoch: 868 Cost=0.00007125
+Epoch: 869 Cost=0.00007133
+Epoch: 870 Cost=0.00007141
+Epoch: 871 Cost=0.00007150
+Epoch: 872 Cost=0.00007158
+Epoch: 873 Cost=0.00007167
+Epoch: 874 Cost=0.00007175
+Epoch: 875 Cost=0.00007184
+Epoch: 876 Cost=0.00007193
+Epoch: 877 Cost=0.00007202
+Epoch: 878 Cost=0.00007211
+Epoch: 879 Cost=0.00007220
+Epoch: 880 Cost=0.00007229
+Epoch: 881 Cost=0.00007238
+Epoch: 882 Cost=0.00007247
+Epoch: 883 Cost=0.00007257
+Epoch: 884 Cost=0.00007266
+Epoch: 885 Cost=0.00007276
+Epoch: 886 Cost=0.00007285
+Epoch: 887 Cost=0.00007295
+Epoch: 888 Cost=0.00007305
+Epoch: 889 Cost=0.00007315
+Epoch: 890 Cost=0.00007325
+Epoch: 891 Cost=0.00007335
+Epoch: 892 Cost=0.00007346
+Epoch: 893 Cost=0.00007356
+Epoch: 894 Cost=0.00007366
+Epoch: 895 Cost=0.00007377
+Epoch: 896 Cost=0.00007388
+Epoch: 897 Cost=0.00007399
+Epoch: 898 Cost=0.00007410
+Epoch: 899 Cost=0.00007421
+Epoch: 900 Cost=0.00007432
+Epoch: 901 Cost=0.00007443
+Epoch: 902 Cost=0.00007454
+Epoch: 903 Cost=0.00007466
+Epoch: 904 Cost=0.00007478
+Epoch: 905 Cost=0.00007489
+Epoch: 906 Cost=0.00007501
+Epoch: 907 Cost=0.00007513
+Epoch: 908 Cost=0.00007525
+Epoch: 909 Cost=0.00007538
+Epoch: 910 Cost=0.00007550
+Epoch: 911 Cost=0.00007563
+Epoch: 912 Cost=0.00007575
+Epoch: 913 Cost=0.00007588
+Epoch: 914 Cost=0.00007601
+Epoch: 915 Cost=0.00007614
+Epoch: 916 Cost=0.00007628
+Epoch: 917 Cost=0.00007641
+Epoch: 918 Cost=0.00007655
+Epoch: 919 Cost=0.00007668
+Epoch: 920 Cost=0.00007682
+Epoch: 921 Cost=0.00007696
+Epoch: 922 Cost=0.00007711
+Epoch: 923 Cost=0.00007725
+Epoch: 924 Cost=0.00007739
+Epoch: 925 Cost=0.00007754
+Epoch: 926 Cost=0.00007769
+Epoch: 927 Cost=0.00007784
+Epoch: 928 Cost=0.00007799
+Epoch: 929 Cost=0.00007815
+Epoch: 930 Cost=0.00007830
+Epoch: 931 Cost=0.00007846
+Epoch: 932 Cost=0.00007862
+Epoch: 933 Cost=0.00007878
+Epoch: 934 Cost=0.00007894
+Epoch: 935 Cost=0.00007911
+Epoch: 936 Cost=0.00007928
+Epoch: 937 Cost=0.00007944
+Epoch: 938 Cost=0.00007962
+Epoch: 939 Cost=0.00007979
+Epoch: 940 Cost=0.00007996
+Epoch: 941 Cost=0.00008014
+Epoch: 942 Cost=0.00008032
+Epoch: 943 Cost=0.00008050
+Epoch: 944 Cost=0.00008069
+Epoch: 945 Cost=0.00008087
+Epoch: 946 Cost=0.00008106
+Epoch: 947 Cost=0.00008125
+Epoch: 948 Cost=0.00008144
+Epoch: 949 Cost=0.00008164
+Epoch: 950 Cost=0.00008183
+Epoch: 951 Cost=0.00008203
+Epoch: 952 Cost=0.00008224
+Epoch: 953 Cost=0.00008244
+Epoch: 954 Cost=0.00008265
+Epoch: 955 Cost=0.00008286
+Epoch: 956 Cost=0.00008307
+Epoch: 957 Cost=0.00008328
+Epoch: 958 Cost=0.00008350
+Epoch: 959 Cost=0.00008372
+Epoch: 960 Cost=0.00008394
+Epoch: 961 Cost=0.00008416
+Epoch: 962 Cost=0.00008439
+Epoch: 963 Cost=0.00008462
+Epoch: 964 Cost=0.00008485
+Epoch: 965 Cost=0.00008508
+Epoch: 966 Cost=0.00008532
+Epoch: 967 Cost=0.00008556
+Epoch: 968 Cost=0.00008580
+Epoch: 969 Cost=0.00008605
+Epoch: 970 Cost=0.00008629
+Epoch: 971 Cost=0.00008654
+Epoch: 972 Cost=0.00008680
+Epoch: 973 Cost=0.00008705
+Epoch: 974 Cost=0.00008731
+Epoch: 975 Cost=0.00008757
+Epoch: 976 Cost=0.00008783
+Epoch: 977 Cost=0.00008810
+Epoch: 978 Cost=0.00008837
+Epoch: 979 Cost=0.00008864
+Epoch: 980 Cost=0.00008891
+Epoch: 981 Cost=0.00008919
+Epoch: 982 Cost=0.00008947
+Epoch: 983 Cost=0.00008975
+Epoch: 984 Cost=0.00009004
+Epoch: 985 Cost=0.00009032
+Epoch: 986 Cost=0.00009061
+Epoch: 987 Cost=0.00009091
+Epoch: 988 Cost=0.00009120
+Epoch: 989 Cost=0.00009150
+Epoch: 990 Cost=0.00009180
+Epoch: 991 Cost=0.00009210
+Epoch: 992 Cost=0.00009241
+Epoch: 993 Cost=0.00009272
+Epoch: 994 Cost=0.00009303
+Epoch: 995 Cost=0.00009334
+Epoch: 996 Cost=0.00009365
+Epoch: 997 Cost=0.00009397
+Epoch: 998 Cost=0.00009429
+Epoch: 999 Cost=0.00009461
+Epoch: 1000 Cost=0.00009494
+## TESTING ##
+Predicted: 16226 actual:14900 diff=0.08899 cost=0.00012532
+Predicted: 8411 actual:9000 diff=0.06544 cost=0.00002480
+Predicted: 31237 actual:47900 diff=0.34787 cost=0.01981716
+Predicted: 26719 actual:33900 diff=0.21183 cost=0.00368067
+Predicted: 11660 actual:9990 diff=0.16717 cost=0.00019905
+Predicted: 4336 actual:4500 diff=0.03644 cost=0.00000191
+Predicted: 12856 actual:10000 diff=0.28560 cost=0.00058229
+Predicted: 16996 actual:14200 diff=0.19690 cost=0.00055821
+Predicted: 26117 actual:25030 diff=0.04343 cost=0.00008438
+Predicted: 13808 actual:13300 diff=0.03820 cost=0.00001840
+Predicted: 7713 actual:6700 diff=0.15119 cost=0.00007314
+Predicted: 22127 actual:26500 diff=0.16502 cost=0.00136482
+Predicted: 13962 actual:11900 diff=0.17328 cost=0.00030355
+Predicted: 15084 actual:18490 diff=0.18421 cost=0.00082791
+Predicted: 33366 actual:26483 diff=0.25990 cost=0.00338150
+Predicted: 20720 actual:21900 diff=0.05388 cost=0.00009940
+Predicted: 22120 actual:13900 diff=0.59137 cost=0.00482215
+Predicted: 23294 actual:23990 diff=0.02901 cost=0.00003460
+Predicted: 8493 actual:9300 diff=0.08677 cost=0.00004651
+Predicted: 22195 actual:18500 diff=0.19973 cost=0.00097428
+Predicted: 25763 actual:17990 diff=0.43207 cost=0.00431274
+Predicted: 18176 actual:14990 diff=0.21254 cost=0.00072452
+Predicted: 13760 actual:12900 diff=0.06667 cost=0.00005273
+Predicted: 22272 actual:21800 diff=0.02165 cost=0.00001591
+Predicted: 22122 actual:22980 diff=0.03734 cost=0.00005258
+Predicted: 18429 actual:21900 diff=0.15849 cost=0.00086016
+Predicted: 9925 actual:8300 diff=0.19578 cost=0.00018845
+Predicted: 9221 actual:6500 diff=0.41862 cost=0.00052846
+Predicted: 11256 actual:10800 diff=0.04222 cost=0.00001483
+Predicted: 6919 actual:5800 diff=0.19293 cost=0.00008948
+Predicted: 13585 actual:11995 diff=0.13256 cost=0.00018038
+Predicted: 7398 actual:9500 diff=0.22126 cost=0.00031544
+Predicted: 8079 actual:6300 diff=0.28238 cost=0.00022569
+Predicted: 12949 actual:14200 diff=0.08810 cost=0.00011174
+Predicted: 16087 actual:14500 diff=0.10945 cost=0.00017971
+Predicted: 9850 actual:70000 diff=0.85929 cost=0.25822124
+Predicted: 20007 actual:17865 diff=0.11990 cost=0.00032754
+Predicted: 10667 actual:10500 diff=0.01590 cost=0.00000198
+Predicted: 8971 actual:9000 diff=0.00322 cost=0.00000006
+Predicted: 11134 actual:11990 diff=0.07139 cost=0.00005236
+Predicted: 22110 actual:18200 diff=0.21484 cost=0.00109128
+Predicted: 8111 actual:8700 diff=0.06770 cost=0.00002474
+Predicted: 11790 actual:9400 diff=0.25426 cost=0.00040789
+Predicted: 10687 actual:10900 diff=0.01954 cost=0.00000325
+Predicted: 6759 actual:7500 diff=0.09880 cost=0.00003916
+Predicted: 24003 actual:27500 diff=0.12716 cost=0.00087264
+Predicted: 13048 actual:12990 diff=0.00446 cost=0.00000024
+Predicted: 22341 actual:31500 diff=0.29076 cost=0.00598624
+Predicted: 16341 actual:17800 diff=0.08197 cost=0.00015194
+Predicted: 16996 actual:15300 diff=0.11085 cost=0.00020549
+Predicted: 12173 actual:13000 diff=0.06362 cost=0.00004875
+Predicted: 18795 actual:16977 diff=0.10709 cost=0.00023578
+Predicted: 19243 actual:15530 diff=0.23909 cost=0.00098380
+Predicted: 15679 actual:16690 diff=0.06058 cost=0.00007292
+Predicted: 11790 actual:9100 diff=0.29560 cost=0.00051631
+Predicted: 10228 actual:9600 diff=0.06542 cost=0.00002817
+Predicted: 8672 actual:9990 diff=0.13193 cost=0.00012389
+Predicted: 21705 actual:14980 diff=0.44893 cost=0.00322743
+Predicted: 7321 actual:9500 diff=0.22937 cost=0.00033877
+Predicted: 14687 actual:11200 diff=0.31134 cost=0.00086757
+Predicted: 7849 actual:6999 diff=0.12145 cost=0.00005153
+Predicted: 7811 actual:6000 diff=0.30183 cost=0.00023424
+Predicted: 17752 actual:25000 diff=0.28992 cost=0.00374858
+Predicted: 10942 actual:14500 diff=0.24538 cost=0.00090362
+Predicted: 16887 actual:15480 diff=0.09089 cost=0.00014140
+Predicted: 11193 actual:17500 diff=0.36040 cost=0.00283872
+Predicted: 21673 actual:16990 diff=0.27563 cost=0.00156490
+Predicted: 7263 actual:12500 diff=0.41896 cost=0.00195749
+Predicted: 8394 actual:7600 diff=0.10447 cost=0.00004495
+Predicted: 25572 actual:23990 diff=0.06594 cost=0.00017868
+Predicted: 5792 actual:6700 diff=0.13552 cost=0.00005882
+Predicted: 30906 actual:38000 diff=0.18668 cost=0.00359118
+Predicted: 14039 actual:12500 diff=0.12312 cost=0.00016905
+Predicted: 12615 actual:17000 diff=0.25794 cost=0.00137237
+Predicted: 5298 actual:5000 diff=0.05960 cost=0.00000634
+Predicted: 26115 actual:19890 diff=0.31297 cost=0.00276617
+Predicted: 11524 actual:9800 diff=0.17592 cost=0.00021216
+Predicted: 15339 actual:9800 diff=0.56520 cost=0.00218979
+Predicted: 12281 actual:9850 diff=0.24680 cost=0.00042186
+Predicted: 6494 actual:5900 diff=0.10068 cost=0.00002514
+Predicted: 5737 actual:5000 diff=0.14740 cost=0.00003868
+Predicted: 17509 actual:18500 diff=0.05357 cost=0.00007011
+Predicted: 10125 actual:7900 diff=0.28165 cost=0.00035345
+Predicted: 17164 actual:17500 diff=0.01920 cost=0.00000809
+Predicted: 8689 actual:9200 diff=0.05554 cost=0.00001863
+Predicted: 10346 actual:13800 diff=0.25029 cost=0.00085126
+Predicted: 12394 actual:7999 diff=0.54944 cost=0.00137861
+Predicted: 11524 actual:13000 diff=0.11354 cost=0.00015542
+Predicted: 7879 actual:7500 diff=0.05053 cost=0.00001026
+Predicted: 8915 actual:7900 diff=0.12848 cost=0.00007363
+Predicted: 10573 actual:12490 diff=0.15348 cost=0.00026212
+Predicted: 20013 actual:17200 diff=0.16355 cost=0.00056508
+Predicted: 15851 actual:16000 diff=0.00931 cost=0.00000160
+Predicted: 10800 actual:11990 diff=0.09925 cost=0.00010110
+Predicted: 9782 actual:8990 diff=0.08810 cost=0.00004474
+Predicted: 11561 actual:9300 diff=0.24312 cost=0.00036489
+Predicted: 19684 actual:17290 diff=0.13846 cost=0.00040908
+Predicted: 19885 actual:16900 diff=0.17663 cost=0.00063596
+Predicted: 14496 actual:15600 diff=0.07077 cost=0.00008695
+Predicted: 14457 actual:10990 diff=0.31547 cost=0.00085792
+Predicted: 26250 actual:26900 diff=0.02416 cost=0.00003013
+Predicted: 15802 actual:17890 diff=0.11671 cost=0.00031122
+Predicted: 12857 actual:14700 diff=0.12537 cost=0.00024255
+Predicted: 15294 actual:16900 diff=0.09503 cost=0.00018407
+Predicted: 17595 actual:13990 diff=0.25768 cost=0.00092764
+Predicted: 25432 actual:29895 diff=0.14929 cost=0.00142200
+Predicted: 10523 actual:15000 diff=0.29847 cost=0.00143044
+Predicted: 9732 actual:11900 diff=0.18218 cost=0.00033539
+Predicted: 7806 actual:8990 diff=0.13170 cost=0.00010016
+Predicted: 11775 actual:13250 diff=0.11132 cost=0.00015515
+Predicted: 9586 actual:8900 diff=0.07708 cost=0.00003358
+Predicted: 10210 actual:9990 diff=0.02202 cost=0.00000347
+Predicted: 18505 actual:15800 diff=0.17120 cost=0.00052231
+Predicted: 26352 actual:27800 diff=0.05209 cost=0.00014977
+Predicted: 12390 actual:12990 diff=0.04619 cost=0.00002570
+Predicted: 14615 actual:16900 diff=0.13521 cost=0.00037274
+Predicted: 16848 actual:18900 diff=0.10857 cost=0.00030048
+Predicted: 9279 actual:14500 diff=0.36007 cost=0.00194596
+Predicted: 19653 actual:13990 diff=0.40479 cost=0.00228874
+Predicted: 6101 actual:5400 diff=0.12981 cost=0.00003514
+Predicted: 6419 actual:6698 diff=0.04165 cost=0.00000556
+Predicted: 8614 actual:7500 diff=0.14853 cost=0.00008862
+Predicted: 10130 actual:10300 diff=0.01650 cost=0.00000208
+Predicted: 11029 actual:14700 diff=0.24973 cost=0.00096198
+Predicted: 12538 actual:13500 diff=0.07126 cost=0.00006612
+Predicted: 22358 actual:33799 diff=0.33850 cost=0.00934255
+Predicted: 16794 actual:12980 diff=0.29384 cost=0.00103776
+Predicted: 10848 actual:9490 diff=0.14310 cost=0.00013158
+Predicted: 20308 actual:20990 diff=0.03249 cost=0.00003313
+Predicted: 6790 actual:7000 diff=0.03000 cost=0.00000315
+Predicted: 20792 actual:23980 diff=0.13294 cost=0.00072563
+Predicted: 9378 actual:9000 diff=0.04200 cost=0.00001019
+Predicted: 26305 actual:30900 diff=0.14871 cost=0.00150640
+Predicted: 13430 actual:14500 diff=0.07379 cost=0.00008174
+Predicted: 8022 actual:7500 diff=0.06960 cost=0.00001947
+Predicted: 10033 actual:8000 diff=0.25412 cost=0.00029491
+Predicted: 11431 actual:15990 diff=0.28512 cost=0.00148353
+Predicted: 11061 actual:8300 diff=0.33265 cost=0.00054403
+Predicted: 15823 actual:15500 diff=0.02084 cost=0.00000747
+Predicted: 16084 actual:15900 diff=0.01157 cost=0.00000243
+Predicted: 8812 actual:9990 diff=0.11792 cost=0.00009901
+Predicted: 9038 actual:8200 diff=0.10220 cost=0.00005012
+Predicted: 13511 actual:13900 diff=0.02799 cost=0.00001079
+Predicted: 8897 actual:6500 diff=0.36877 cost=0.00041007
+Predicted: 13985 actual:14400 diff=0.02882 cost=0.00001231
+Predicted: 6759 actual:7500 diff=0.09880 cost=0.00003919
+Predicted: 13635 actual:16980 diff=0.19700 cost=0.00079860
+Predicted: 25537 actual:31980 diff=0.20147 cost=0.00296264
+Predicted: 9143 actual:9000 diff=0.01589 cost=0.00000146
+Predicted: 19928 actual:23900 diff=0.16619 cost=0.00112566
+Predicted: 18153 actual:15600 diff=0.16365 cost=0.00046517
+Predicted: 15750 actual:19500 diff=0.19231 cost=0.00100354
+Predicted: 9221 actual:9000 diff=0.02456 cost=0.00000349
+Predicted: 6147 actual:5200 diff=0.18212 cost=0.00006407
+Predicted: 9534 actual:10700 diff=0.10897 cost=0.00009703
+Predicted: 6187 actual:5500 diff=0.12491 cost=0.00003364
+Predicted: 12148 actual:13490 diff=0.09948 cost=0.00012846
+Predicted: 13096 actual:9900 diff=0.32283 cost=0.00072904
+Predicted: 8175 actual:7000 diff=0.16786 cost=0.00009853
+Predicted: 7993 actual:12700 diff=0.37063 cost=0.00158141
+Predicted: 10294 actual:14500 diff=0.29007 cost=0.00126295
+Predicted: 7840 actual:7000 diff=0.12000 cost=0.00005040
+Predicted: 25705 actual:20990 diff=0.22463 cost=0.00158712
+Predicted: 13242 actual:15500 diff=0.14568 cost=0.00036388
+Predicted: 13920 actual:14300 diff=0.02657 cost=0.00001030
+Predicted: 16942 actual:20000 diff=0.15290 cost=0.00066731
+Predicted: 11302 actual:12990 diff=0.12995 cost=0.00020357
+Predicted: 21842 actual:32990 diff=0.33792 cost=0.00886930
+Predicted: 18835 actual:17000 diff=0.10794 cost=0.00024040
+Predicted: 8360 actual:10000 diff=0.16400 cost=0.00019194
+Predicted: 14314 actual:14000 diff=0.02243 cost=0.00000705
+Predicted: 9760 actual:8500 diff=0.14824 cost=0.00011324
+Predicted: 17648 actual:19490 diff=0.09451 cost=0.00024195
+Predicted: 13532 actual:12500 diff=0.08256 cost=0.00007609
+Predicted: 5945 actual:6000 diff=0.00917 cost=0.00000022
+Predicted: 17974 actual:16900 diff=0.06355 cost=0.00008236
+Predicted: 9401 actual:15500 diff=0.39348 cost=0.00265426
+Predicted: 10088 actual:9000 diff=0.12089 cost=0.00008436
+Predicted: 12281 actual:10500 diff=0.16962 cost=0.00022635
+Predicted: 15023 actual:13900 diff=0.08079 cost=0.00008997
+Predicted: 22546 actual:23490 diff=0.04019 cost=0.00006356
+Predicted: 21842 actual:16500 diff=0.32376 cost=0.00203673
+Predicted: 16672 actual:16900 diff=0.01349 cost=0.00000372
+Predicted: 6546 actual:5599 diff=0.16914 cost=0.00006409
+Predicted: 10929 actual:9500 diff=0.15042 cost=0.00014572
+Predicted: 13667 actual:17900 diff=0.23648 cost=0.00127896
+Predicted: 8521 actual:6500 diff=0.31092 cost=0.00029129
+Predicted: 8361 actual:8500 diff=0.01635 cost=0.00000137
+Predicted: 13877 actual:12990 diff=0.06828 cost=0.00005610
+Predicted: 22085 actual:18500 diff=0.19378 cost=0.00091690
+Predicted: 12005 actual:16900 diff=0.28964 cost=0.00170984
+Predicted: 11255 actual:11900 diff=0.05420 cost=0.00002963
+Predicted: 9023 actual:7500 diff=0.20307 cost=0.00016552
+Predicted: 16055 actual:16990 diff=0.05503 cost=0.00006245
+Predicted: 18072 actual:21900 diff=0.17479 cost=0.00104608
+Predicted: 9717 actual:9100 diff=0.06780 cost=0.00002719
+Predicted: 10460 actual:10990 diff=0.04823 cost=0.00002001
+Predicted: 9102 actual:9000 diff=0.01133 cost=0.00000073
+Predicted: 13615 actual:16500 diff=0.17485 cost=0.00059405
+Predicted: 14298 actual:13990 diff=0.02202 cost=0.00000680
+Predicted: 6610 actual:7000 diff=0.05571 cost=0.00001087
+Predicted: 10580 actual:13500 diff=0.21630 cost=0.00060868
+Predicted: 9190 actual:10900 diff=0.15688 cost=0.00020885
+Predicted: 17277 actual:18500 diff=0.06611 cost=0.00010680
+Predicted: 16236 actual:13200 diff=0.23000 cost=0.00065792
+Predicted: 10905 actual:9400 diff=0.16011 cost=0.00016166
+Predicted: 6842 actual:3300 diff=1.07333 cost=0.00089571
+Predicted: 9401 actual:11500 diff=0.18252 cost=0.00031424
+Predicted: 10251 actual:13900 diff=0.26252 cost=0.00095059
+Predicted: 14126 actual:15000 diff=0.05827 cost=0.00005448
+Predicted: 15851 actual:13700 diff=0.15701 cost=0.00033007
+Predicted: 15127 actual:17990 diff=0.15914 cost=0.00058500
+Predicted: 18785 actual:15490 diff=0.21272 cost=0.00077490
+Predicted: 20136 actual:23600 diff=0.14678 cost=0.00085636
+Predicted: 7811 actual:7300 diff=0.07000 cost=0.00001869
+Predicted: 20997 actual:22990 diff=0.08669 cost=0.00028348
+Predicted: 8262 actual:7000 diff=0.18029 cost=0.00011370
+Predicted: 5837 actual:5500 diff=0.06127 cost=0.00000811
+Predicted: 10809 actual:17500 diff=0.38234 cost=0.00319541
+Predicted: 13404 actual:13900 diff=0.03568 cost=0.00001761
+Predicted: 7680 actual:6500 diff=0.18154 cost=0.00009926
+Predicted: 9029 actual:11990 diff=0.24696 cost=0.00062588
+Predicted: 12281 actual:16990 diff=0.27716 cost=0.00158277
+Predicted: 27480 actual:21990 diff=0.24966 cost=0.00215129
+Predicted: 15852 actual:13950 diff=0.13634 cost=0.00025804
+Predicted: 10404 actual:10600 diff=0.01849 cost=0.00000273
+Predicted: 19865 actual:17777 diff=0.11746 cost=0.00031103
+Predicted: 12031 actual:8500 diff=0.41541 cost=0.00088991
+Predicted: 20876 actual:15500 diff=0.34684 cost=0.00206279
+Predicted: 26668 actual:31900 diff=0.16401 cost=0.00195385
+Predicted: 30445 actual:42900 diff=0.29033 cost=0.01107089
+Predicted: 12725 actual:9200 diff=0.38315 cost=0.00088707
+Predicted: 16116 actual:16250 diff=0.00825 cost=0.00000127
+Predicted: 12649 actual:16990 diff=0.25550 cost=0.00134520
+Predicted: 15801 actual:14000 diff=0.12864 cost=0.00023154
+Predicted: 18361 actual:19990 diff=0.08149 cost=0.00018946
+Predicted: 17832 actual:16990 diff=0.04956 cost=0.00005060
+Predicted: 20497 actual:17990 diff=0.13936 cost=0.00044879
+Predicted: 10265 actual:7500 diff=0.36867 cost=0.00054565
+Predicted: 9246 actual:9450 diff=0.02159 cost=0.00000297
+Predicted: 11626 actual:8800 diff=0.32114 cost=0.00056968
+Predicted: 25489 actual:21900 diff=0.16388 cost=0.00091933
+Predicted: 14481 actual:14500 diff=0.00131 cost=0.00000003
+Predicted: 8785 actual:9500 diff=0.07526 cost=0.00003650
+Predicted: 9186 actual:7900 diff=0.16278 cost=0.00011799
+Predicted: 17277 actual:12800 diff=0.34977 cost=0.00143031
+Predicted: 9550 actual:8200 diff=0.16463 cost=0.00013009
+Predicted: 10714 actual:8600 diff=0.24581 cost=0.00031885
+Predicted: 7833 actual:5400 diff=0.45056 cost=0.00042266
+Predicted: 21238 actual:21500 diff=0.01219 cost=0.00000491
+Predicted: 11145 actual:10999 diff=0.01327 cost=0.00000153
+Predicted: 7600 actual:9900 diff=0.23232 cost=0.00037749
+Predicted: 19116 actual:18900 diff=0.01143 cost=0.00000335
+Predicted: 7455 actual:6100 diff=0.22213 cost=0.00013090
+Predicted: 22534 actual:6000 diff=2.75567 cost=0.01951214
+Predicted: 11302 actual:13000 diff=0.13062 cost=0.00020556
+Predicted: 21202 actual:17990 diff=0.17854 cost=0.00073658
+Predicted: 13173 actual:9990 diff=0.31862 cost=0.00072316
+Predicted: 12326 actual:11000 diff=0.12055 cost=0.00012547
+Predicted: 10833 actual:15500 diff=0.30110 cost=0.00155430
+Predicted: 21315 actual:29950 diff=0.28831 cost=0.00532143
+Predicted: 7906 actual:6990 diff=0.13104 cost=0.00005989
+Predicted: 12794 actual:9290 diff=0.37718 cost=0.00087651
+Predicted: 16837 actual:17000 diff=0.00959 cost=0.00000188
+Predicted: 10502 actual:8900 diff=0.18000 cost=0.00018309
+Predicted: 6467 actual:6500 diff=0.00508 cost=0.00000008
+Predicted: 18615 actual:19500 diff=0.04538 cost=0.00005593
+Predicted: 10119 actual:7990 diff=0.26646 cost=0.00032353
+Predicted: 16469 actual:13200 diff=0.24765 cost=0.00076308
+Predicted: 30801 actual:24190 diff=0.27329 cost=0.00311915
+Predicted: 14543 actual:10500 diff=0.38505 cost=0.00116647
+Predicted: 18492 actual:19900 diff=0.07075 cost=0.00014152
+Predicted: 22243 actual:22990 diff=0.03249 cost=0.00003983
+Predicted: 7906 actual:7350 diff=0.07565 cost=0.00002207
+Predicted: 16207 actual:12890 diff=0.25733 cost=0.00078551
+Predicted: 6910 actual:8000 diff=0.13625 cost=0.00008490
+Predicted: 9020 actual:13000 diff=0.30615 cost=0.00113038
+Predicted: 16931 actual:13990 diff=0.21022 cost=0.00061733
+Predicted: 12727 actual:14800 diff=0.14007 cost=0.00030682
+Predicted: 12346 actual:11900 diff=0.03748 cost=0.00001424
+Predicted: 16763 actual:23000 diff=0.27117 cost=0.00277660
+Predicted: 16860 actual:13800 diff=0.22174 cost=0.00066843
+Predicted: 25359 actual:29900 diff=0.15187 cost=0.00147167
+Predicted: 19619 actual:23900 diff=0.17912 cost=0.00130807
+Predicted: 8370 actual:6900 diff=0.21304 cost=0.00015419
+Predicted: 6448 actual:7000 diff=0.07886 cost=0.00002174
+Predicted: 6335 actual:6500 diff=0.02538 cost=0.00000195
+Predicted: 6437 actual:5800 diff=0.10983 cost=0.00002900
+Predicted: 18401 actual:17990 diff=0.02285 cost=0.00001208
+Predicted: 9579 actual:9700 diff=0.01247 cost=0.00000104
+Predicted: 19977 actual:20490 diff=0.02504 cost=0.00001880
+Predicted: 5539 actual:5500 diff=0.00709 cost=0.00000011
+Predicted: 9102 actual:8200 diff=0.11000 cost=0.00005797
+Predicted: 25442 actual:33900 diff=0.24950 cost=0.00510586
+Predicted: 19694 actual:19740 diff=0.00233 cost=0.00000015
+Predicted: 6757 actual:6300 diff=0.07254 cost=0.00001487
+Predicted: 11289 actual:11900 diff=0.05134 cost=0.00002661
+Predicted: 20685 actual:23880 diff=0.13379 cost=0.00072851
+Predicted: 15488 actual:9980 diff=0.55190 cost=0.00216586
+Predicted: 11743 actual:9600 diff=0.22323 cost=0.00032801
+Predicted: 14497 actual:16900 diff=0.14219 cost=0.00041203
+Predicted: 6467 actual:6700 diff=0.03478 cost=0.00000388
+Predicted: 7474 actual:7500 diff=0.00347 cost=0.00000005
+Predicted: 9310 actual:8500 diff=0.09529 cost=0.00004688
+Predicted: 12804 actual:13990 diff=0.08477 cost=0.00010036
+Predicted: 7381 actual:7000 diff=0.05443 cost=0.00001038
+Predicted: 10945 actual:8490 diff=0.28916 cost=0.00043033
+Predicted: 17220 actual:15000 diff=0.14800 cost=0.00035177
+Predicted: 24189 actual:20500 diff=0.17995 cost=0.00097132
+Predicted: 17511 actual:12000 diff=0.45925 cost=0.00216782
+Predicted: 26621 actual:34990 diff=0.23918 cost=0.00499888
+Predicted: 13338 actual:13000 diff=0.02600 cost=0.00000816
+Predicted: 21673 actual:17500 diff=0.23846 cost=0.00124274
+Predicted: 25440 actual:30490 diff=0.16563 cost=0.00182051
+Predicted: 19136 actual:14900 diff=0.28430 cost=0.00128033
+Predicted: 18636 actual:20990 diff=0.11215 cost=0.00039527
+Predicted: 14035 actual:12500 diff=0.12280 cost=0.00016814
+Predicted: 12221 actual:10490 diff=0.16501 cost=0.00021369
+Predicted: 22122 actual:18490 diff=0.19643 cost=0.00094113
+Predicted: 31328 actual:44000 diff=0.28800 cost=0.01146211
+Predicted: 12584 actual:10100 diff=0.24594 cost=0.00044016
+Predicted: 5548 actual:6500 diff=0.14646 cost=0.00006478
+Predicted: 15901 actual:13000 diff=0.22315 cost=0.00060092
+Predicted: 19712 actual:23890 diff=0.17488 cost=0.00124567
+Predicted: 9816 actual:7900 diff=0.24253 cost=0.00026219
+Predicted: 28585 actual:21700 diff=0.31728 cost=0.00338260
+Predicted: 8584 actual:9000 diff=0.04622 cost=0.00001237
+Predicted: 30945 actual:28000 diff=0.10518 cost=0.00061890
+Predicted: 9401 actual:8500 diff=0.10600 cost=0.00005800
+Predicted: 8141 actual:6500 diff=0.25246 cost=0.00019222
+Predicted: 30913 actual:31500 diff=0.01863 cost=0.00002455
+Predicted: 12510 actual:11800 diff=0.06017 cost=0.00003593
+Predicted: 17539 actual:20500 diff=0.14444 cost=0.00062585
+Predicted: 15567 actual:19900 diff=0.21774 cost=0.00133998
+Predicted: 8600 actual:10000 diff=0.14000 cost=0.00013982
+Predicted: 15679 actual:18500 diff=0.15249 cost=0.00056806
+Predicted: 8265 actual:8900 diff=0.07135 cost=0.00002876
+Predicted: 11615 actual:9500 diff=0.22263 cost=0.00031922
+Predicted: 12620 actual:10800 diff=0.16852 cost=0.00023635
+Predicted: 10902 actual:9999 diff=0.09031 cost=0.00005820
+Predicted: 17748 actual:17000 diff=0.04400 cost=0.00003993
+Predicted: 16346 actual:15500 diff=0.05458 cost=0.00005117
+Predicted: 30846 actual:37900 diff=0.18612 cost=0.00355169
+Predicted: 6087 actual:6500 diff=0.06354 cost=0.00001218
+Predicted: 8900 actual:8000 diff=0.11250 cost=0.00005774
+Predicted: 10333 actual:13800 diff=0.25123 cost=0.00085772
+Predicted: 15788 actual:15900 diff=0.00704 cost=0.00000089
+Predicted: 6248 actual:4000 diff=0.56200 cost=0.00036073
+Predicted: 17521 actual:15390 diff=0.13847 cost=0.00032394
+Predicted: 9228 actual:12000 diff=0.23100 cost=0.00054849
+Predicted: 14619 actual:15000 diff=0.02540 cost=0.00001036
+Predicted: 8337 actual:9500 diff=0.12242 cost=0.00009652
+Predicted: 13989 actual:13990 diff=0.00007 cost=0.00000000
+Predicted: 5353 actual:6500 diff=0.17646 cost=0.00009389
+Predicted: 9669 actual:10990 diff=0.12020 cost=0.00012451
+Predicted: 12589 actual:14500 diff=0.13179 cost=0.00026078
+Predicted: 12031 actual:10900 diff=0.10376 cost=0.00009123
+Predicted: 10428 actual:3600 diff=1.89667 cost=0.00332752
+Predicted: 12967 actual:13300 diff=0.02504 cost=0.00000793
+Predicted: 9067 actual:8500 diff=0.06671 cost=0.00002294
+Predicted: 9732 actual:8800 diff=0.10591 cost=0.00006195
+Predicted: 11145 actual:11500 diff=0.03087 cost=0.00000896
+Predicted: 12837 actual:12500 diff=0.02696 cost=0.00000810
+Predicted: 6550 actual:6850 diff=0.04380 cost=0.00000641
+Predicted: 17334 actual:14990 diff=0.15637 cost=0.00039230
+Predicted: 11140 actual:14990 diff=0.25684 cost=0.00105810
+Predicted: 4907 actual:4900 diff=0.00143 cost=0.00000000
+Predicted: 9312 actual:10700 diff=0.12972 cost=0.00013765
+Predicted: 9299 actual:8400 diff=0.10702 cost=0.00005768
+Predicted: 10502 actual:9800 diff=0.07163 cost=0.00003516
+Predicted: 8081 actual:7700 diff=0.04948 cost=0.00001039
+Predicted: 7902 actual:6300 diff=0.25429 cost=0.00018306
+Predicted: 4907 actual:5000 diff=0.01860 cost=0.00000062
+Predicted: 21705 actual:14980 diff=0.44893 cost=0.00322743
+Predicted: 17598 actual:20900 diff=0.15799 cost=0.00077823
+Predicted: 11606 actual:17000 diff=0.31729 cost=0.00207624
+Predicted: 26379 actual:22750 diff=0.15952 cost=0.00094022
+Predicted: 17568 actual:14900 diff=0.17906 cost=0.00050797
+Predicted: 20343 actual:19490 diff=0.04377 cost=0.00005199
+Predicted: 7935 actual:10500 diff=0.24429 cost=0.00046977
+Predicted: 25870 actual:22960 diff=0.12674 cost=0.00060430
+Predicted: 13268 actual:17500 diff=0.24183 cost=0.00127853
+Predicted: 18791 actual:17600 diff=0.06767 cost=0.00010121
+Predicted: 14049 actual:11500 diff=0.22165 cost=0.00046376
+Predicted: 8900 actual:11000 diff=0.19091 cost=0.00031485
+Predicted: 20923 actual:24900 diff=0.15972 cost=0.00112862
+Predicted: 31297 actual:48990 diff=0.36116 cost=0.02234245
+Predicted: 17085 actual:14490 diff=0.17909 cost=0.00048045
+Predicted: 17185 actual:15490 diff=0.10943 cost=0.00020510
+Predicted: 16647 actual:18000 diff=0.07517 cost=0.00013068
+Predicted: 7964 actual:10200 diff=0.21922 cost=0.00035689
+Predicted: 8560 actual:8100 diff=0.05679 cost=0.00001511
+Predicted: 6211 actual:4000 diff=0.55275 cost=0.00034875
+Predicted: 25543 actual:19500 diff=0.30990 cost=0.00260680
+Predicted: 11438 actual:9900 diff=0.15535 cost=0.00016884
+Predicted: 30776 actual:34990 diff=0.12043 cost=0.00126734
+Predicted: 9782 actual:8900 diff=0.09910 cost=0.00005554
+Predicted: 12597 actual:18990 diff=0.33665 cost=0.00291724
+Predicted: 9732 actual:10150 diff=0.04118 cost=0.00001245
+Predicted: 16616 actual:14590 diff=0.13886 cost=0.00029304
+Predicted: 25862 actual:28890 diff=0.10481 cost=0.00065449
+Predicted: 25608 actual:27485 diff=0.06829 cost=0.00025127
+Predicted: 28338 actual:29609 diff=0.04293 cost=0.00011528
+Predicted: 18642 actual:14100 diff=0.32213 cost=0.00147213
+Predicted: 12837 actual:10990 diff=0.16806 cost=0.00024354
+Predicted: 17480 actual:15800 diff=0.10633 cost=0.00020135
+Predicted: 21701 actual:22500 diff=0.03551 cost=0.00004560
+Predicted: 10760 actual:11990 diff=0.10259 cost=0.00010808
+Predicted: 5818 actual:6400 diff=0.09094 cost=0.00002415
+Predicted: 5885 actual:6500 diff=0.09462 cost=0.00002701
+Predicted: 19777 actual:15000 diff=0.31847 cost=0.00162893
+Predicted: 21621 actual:16990 diff=0.27257 cost=0.00153033
+Predicted: 21315 actual:16990 diff=0.25456 cost=0.00133504
+Predicted: 10953 actual:11490 diff=0.04674 cost=0.00002057
+Predicted: 17500 actual:13850 diff=0.26354 cost=0.00095074
+Predicted: 7686 actual:9500 diff=0.19095 cost=0.00023483
+Predicted: 11095 actual:24900 diff=0.55442 cost=0.01360240
+Predicted: 7764 actual:7000 diff=0.10914 cost=0.00004166
+Predicted: 14872 actual:13500 diff=0.10163 cost=0.00013428
+Predicted: 11271 actual:10900 diff=0.03404 cost=0.00000980
+Predicted: 6920 actual:5900 diff=0.17288 cost=0.00007421
+Predicted: 14449 actual:17000 diff=0.15006 cost=0.00046413
+Predicted: 8457 actual:6999 diff=0.20832 cost=0.00015160
+Predicted: 14449 actual:16200 diff=0.10809 cost=0.00021877
+Predicted: 25754 actual:31730 diff=0.18834 cost=0.00254894
+Predicted: 8297 actual:8450 diff=0.01811 cost=0.00000167
+Predicted: 26485 actual:29900 diff=0.11421 cost=0.00083269
+Predicted: 26330 actual:19490 diff=0.35095 cost=0.00333969
+Predicted: 7906 actual:7590 diff=0.04163 cost=0.00000712
+Predicted: 30644 actual:24950 diff=0.22822 cost=0.00231380
+Predicted: 12537 actual:10500 diff=0.19400 cost=0.00029613
+Predicted: 7352 actual:6000 diff=0.22533 cost=0.00013058
+Predicted: 23662 actual:19000 diff=0.24537 cost=0.00155136
+Predicted: 20878 actual:16500 diff=0.26533 cost=0.00136798
+Predicted: 13897 actual:14490 diff=0.04092 cost=0.00002508
+Predicted: 15336 actual:11990 diff=0.27907 cost=0.00079891
+Predicted: 10687 actual:12990 diff=0.17729 cost=0.00037880
+Predicted: 21842 actual:18500 diff=0.18065 cost=0.00079695
+Predicted: 10163 actual:9800 diff=0.03704 cost=0.00000944
+Predicted: 9412 actual:4900 diff=0.92082 cost=0.00145320
+Predicted: 26191 actual:28900 diff=0.09374 cost=0.00052390
+Predicted: 10902 actual:9500 diff=0.14758 cost=0.00014026
+Predicted: 22616 actual:24900 diff=0.09173 cost=0.00037222
+Predicted: 13268 actual:9900 diff=0.34020 cost=0.00080933
+Predicted: 13433 actual:13500 diff=0.00496 cost=0.00000032
+Predicted: 13145 actual:11300 diff=0.16327 cost=0.00024301
+Predicted: 12301 actual:12900 diff=0.04643 cost=0.00002561
+Predicted: 25661 actual:23888 diff=0.07422 cost=0.00022422
+Predicted: 8376 actual:7990 diff=0.04831 cost=0.00001063
+Predicted: 25813 actual:21950 diff=0.17599 cost=0.00106537
+Predicted: 26239 actual:22500 diff=0.16618 cost=0.00099747
+Predicted: 19097 actual:15800 diff=0.20867 cost=0.00077586
+Predicted: 8394 actual:11500 diff=0.27009 cost=0.00068824
+Predicted: 19653 actual:16000 diff=0.22831 cost=0.00095204
+Predicted: 22640 actual:23890 diff=0.05232 cost=0.00011153
+Predicted: 6172 actual:6350 diff=0.02803 cost=0.00000225
+Predicted: 11821 actual:13000 diff=0.09069 cost=0.00009916
+Predicted: 10753 actual:9980 diff=0.07745 cost=0.00004271
+Predicted: 19176 actual:16390 diff=0.16998 cost=0.00055389
+Predicted: 10834 actual:6500 diff=0.66677 cost=0.00134019
+Predicted: 31291 actual:45900 diff=0.31828 cost=0.01523191
+Predicted: 9572 actual:9000 diff=0.06356 cost=0.00002329
+Predicted: 8530 actual:9500 diff=0.10211 cost=0.00006720
+Predicted: 14242 actual:12490 diff=0.14027 cost=0.00021904
+Predicted: 5089 actual:6200 diff=0.17919 cost=0.00008809
+Predicted: 16055 actual:22500 diff=0.28644 cost=0.00296494
+Predicted: 10777 actual:10200 diff=0.05657 cost=0.00002374
+Predicted: 10541 actual:10590 diff=0.00463 cost=0.00000017
+Predicted: 12825 actual:9990 diff=0.28378 cost=0.00057377
+Predicted: 14932 actual:14400 diff=0.03694 cost=0.00002021
+Predicted: 11871 actual:13300 diff=0.10744 cost=0.00014579
+Predicted: 11077 actual:10500 diff=0.05495 cost=0.00002371
+Predicted: 21200 actual:22900 diff=0.07424 cost=0.00020611
+Predicted: 7806 actual:11500 diff=0.32122 cost=0.00097384
+Predicted: 8200 actual:7990 diff=0.02628 cost=0.00000315
+Predicted: 19694 actual:20900 diff=0.05770 cost=0.00010373
+Predicted: 10505 actual:13500 diff=0.22185 cost=0.00064042
+Predicted: 18163 actual:15809 diff=0.14890 cost=0.00039530
+Predicted: 14043 actual:14500 diff=0.03152 cost=0.00001492
+Predicted: 30850 actual:41900 diff=0.26372 cost=0.00871518
+Predicted: 9958 actual:10600 diff=0.06057 cost=0.00002940
+Predicted: 8669 actual:8000 diff=0.08363 cost=0.00003188
+Predicted: 14039 actual:10800 diff=0.29991 cost=0.00074875
+Predicted: 15438 actual:12990 diff=0.18845 cost=0.00042757
+Predicted: 27074 actual:15430 diff=0.75463 cost=0.00967567
+Predicted: 3701 actual:4100 diff=0.09732 cost=0.00001133
+Predicted: 10481 actual:10000 diff=0.04810 cost=0.00001656
+Predicted: 15802 actual:15290 diff=0.03349 cost=0.00001872
+Predicted: 17397 actual:22900 diff=0.24031 cost=0.00216080
+Predicted: 31349 actual:45000 diff=0.30336 cost=0.01330014
+Predicted: 8518 actual:8500 diff=0.00212 cost=0.00000002
+Predicted: 7424 actual:7500 diff=0.01013 cost=0.00000041
+Predicted: 12379 actual:9800 diff=0.26316 cost=0.00047464
+Predicted: 5758 actual:6500 diff=0.11415 cost=0.00003928
+Predicted: 17265 actual:24900 diff=0.30663 cost=0.00415998
+Predicted: 7849 actual:5000 diff=0.56980 cost=0.00057909
+Predicted: 25930 actual:22800 diff=0.13728 cost=0.00069909
+Predicted: 9023 actual:9990 diff=0.09680 cost=0.00006676
+Predicted: 11271 actual:12900 diff=0.12628 cost=0.00018941
+Predicted: 25316 actual:24900 diff=0.01671 cost=0.00001235
+Predicted: 25287 actual:31500 diff=0.19724 cost=0.00275490
+Predicted: 16690 actual:16990 diff=0.01766 cost=0.00000643
+Predicted: 19678 actual:25890 diff=0.23994 cost=0.00275407
+Predicted: 9149 actual:10500 diff=0.12867 cost=0.00013027
+Predicted: 25608 actual:25400 diff=0.00819 cost=0.00000309
+Predicted: 15741 actual:14990 diff=0.05010 cost=0.00004030
+Predicted: 25513 actual:25560 diff=0.00184 cost=0.00000015
+Predicted: 33281 actual:35500 diff=0.06251 cost=0.00035136
+Predicted: 13220 actual:18000 diff=0.26556 cost=0.00163057
+Predicted: 14077 actual:10990 diff=0.28089 cost=0.00068015
+Predicted: 10638 actual:10500 diff=0.01314 cost=0.00000135
+Predicted: 18410 actual:15990 diff=0.15134 cost=0.00041797
+Predicted: 7006 actual:9000 diff=0.22156 cost=0.00028382
+Predicted: 15024 actual:18500 diff=0.18789 cost=0.00086260
+Predicted: 25110 actual:25400 diff=0.01142 cost=0.00000600
+Predicted: 13173 actual:10800 diff=0.21972 cost=0.00040188
+Predicted: 19885 actual:24000 diff=0.17146 cost=0.00120865
+Predicted: 7661 actual:6480 diff=0.18225 cost=0.00009958
+Predicted: 14375 actual:14900 diff=0.03523 cost=0.00001969
+Predicted: 10811 actual:11900 diff=0.09151 cost=0.00008468
+Predicted: 17826 actual:11990 diff=0.48674 cost=0.00243092
+Predicted: 30848 actual:23580 diff=0.30823 cost=0.00377042
+Predicted: 15623 actual:14900 diff=0.04852 cost=0.00003724
+Predicted: 11556 actual:12750 diff=0.09365 cost=0.00010178
+Predicted: 18214 actual:17490 diff=0.04140 cost=0.00003741
+Predicted: 8709 actual:8900 diff=0.02146 cost=0.00000260
+Predicted: 21924 actual:34900 diff=0.37181 cost=0.01201611
+Predicted: 5934 actual:5800 diff=0.02310 cost=0.00000129
+Predicted: 8064 actual:8150 diff=0.01055 cost=0.00000053
+Predicted: 9850 actual:10400 diff=0.05288 cost=0.00002158
+Predicted: 9101 actual:8900 diff=0.02258 cost=0.00000290
+Predicted: 31040 actual:42900 diff=0.27646 cost=0.01003784
+Predicted: 6335 actual:7000 diff=0.09500 cost=0.00003156
+Predicted: 20826 actual:25800 diff=0.19279 cost=0.00176573
+Predicted: 10738 actual:9990 diff=0.07487 cost=0.00003998
+Predicted: 25489 actual:18990 diff=0.34223 cost=0.00301472
+Predicted: 13288 actual:10790 diff=0.23151 cost=0.00044542
+Predicted: 12649 actual:10500 diff=0.20467 cost=0.00032950
+Predicted: 7312 actual:6900 diff=0.05971 cost=0.00001210
+Predicted: 5522 actual:6500 diff=0.15046 cost=0.00006834
+Predicted: 9353 actual:8900 diff=0.05090 cost=0.00001462
+Predicted: 17935 actual:18990 diff=0.05556 cost=0.00007950
+Predicted: 6413 actual:6099 diff=0.05148 cost=0.00000703
+Predicted: 19465 actual:17200 diff=0.13169 cost=0.00036610
+Predicted: 8600 actual:7900 diff=0.08861 cost=0.00003501
+Predicted: 19964 actual:27000 diff=0.26059 cost=0.00353340
+Predicted: 13830 actual:17000 diff=0.18647 cost=0.00071692
+Predicted: 5313 actual:7990 diff=0.33504 cost=0.00051157
+Predicted: 16106 actual:17400 diff=0.07437 cost=0.00011950
+Predicted: 14066 actual:9890 diff=0.42224 cost=0.00124468
+Predicted: 10935 actual:11000 diff=0.00591 cost=0.00000030
+Predicted: 19942 actual:19990 diff=0.00240 cost=0.00000017
+Predicted: 9314 actual:9600 diff=0.02979 cost=0.00000582
+Predicted: 11992 actual:7900 diff=0.51797 cost=0.00119512
+Predicted: 15177 actual:13490 diff=0.12506 cost=0.00020308
+Predicted: 13247 actual:15000 diff=0.11687 cost=0.00021939
+Predicted: 19134 actual:22990 diff=0.16773 cost=0.00106120
+Predicted: 12173 actual:12500 diff=0.02616 cost=0.00000762
+Predicted: 18505 actual:16000 diff=0.15656 cost=0.00044792
+Predicted: 16087 actual:18000 diff=0.10628 cost=0.00026110
+Predicted: 10694 actual:9850 diff=0.08569 cost=0.00005084
+Predicted: 8203 actual:8590 diff=0.04505 cost=0.00001071
+Predicted: 5593 actual:4750 diff=0.17747 cost=0.00005066
+Predicted: 30628 actual:22490 diff=0.36185 cost=0.00472597
+Predicted: 6302 actual:9000 diff=0.29978 cost=0.00051960
+Predicted: 11838 actual:9500 diff=0.24611 cost=0.00038995
+Predicted: 20312 actual:23300 diff=0.12824 cost=0.00063721
+Predicted: 9449 actual:7700 diff=0.22714 cost=0.00021835
+Predicted: 5831 actual:6600 diff=0.11652 cost=0.00004224
+Predicted: 18361 actual:14800 diff=0.24061 cost=0.00090499
+Predicted: 8453 actual:7500 diff=0.12707 cost=0.00006485
+Predicted: 11278 actual:18000 diff=0.37344 cost=0.00322459
+Predicted: 12589 actual:10900 diff=0.15495 cost=0.00020346
+Predicted: 14126 actual:12990 diff=0.08745 cost=0.00009198
+Predicted: 25867 actual:27490 diff=0.05904 cost=0.00018789
+Predicted: 11833 actual:10990 diff=0.07671 cost=0.00005075
+Predicted: 12105 actual:9990 diff=0.21171 cost=0.00031939
+Predicted: 15821 actual:17400 diff=0.09075 cost=0.00017798
+Predicted: 21913 actual:13000 diff=0.68562 cost=0.00567068
+Predicted: 7536 actual:6500 diff=0.15938 cost=0.00007654
+Predicted: 16991 actual:19900 diff=0.14618 cost=0.00060388
+Predicted: 12917 actual:12000 diff=0.07642 cost=0.00005994
+Predicted: 16084 actual:20990 diff=0.23373 cost=0.00171740
+Predicted: 9805 actual:13300 diff=0.26278 cost=0.00087195
+Predicted: 14172 actual:15400 diff=0.07974 cost=0.00010762
+Predicted: 22330 actual:20900 diff=0.06842 cost=0.00014594
+Predicted: 19415 actual:19960 diff=0.02730 cost=0.00002122
+Predicted: 26298 actual:20900 diff=0.25828 cost=0.00207972
+Predicted: 20067 actual:17300 diff=0.15994 cost=0.00054655
+Predicted: 13047 actual:12000 diff=0.08725 cost=0.00007819
+Predicted: 9905 actual:12500 diff=0.20760 cost=0.00048058
+Predicted: 15278 actual:14990 diff=0.01921 cost=0.00000591
+Predicted: 18636 actual:13990 diff=0.33209 cost=0.00154092
+Predicted: 16207 actual:24990 diff=0.35146 cost=0.00550451
+Predicted: 8505 actual:6990 diff=0.21674 cost=0.00016374
+Predicted: 9149 actual:11990 diff=0.23695 cost=0.00057601
+Predicted: 7539 actual:7500 diff=0.00520 cost=0.00000011
+Predicted: 26590 actual:30700 diff=0.13388 cost=0.00120553
+Predicted: 20130 actual:22500 diff=0.10533 cost=0.00040098
+Predicted: 5886 actual:7500 diff=0.21520 cost=0.00018592
+Predicted: 8769 actual:6400 diff=0.37016 cost=0.00040066
+Predicted: 6932 actual:7000 diff=0.00971 cost=0.00000033
+Predicted: 13977 actual:14900 diff=0.06195 cost=0.00006082
+Predicted: 14490 actual:13850 diff=0.04621 cost=0.00002925
+Predicted: 10346 actual:13500 diff=0.23363 cost=0.00070995
+Predicted: 12482 actual:16999 diff=0.26572 cost=0.00145615
+Predicted: 17388 actual:16500 diff=0.05382 cost=0.00005624
+Predicted: 7792 actual:5800 diff=0.34345 cost=0.00028333
+Predicted: 8235 actual:10400 diff=0.20817 cost=0.00033447
+Predicted: 7522 actual:8490 diff=0.11402 cost=0.00006681
+Predicted: 16887 actual:12400 diff=0.36185 cost=0.00143684
+Predicted: 6656 actual:5000 diff=0.33120 cost=0.00019566
+Predicted: 8034 actual:8500 diff=0.05482 cost=0.00001546
+Predicted: 27818 actual:22900 diff=0.21476 cost=0.00172641
+Predicted: 12447 actual:9800 diff=0.27010 cost=0.00050030
+Predicted: 9760 actual:7200 diff=0.35556 cost=0.00046755
+Predicted: 7118 actual:5990 diff=0.18831 cost=0.00009094
+Predicted: 17521 actual:17800 diff=0.01567 cost=0.00000555
+Predicted: 23175 actual:19590 diff=0.18300 cost=0.00091736
+Predicted: 9123 actual:8200 diff=0.11256 cost=0.00006071
+Predicted: 20204 actual:19930 diff=0.01375 cost=0.00000535
+Predicted: 25846 actual:25230 diff=0.02442 cost=0.00002708
+Predicted: 14135 actual:9400 diff=0.50372 cost=0.00160020
+Predicted: 30776 actual:32900 diff=0.06456 cost=0.00032196
+Predicted: 19157 actual:17200 diff=0.11378 cost=0.00027342
+Predicted: 7996 actual:8500 diff=0.05929 cost=0.00001810
+Predicted: 7472 actual:6490 diff=0.15131 cost=0.00006883
+Predicted: 11790 actual:10900 diff=0.08165 cost=0.00005652
+Predicted: 9695 actual:6700 diff=0.44701 cost=0.00063998
+Predicted: 31195 actual:28500 diff=0.09456 cost=0.00051818
+Predicted: 9060 actual:10400 diff=0.12885 cost=0.00012804
+Predicted: 6117 actual:7500 diff=0.18440 cost=0.00013650
+Predicted: 17453 actual:20490 diff=0.14822 cost=0.00065831
+Predicted: 10857 actual:8500 diff=0.27729 cost=0.00039645
+Predicted: 9024 actual:10990 diff=0.17889 cost=0.00027585
+Predicted: 9033 actual:10900 diff=0.17128 cost=0.00024882
+Predicted: 17808 actual:16500 diff=0.07927 cost=0.00012214
+Predicted: 26298 actual:31490 diff=0.16488 cost=0.00192363
+Predicted: 7351 actual:6490 diff=0.13267 cost=0.00005291
+Predicted: 11954 actual:16000 diff=0.25288 cost=0.00116829
+Predicted: 12947 actual:9500 diff=0.36284 cost=0.00084791
+Predicted: 16676 actual:15490 diff=0.07657 cost=0.00010046
+Predicted: 8020 actual:7990 diff=0.00375 cost=0.00000006
+Predicted: 25914 actual:23570 diff=0.09945 cost=0.00039199
+Predicted: 11812 actual:10500 diff=0.12495 cost=0.00012271
+Predicted: 5317 actual:4700 diff=0.13128 cost=0.00002722
+Predicted: 7623 actual:6900 diff=0.10478 cost=0.00003731
+Predicted: 9850 actual:13000 diff=0.24231 cost=0.00070798
+Predicted: 13518 actual:14290 diff=0.05402 cost=0.00004257
+Predicted: 25720 actual:23990 diff=0.07211 cost=0.00021344
+Predicted: 15903 actual:15400 diff=0.03266 cost=0.00001803
+Predicted: 6857 actual:4000 diff=0.71425 cost=0.00058246
+Predicted: 21561 actual:24990 diff=0.13721 cost=0.00083892
+Predicted: 7269 actual:6990 diff=0.03991 cost=0.00000554
+Predicted: 8191 actual:8600 diff=0.04756 cost=0.00001196
+Predicted: 12426 actual:11990 diff=0.03636 cost=0.00001357
+Predicted: 7235 actual:6500 diff=0.11308 cost=0.00003852
+Predicted: 10104 actual:11200 diff=0.09786 cost=0.00008568
+Predicted: 16800 actual:18500 diff=0.09189 cost=0.00020639
+Predicted: 19641 actual:24880 diff=0.21057 cost=0.00195867
+Predicted: 22541 actual:20390 diff=0.10549 cost=0.00033025
+Predicted: 13615 actual:15800 diff=0.13829 cost=0.00034084
+Predicted: 10302 actual:13000 diff=0.20754 cost=0.00051939
+Predicted: 7761 actual:8000 diff=0.02987 cost=0.00000409
+Predicted: 7474 actual:7000 diff=0.06771 cost=0.00001606
+Predicted: 6814 actual:6500 diff=0.04831 cost=0.00000702
+Predicted: 9490 actual:14500 diff=0.34552 cost=0.00179178
+Predicted: 9299 actual:9000 diff=0.03322 cost=0.00000637
+Predicted: 14857 actual:15850 diff=0.06265 cost=0.00007038
+Predicted: 7757 actual:7900 diff=0.01810 cost=0.00000145
+Predicted: 11710 actual:11690 diff=0.00171 cost=0.00000003
+Predicted: 9186 actual:11500 diff=0.20122 cost=0.00038222
+Predicted: 10550 actual:8800 diff=0.19886 cost=0.00021856
+Predicted: 25424 actual:26890 diff=0.05452 cost=0.00015323
+Predicted: 24414 actual:29500 diff=0.17241 cost=0.00184651
+Predicted: 9957 actual:12500 diff=0.20344 cost=0.00046160
+Predicted: 9407 actual:11300 diff=0.16752 cost=0.00025576
+Predicted: 13096 actual:14790 diff=0.11454 cost=0.00020473
+Predicted: 10944 actual:11200 diff=0.02286 cost=0.00000468
+Predicted: 8265 actual:8700 diff=0.05000 cost=0.00001349
+Predicted: 16735 actual:22900 diff=0.26921 cost=0.00271264
+Predicted: 14356 actual:13900 diff=0.03281 cost=0.00001485
+Predicted: 6855 actual:6900 diff=0.00652 cost=0.00000014
+Predicted: 8714 actual:6900 diff=0.26290 cost=0.00023480
+Predicted: 22834 actual:32800 diff=0.30384 cost=0.00708765
+Predicted: 30850 actual:43500 diff=0.29080 cost=0.01141989
+Predicted: 11311 actual:9800 diff=0.15418 cost=0.00016310
+Predicted: 10378 actual:12000 diff=0.13517 cost=0.00018771
+Predicted: 30393 actual:22910 diff=0.32663 cost=0.00399671
+Predicted: 18017 actual:13900 diff=0.29619 cost=0.00120986
+Predicted: 8111 actual:8990 diff=0.09778 cost=0.00005517
+Predicted: 12949 actual:11800 diff=0.09737 cost=0.00009413
+Predicted: 9186 actual:9950 diff=0.07678 cost=0.00004175
+Predicted: 14756 actual:12490 diff=0.18143 cost=0.00036664
+Predicted: 16690 actual:13990 diff=0.19299 cost=0.00052057
+Predicted: 16650 actual:13990 diff=0.19014 cost=0.00050520
+Predicted: 7719 actual:6900 diff=0.11870 cost=0.00004787
+Predicted: 6696 actual:7500 diff=0.10720 cost=0.00004610
+Predicted: 5616 actual:5200 diff=0.08000 cost=0.00001238
+Predicted: 6873 actual:6500 diff=0.05738 cost=0.00000992
+Predicted: 30713 actual:25940 diff=0.18400 cost=0.00162641
+Predicted: 13511 actual:11500 diff=0.17487 cost=0.00028883
+Predicted: 7604 actual:7100 diff=0.07099 cost=0.00001810
+Predicted: 8196 actual:7499 diff=0.09295 cost=0.00003473
+Predicted: 26024 actual:27750 diff=0.06220 cost=0.00021268
+Predicted: 7643 actual:7800 diff=0.02013 cost=0.00000175
+Predicted: 13513 actual:12500 diff=0.08104 cost=0.00007328
+Predicted: 16534 actual:13790 diff=0.19898 cost=0.00053748
+Predicted: 18330 actual:17800 diff=0.02978 cost=0.00002007
+Predicted: 13519 actual:11990 diff=0.12752 cost=0.00016691
+Predicted: 11193 actual:10400 diff=0.07625 cost=0.00004495
+Predicted: 6608 actual:5700 diff=0.15930 cost=0.00005882
+Predicted: 15084 actual:17900 diff=0.15732 cost=0.00056588
+Predicted: 14135 actual:8700 diff=0.62471 cost=0.00210808
+Predicted: 12642 actual:12000 diff=0.05350 cost=0.00002939
+Predicted: 7269 actual:6990 diff=0.03991 cost=0.00000555
+Predicted: 18160 actual:13830 diff=0.31309 cost=0.00133839
+Predicted: 10095 actual:9000 diff=0.12167 cost=0.00008546
+Predicted: 9846 actual:7500 diff=0.31280 cost=0.00039300
+Predicted: 4997 actual:4499 diff=0.11069 cost=0.00001772
+Predicted: 8312 actual:5990 diff=0.38765 cost=0.00038483
+Predicted: 16499 actual:16000 diff=0.03119 cost=0.00001776
+Predicted: 14182 actual:13500 diff=0.05052 cost=0.00003321
+Predicted: 7255 actual:6500 diff=0.11615 cost=0.00004060
+Predicted: 9725 actual:9590 diff=0.01408 cost=0.00000131
+Predicted: 10544 actual:8700 diff=0.21195 cost=0.00024279
+Predicted: 17432 actual:21990 diff=0.20728 cost=0.00148253
+Predicted: 23845 actual:17900 diff=0.33212 cost=0.00252187
+Predicted: 18826 actual:16228 diff=0.16009 cost=0.00048188
+Predicted: 17513 actual:14990 diff=0.16831 cost=0.00045442
+Predicted: 10657 actual:8900 diff=0.19742 cost=0.00022032
+Predicted: 9039 actual:10000 diff=0.09610 cost=0.00006590
+Predicted: 16839 actual:14900 diff=0.13013 cost=0.00026834
+Predicted: 13824 actual:11990 diff=0.15296 cost=0.00023995
+Predicted: 14203 actual:10950 diff=0.29708 cost=0.00075557
+Predicted: 12820 actual:13790 diff=0.07034 cost=0.00006711
+Predicted: 19921 actual:18990 diff=0.04903 cost=0.00006189
+Predicted: 7406 actual:6800 diff=0.08912 cost=0.00002621
+Predicted: 6608 actual:5200 diff=0.27077 cost=0.00014156
+Predicted: 18743 actual:15900 diff=0.17881 cost=0.00057690
+Predicted: 18473 actual:19898 diff=0.07162 cost=0.00014493
+Predicted: 6965 actual:11500 diff=0.39435 cost=0.00146742
+Predicted: 9160 actual:7900 diff=0.15949 cost=0.00011337
+Predicted: 21173 actual:17700 diff=0.19621 cost=0.00086054
+Predicted: 10193 actual:8490 diff=0.20059 cost=0.00020710
+Predicted: 26352 actual:26500 diff=0.00558 cost=0.00000158
+Predicted: 4724 actual:4400 diff=0.07364 cost=0.00000749
+Predicted: 24894 actual:21500 diff=0.15786 cost=0.00082184
+Predicted: 8545 actual:10000 diff=0.14550 cost=0.00015113
+Predicted: 8295 actual:7900 diff=0.05000 cost=0.00001114
+Predicted: 13335 actual:14000 diff=0.04750 cost=0.00003153
+Predicted: 16887 actual:17500 diff=0.03503 cost=0.00002681
+Predicted: 22214 actual:27962 diff=0.20556 cost=0.00235788
+Predicted: 14838 actual:17500 diff=0.15211 cost=0.00050587
+Predicted: 26193 actual:19990 diff=0.31031 cost=0.00274634
+Predicted: 18114 actual:13500 diff=0.34178 cost=0.00151938
+Predicted: 20867 actual:18990 diff=0.09884 cost=0.00025134
+Predicted: 7548 actual:8490 diff=0.11095 cost=0.00006325
+Predicted: 7360 actual:6290 diff=0.17011 cost=0.00008164
+Predicted: 12743 actual:11500 diff=0.10809 cost=0.00011036
+Predicted: 15750 actual:15990 diff=0.01501 cost=0.00000411
+Predicted: 12600 actual:9500 diff=0.32632 cost=0.00068586
+Predicted: 16793 actual:20000 diff=0.16035 cost=0.00073432
+Predicted: 11447 actual:10490 diff=0.09123 cost=0.00006531
+Predicted: 14648 actual:14900 diff=0.01691 cost=0.00000454
+Predicted: 10294 actual:10000 diff=0.02940 cost=0.00000617
+Predicted: 21162 actual:16900 diff=0.25219 cost=0.00129658
+Predicted: 7388 actual:9490 diff=0.22150 cost=0.00031534
+Predicted: 18429 actual:16990 diff=0.08470 cost=0.00014777
+Predicted: 12376 actual:8599 diff=0.43924 cost=0.00101827
+Predicted: 19243 actual:26900 diff=0.28465 cost=0.00418448
+Predicted: 9846 actual:6500 diff=0.51477 cost=0.00079903
+Predicted: 18047 actual:20990 diff=0.14021 cost=0.00061818
+Predicted: 5593 actual:9000 diff=0.37856 cost=0.00082882
+Predicted: 8602 actual:2500 diff=2.44080 cost=0.00265711
+Predicted: 12949 actual:12000 diff=0.07908 cost=0.00006419
+Predicted: 31103 actual:29500 diff=0.05434 cost=0.00018344
+Predicted: 5837 actual:5500 diff=0.06127 cost=0.00000811
+Predicted: 14852 actual:15990 diff=0.07117 cost=0.00009248
+Predicted: 10953 actual:11900 diff=0.07958 cost=0.00006401
+Predicted: 31241 actual:21830 diff=0.43110 cost=0.00632050
+Predicted: 17659 actual:14490 diff=0.21870 cost=0.00071655
+Predicted: 17236 actual:15900 diff=0.08403 cost=0.00012741
+Predicted: 14349 actual:12490 diff=0.14884 cost=0.00024673
+Predicted: 11140 actual:8200 diff=0.35854 cost=0.00061663
+Predicted: 9283 actual:8800 diff=0.05489 cost=0.00001662
+Predicted: 8111 actual:6500 diff=0.24785 cost=0.00018520
+Predicted: 17687 actual:16000 diff=0.10544 cost=0.00020318
+Predicted: 11061 actual:10500 diff=0.05343 cost=0.00002242
+Predicted: 5480 actual:4500 diff=0.21778 cost=0.00006850
+Predicted: 18822 actual:15900 diff=0.18377 cost=0.00060953
+Predicted: 14126 actual:13700 diff=0.03109 cost=0.00001296
+Predicted: 7800 actual:8990 diff=0.13237 cost=0.00010113
+Predicted: 22346 actual:24900 diff=0.10257 cost=0.00046569
+Predicted: 8979 actual:8700 diff=0.03207 cost=0.00000557
+Predicted: 10544 actual:9500 diff=0.10989 cost=0.00007782
+Predicted: 9102 actual:13500 diff=0.32578 cost=0.00138072
+Predicted: 23180 actual:22890 diff=0.01267 cost=0.00000600
+Predicted: 18061 actual:16300 diff=0.10804 cost=0.00022134
+Predicted: 6024 actual:5150 diff=0.16971 cost=0.00005447
+Predicted: 10687 actual:8700 diff=0.22839 cost=0.00028183
+Predicted: 6579 actual:6990 diff=0.05880 cost=0.00001203
+Predicted: 15162 actual:14590 diff=0.03920 cost=0.00002338
+Predicted: 7833 actual:7200 diff=0.08792 cost=0.00002861
+Predicted: 8097 actual:6000 diff=0.34950 cost=0.00031399
+Predicted: 12352 actual:13990 diff=0.11708 cost=0.00019134
+Predicted: 11034 actual:8500 diff=0.29812 cost=0.00045846
+Predicted: 12349 actual:20900 diff=0.40914 cost=0.00521886
+Predicted: 5593 actual:5900 diff=0.05203 cost=0.00000675
+Predicted: 13241 actual:10990 diff=0.20482 cost=0.00036167
+Predicted: 16353 actual:19400 diff=0.15706 cost=0.00066261
+Predicted: 10113 actual:9000 diff=0.12367 cost=0.00008838
+Predicted: 15699 actual:17500 diff=0.10291 cost=0.00023159
+Predicted: 9568 actual:10500 diff=0.08876 cost=0.00006203
+Predicted: 5279 actual:5400 diff=0.02241 cost=0.00000104
+Predicted: 8044 actual:9900 diff=0.18747 cost=0.00024582
+Predicted: 9622 actual:8990 diff=0.07030 cost=0.00002845
+Predicted: 10391 actual:11400 diff=0.08851 cost=0.00007270
+Predicted: 7331 actual:7500 diff=0.02253 cost=0.00000203
+Predicted: 8394 actual:9200 diff=0.08761 cost=0.00004628
+Predicted: 9412 actual:8900 diff=0.05753 cost=0.00001873
+Predicted: 17020 actual:16500 diff=0.03152 cost=0.00001930
+Predicted: 12600 actual:11800 diff=0.06780 cost=0.00004567
+Predicted: 10755 actual:9990 diff=0.07658 cost=0.00004179
+Predicted: 11672 actual:9000 diff=0.29689 cost=0.00050947
+Predicted: 23145 actual:31900 diff=0.27445 cost=0.00547094
+Predicted: 7996 actual:7800 diff=0.02513 cost=0.00000274
+Predicted: 18397 actual:22000 diff=0.16377 cost=0.00092654
+Predicted: 12944 actual:9400 diff=0.37702 cost=0.00089680
+Predicted: 19240 actual:14490 diff=0.32781 cost=0.00161029
+Predicted: 25489 actual:23550 diff=0.08234 cost=0.00026841
+Predicted: 7417 actual:6700 diff=0.10701 cost=0.00003662
+Predicted: 8647 actual:8200 diff=0.05451 cost=0.00001425
+Predicted: 9520 actual:9100 diff=0.04615 cost=0.00001260
+Predicted: 23087 actual:29500 diff=0.21739 cost=0.00293559
+Predicted: 9624 actual:9500 diff=0.01305 cost=0.00000110
+Predicted: 10474 actual:9300 diff=0.12624 cost=0.00009830
+Predicted: 10874 actual:10480 diff=0.03760 cost=0.00001107
+Predicted: 14135 actual:14300 diff=0.01154 cost=0.00000196
+Predicted: 13413 actual:13900 diff=0.03504 cost=0.00001691
+Predicted: 12614 actual:12900 diff=0.02217 cost=0.00000584
+Predicted: 13787 actual:13800 diff=0.00094 cost=0.00000001
+Predicted: 8979 actual:7990 diff=0.12378 cost=0.00006974
+Predicted: 11675 actual:8000 diff=0.45937 cost=0.00096379
+Predicted: 16508 actual:21990 diff=0.24930 cost=0.00214468
+Predicted: 7946 actual:8300 diff=0.04265 cost=0.00000894
+Predicted: 17155 actual:16990 diff=0.00971 cost=0.00000193
+Predicted: 26244 actual:25600 diff=0.02516 cost=0.00002967
+Predicted: 6328 actual:6990 diff=0.09471 cost=0.00003129
+Predicted: 16125 actual:14990 diff=0.07572 cost=0.00009202
+Predicted: 17771 actual:16990 diff=0.04597 cost=0.00004352
+Predicted: 17687 actual:19700 diff=0.10218 cost=0.00028900
+Predicted: 15917 actual:18898 diff=0.15774 cost=0.00063440
+Predicted: 10168 actual:12400 diff=0.18000 cost=0.00035574
+Predicted: 12419 actual:8900 diff=0.39539 cost=0.00088382
+Predicted: 13059 actual:14990 diff=0.12882 cost=0.00026607
+Predicted: 7875 actual:6000 diff=0.31250 cost=0.00025084
+Predicted: 9279 actual:14500 diff=0.36007 cost=0.00194596
+Predicted: 15456 actual:16900 diff=0.08544 cost=0.00014876
+Predicted: 21646 actual:19000 diff=0.13926 cost=0.00049978
+Predicted: 10945 actual:8200 diff=0.33476 cost=0.00053783
+Predicted: 9654 actual:9100 diff=0.06088 cost=0.00002194
+Predicted: 30497 actual:33890 diff=0.10012 cost=0.00082186
+Predicted: 15294 actual:11500 diff=0.32991 cost=0.00102753
+Predicted: 4209 actual:4500 diff=0.06467 cost=0.00000604
+Predicted: 7906 actual:6900 diff=0.14580 cost=0.00007217
+Predicted: 6759 actual:5300 diff=0.27528 cost=0.00015185
+Predicted: 12193 actual:13000 diff=0.06208 cost=0.00004648
+Predicted: 13975 actual:13000 diff=0.07500 cost=0.00006796
+Predicted: 16469 actual:15500 diff=0.06252 cost=0.00006707
+Predicted: 15448 actual:11990 diff=0.28841 cost=0.00085329
+Predicted: 9714 actual:11990 diff=0.18982 cost=0.00036967
+Predicted: 28380 actual:28900 diff=0.01799 cost=0.00001932
+Predicted: 12313 actual:15500 diff=0.20561 cost=0.00072461
+Predicted: 12379 actual:11500 diff=0.07643 cost=0.00005513
+Predicted: 18891 actual:19950 diff=0.05308 cost=0.00008010
+Predicted: 6652 actual:5600 diff=0.18786 cost=0.00007905
+Predicted: 6962 actual:6500 diff=0.07108 cost=0.00001521
+Predicted: 7474 actual:7500 diff=0.00347 cost=0.00000005
+Predicted: 8073 actual:7500 diff=0.07640 cost=0.00002346
+Predicted: 16676 actual:16900 diff=0.01325 cost=0.00000358
+Predicted: 28500 actual:28990 diff=0.01690 cost=0.00001711
+Predicted: 10479 actual:11590 diff=0.09586 cost=0.00008816
+Predicted: 9618 actual:8990 diff=0.06986 cost=0.00002813
+Predicted: 9552 actual:7650 diff=0.24863 cost=0.00025814
+Predicted: 19932 actual:16900 diff=0.17941 cost=0.00065596
+Predicted: 10413 actual:17500 diff=0.40497 cost=0.00358445
+Predicted: 21212 actual:24900 diff=0.14811 cost=0.00097064
+Predicted: 10687 actual:7500 diff=0.42493 cost=0.00072510
+Predicted: 20265 actual:27990 diff=0.27599 cost=0.00425902
+Predicted: 7109 actual:7000 diff=0.01557 cost=0.00000085
+Predicted: 18001 actual:17490 diff=0.02922 cost=0.00001866
+Predicted: 6028 actual:5600 diff=0.07643 cost=0.00001312
+Predicted: 13528 actual:11500 diff=0.17635 cost=0.00029372
+Predicted: 12642 actual:10490 diff=0.20515 cost=0.00033043
+Predicted: 8031 actual:6000 diff=0.33850 cost=0.00029440
+Predicted: 19703 actual:16500 diff=0.19412 cost=0.00073233
+Predicted: 19524 actual:21990 diff=0.11214 cost=0.00043404
+Predicted: 15851 actual:16500 diff=0.03933 cost=0.00003008
+Predicted: 11200 actual:9500 diff=0.17895 cost=0.00020620
+Predicted: 5785 actual:7100 diff=0.18521 cost=0.00012341
+Predicted: 9747 actual:9500 diff=0.02600 cost=0.00000436
+Predicted: 9850 actual:8490 diff=0.16019 cost=0.00013204
+Predicted: 15596 actual:13490 diff=0.15612 cost=0.00031654
+Predicted: 12281 actual:17600 diff=0.30222 cost=0.00201887
+Predicted: 26386 actual:32890 diff=0.19775 cost=0.00301886
+Predicted: 17665 actual:20990 diff=0.15841 cost=0.00078882
+Predicted: 13468 actual:12600 diff=0.06889 cost=0.00005379
+Predicted: 11001 actual:9600 diff=0.14594 cost=0.00014013
+Predicted: 12031 actual:10700 diff=0.12439 cost=0.00012637
+Predicted: 17857 actual:13990 diff=0.27641 cost=0.00106720
+Predicted: 18573 actual:21690 diff=0.14371 cost=0.00069347
+Predicted: 30846 actual:25500 diff=0.20965 cost=0.00203959
+Predicted: 11473 actual:10500 diff=0.09267 cost=0.00006752
+Predicted: 4254 actual:4100 diff=0.03756 cost=0.00000169
+Predicted: 11485 actual:9490 diff=0.21022 cost=0.00028393
+Predicted: 20842 actual:19850 diff=0.04997 cost=0.00007033
+Predicted: 9480 actual:7000 diff=0.35429 cost=0.00043913
+Predicted: 14629 actual:14890 diff=0.01753 cost=0.00000486
+Predicted: 7736 actual:8700 diff=0.11080 cost=0.00006634
+Predicted: 15511 actual:14400 diff=0.07715 cost=0.00008816
+Predicted: 8265 actual:7000 diff=0.18071 cost=0.00011424
+Predicted: 17899 actual:13990 diff=0.27941 cost=0.00109089
+Predicted: 12415 actual:10900 diff=0.13899 cost=0.00016367
+Predicted: 17346 actual:9980 diff=0.73808 cost=0.00387233
+Predicted: 19634 actual:8990 diff=1.18398 cost=0.00808532
+Predicted: 24346 actual:21487 diff=0.13306 cost=0.00058334
+Predicted: 7706 actual:8000 diff=0.03675 cost=0.00000619
+Predicted: 16369 actual:17000 diff=0.03712 cost=0.00002842
+Predicted: 10723 actual:8490 diff=0.26302 cost=0.00035600
+Predicted: 20941 actual:16500 diff=0.26915 cost=0.00140753
+Predicted: 8234 actual:6990 diff=0.17797 cost=0.00011042
+Predicted: 20670 actual:28990 diff=0.28700 cost=0.00494046
+Predicted: 25606 actual:30900 diff=0.17133 cost=0.00199968
+Predicted: 17748 actual:24000 diff=0.26050 cost=0.00279029
+Predicted: 26099 actual:28490 diff=0.08392 cost=0.00040793
+Predicted: 8178 actual:8000 diff=0.02225 cost=0.00000226
+Predicted: 7996 actual:6200 diff=0.28968 cost=0.00023032
+Predicted: 14425 actual:12500 diff=0.15400 cost=0.00026453
+Predicted: 10193 actual:7700 diff=0.32377 cost=0.00044379
+Predicted: 8297 actual:9500 diff=0.12663 cost=0.00010332
+Predicted: 17378 actual:17990 diff=0.03402 cost=0.00002673
+Predicted: 7983 actual:6700 diff=0.19149 cost=0.00011742
+Predicted: 7091 actual:6490 diff=0.09260 cost=0.00002575
+Predicted: 6932 actual:7000 diff=0.00971 cost=0.00000033
+Predicted: 16804 actual:19490 diff=0.13781 cost=0.00051470
+Predicted: 16631 actual:22900 diff=0.27376 cost=0.00280468
+Predicted: 6531 actual:7000 diff=0.06700 cost=0.00001572
+Predicted: 20192 actual:18000 diff=0.12178 cost=0.00034284
+Predicted: 16850 actual:15990 diff=0.05378 cost=0.00005280
+Predicted: 21682 actual:15900 diff=0.36365 cost=0.00238593
+Predicted: 5917 actual:6700 diff=0.11687 cost=0.00004377
+Predicted: 16202 actual:17500 diff=0.07417 cost=0.00012021
+Predicted: 17249 actual:24990 diff=0.30976 cost=0.00427682
+Predicted: 8822 actual:8600 diff=0.02581 cost=0.00000351
+Predicted: 7090 actual:6900 diff=0.02754 cost=0.00000256
+Predicted: 11790 actual:12700 diff=0.07165 cost=0.00005914
+Predicted: 9151 actual:8000 diff=0.14388 cost=0.00009447
+Predicted: 9037 actual:8490 diff=0.06443 cost=0.00002137
+Predicted: 12193 actual:10900 diff=0.11862 cost=0.00011917
+Predicted: 11160 actual:8500 diff=0.31294 cost=0.00050501
+Predicted: 11439 actual:13300 diff=0.13992 cost=0.00024717
+Predicted: 11790 actual:10500 diff=0.12286 cost=0.00011876
+Predicted: 6047 actual:5300 diff=0.14094 cost=0.00003977
+Predicted: 7292 actual:7499 diff=0.02760 cost=0.00000306
+Predicted: 6404 actual:7490 diff=0.14499 cost=0.00008407
+Predicted: 30784 actual:24750 diff=0.24380 cost=0.00259852
+Predicted: 4545 actual:4590 diff=0.00980 cost=0.00000015
+Predicted: 9782 actual:10490 diff=0.06749 cost=0.00003575
+Predicted: 13184 actual:10600 diff=0.24377 cost=0.00047649
+Predicted: 10505 actual:11500 diff=0.08652 cost=0.00007067
+Predicted: 17633 actual:15890 diff=0.10969 cost=0.00021683
+Predicted: 16996 actual:16600 diff=0.02386 cost=0.00001120
+Predicted: 9453 actual:6800 diff=0.39015 cost=0.00050239
+Predicted: 9345 actual:11700 diff=0.20128 cost=0.00039581
+Predicted: 14400 actual:10500 diff=0.37143 cost=0.00108555
+Predicted: 8353 actual:7499 diff=0.11388 cost=0.00005203
+Predicted: 19139 actual:22800 diff=0.16057 cost=0.00095651
+Predicted: 22185 actual:19700 diff=0.12614 cost=0.00044084
+Predicted: 18850 actual:14990 diff=0.25751 cost=0.00106357
+Predicted: 16547 actual:15990 diff=0.03483 cost=0.00002209
+Predicted: 21717 actual:16290 diff=0.33315 cost=0.00210224
+Predicted: 16361 actual:21500 diff=0.23902 cost=0.00188507
+Predicted: 30850 actual:30900 diff=0.00162 cost=0.00000017
+Predicted: 22778 actual:21500 diff=0.05944 cost=0.00011661
+Predicted: 25797 actual:29930 diff=0.13809 cost=0.00121860
+Predicted: 14567 actual:16990 diff=0.14261 cost=0.00041910
+Predicted: 22159 actual:16790 diff=0.31977 cost=0.00205670
+Predicted: 16689 actual:14500 diff=0.15097 cost=0.00034177
+Predicted: 6399 actual:9500 diff=0.32642 cost=0.00068641
+Predicted: 8991 actual:8500 diff=0.05776 cost=0.00001722
+Predicted: 9985 actual:13000 diff=0.23192 cost=0.00064845
+Predicted: 10541 actual:11390 diff=0.07454 cost=0.00005139
+Predicted: 15750 actual:19900 diff=0.20854 cost=0.00122911
+Predicted: 19392 actual:15500 diff=0.25110 cost=0.00108124
+Predicted: 20146 actual:19700 diff=0.02264 cost=0.00001418
+Predicted: 11312 actual:11000 diff=0.02836 cost=0.00000694
+Predicted: 15511 actual:18500 diff=0.16157 cost=0.00063765
+Predicted: 19389 actual:27500 diff=0.29495 cost=0.00469543
+Predicted: 26064 actual:17990 diff=0.44880 cost=0.00465297
+Predicted: 11790 actual:9500 diff=0.24105 cost=0.00037413
+Predicted: 19769 actual:17760 diff=0.11312 cost=0.00028820
+Predicted: 10833 actual:11200 diff=0.03277 cost=0.00000961
+Predicted: 7109 actual:6450 diff=0.10217 cost=0.00003100
+Predicted: 16410 actual:18000 diff=0.08833 cost=0.00018037
+Predicted: 13513 actual:15000 diff=0.09913 cost=0.00015777
+Predicted: 18831 actual:32000 diff=0.41153 cost=0.01237768
+Predicted: 16013 actual:12900 diff=0.24132 cost=0.00069182
+Predicted: 13385 actual:15000 diff=0.10767 cost=0.00018607
+Predicted: 25977 actual:34400 diff=0.24485 cost=0.00506351
+Predicted: 9186 actual:10900 diff=0.15725 cost=0.00020989
+Predicted: 8489 actual:11400 diff=0.25535 cost=0.00060498
+Predicted: 8394 actual:6900 diff=0.21652 cost=0.00015916
+Predicted: 19088 actual:17000 diff=0.12282 cost=0.00031123
+Predicted: 9520 actual:9490 diff=0.00316 cost=0.00000006
+Predicted: 16245 actual:14990 diff=0.08372 cost=0.00011241
+Predicted: 14449 actual:14200 diff=0.01754 cost=0.00000445
+Predicted: 12096 actual:13000 diff=0.06954 cost=0.00005821
+Predicted: 23782 actual:32490 diff=0.26802 cost=0.00541184
+Predicted: 19319 actual:16590 diff=0.16450 cost=0.00053145
+Predicted: 6527 actual:5100 diff=0.27980 cost=0.00014531
+Predicted: 10368 actual:11290 diff=0.08167 cost=0.00006059
+Predicted: 9084 actual:9590 diff=0.05276 cost=0.00001822
+Predicted: 10302 actual:10500 diff=0.01886 cost=0.00000281
+Predicted: 5979 actual:3200 diff=0.86844 cost=0.00055109
+Predicted: 9054 actual:6850 diff=0.32175 cost=0.00034666
+Predicted: 10521 actual:9990 diff=0.05315 cost=0.00002017
+Predicted: 14591 actual:13990 diff=0.04296 cost=0.00002579
+Predicted: 30801 actual:39900 diff=0.22805 cost=0.00590862
+Predicted: 11239 actual:12990 diff=0.13480 cost=0.00021892
+Predicted: 23007 actual:34900 diff=0.34077 cost=0.01009500
+Predicted: 13674 actual:11690 diff=0.16972 cost=0.00028115
+Predicted: 7417 actual:5990 diff=0.23823 cost=0.00014532
+Predicted: 10266 actual:10000 diff=0.02660 cost=0.00000506
+Predicted: 6915 actual:5900 diff=0.17203 cost=0.00007346
+Predicted: 5315 actual:5000 diff=0.06300 cost=0.00000707
+Predicted: 18947 actual:20499 diff=0.07571 cost=0.00017202
+Predicted: 18358 actual:14991 diff=0.22460 cost=0.00080898
+Predicted: 11218 actual:10000 diff=0.12180 cost=0.00010590
+Predicted: 7381 actual:6500 diff=0.13554 cost=0.00005541
+Predicted: 12068 actual:8500 diff=0.41976 cost=0.00090875
+Predicted: 5629 actual:5000 diff=0.12580 cost=0.00002820
+Predicted: 24832 actual:17000 diff=0.46071 cost=0.00437782
+Predicted: 19739 actual:19990 diff=0.01256 cost=0.00000451
+Predicted: 9061 actual:8890 diff=0.01924 cost=0.00000208
+Predicted: 13771 actual:12500 diff=0.10168 cost=0.00011529
+Predicted: 11431 actual:17990 diff=0.36459 cost=0.00307020
+Predicted: 21504 actual:21970 diff=0.02121 cost=0.00001545
+Predicted: 20205 actual:21800 diff=0.07317 cost=0.00018146
+Predicted: 10346 actual:9600 diff=0.07771 cost=0.00003977
+Predicted: 8991 actual:9900 diff=0.09182 cost=0.00005898
+Predicted: 6568 actual:6500 diff=0.01046 cost=0.00000033
+Predicted: 9468 actual:9000 diff=0.05200 cost=0.00001558
+Predicted: 25570 actual:34990 diff=0.26922 cost=0.00633285
+Predicted: 15177 actual:13590 diff=0.11678 cost=0.00017987
+Predicted: 11790 actual:9800 diff=0.20306 cost=0.00028261
+Predicted: 22514 actual:21490 diff=0.04765 cost=0.00007476
+Predicted: 5616 actual:5600 diff=0.00286 cost=0.00000002
+Predicted: 9341 actual:8200 diff=0.13915 cost=0.00009295
+Predicted: 17580 actual:15900 diff=0.10566 cost=0.00020151
+Predicted: 4526 actual:4250 diff=0.06494 cost=0.00000544
+Predicted: 16197 actual:16877 diff=0.04029 cost=0.00003306
+Predicted: 19061 actual:15990 diff=0.19206 cost=0.00067308
+Predicted: 8297 actual:8900 diff=0.06775 cost=0.00002596
+Predicted: 9214 actual:12500 diff=0.26288 cost=0.00077080
+Predicted: 7877 actual:7600 diff=0.03645 cost=0.00000549
+Predicted: 17173 actual:22990 diff=0.25302 cost=0.00241543
+Predicted: 9747 actual:11000 diff=0.11391 cost=0.00011199
+Predicted: 25651 actual:18500 diff=0.38654 cost=0.00364960
+Predicted: 8020 actual:6200 diff=0.29355 cost=0.00023645
+Predicted: 18976 actual:21900 diff=0.13352 cost=0.00061028
+Predicted: 15911 actual:14490 diff=0.09807 cost=0.00014416
+Predicted: 7764 actual:12000 diff=0.35300 cost=0.00128081
+Predicted: 8052 actual:6800 diff=0.18412 cost=0.00011180
+Predicted: 10046 actual:12500 diff=0.19632 cost=0.00042971
+Predicted: 30504 actual:39500 diff=0.22775 cost=0.00577518
+Predicted: 8709 actual:11500 diff=0.24270 cost=0.00055584
+Predicted: 7675 actual:8990 diff=0.14627 cost=0.00012356
+Predicted: 20075 actual:16990 diff=0.18158 cost=0.00067912
+Predicted: 12426 actual:11000 diff=0.12964 cost=0.00014518
+Predicted: 7997 actual:7500 diff=0.06627 cost=0.00001769
+Predicted: 17980 actual:14490 diff=0.24086 cost=0.00086930
+Predicted: 6919 actual:8700 diff=0.20471 cost=0.00022626
+Predicted: 14105 actual:16590 diff=0.14979 cost=0.00044083
+Predicted: 18386 actual:14990 diff=0.22655 cost=0.00082289
+Predicted: 5390 actual:4490 diff=0.20045 cost=0.00005786
+Predicted: 25191 actual:33990 diff=0.25887 cost=0.00552579
+Predicted: 12313 actual:12500 diff=0.01496 cost=0.00000248
+Predicted: 16075 actual:13000 diff=0.23654 cost=0.00067510
+Predicted: 15752 actual:14495 diff=0.08672 cost=0.00011266
+Predicted: 8213 actual:7900 diff=0.03962 cost=0.00000700
+Predicted: 11431 actual:9800 diff=0.16643 cost=0.00018992
+Predicted: 4245 actual:4990 diff=0.14930 cost=0.00003970
+Predicted: 7305 actual:6800 diff=0.07426 cost=0.00001823
+Predicted: 6759 actual:6500 diff=0.03985 cost=0.00000476
+Predicted: 12236 actual:10700 diff=0.14355 cost=0.00016829
+Predicted: 10251 actual:13000 diff=0.21146 cost=0.00053932
+Predicted: 15596 actual:19300 diff=0.19192 cost=0.00097898
+Predicted: 9760 actual:9500 diff=0.02737 cost=0.00000480
+Predicted: 17113 actual:12590 diff=0.35925 cost=0.00145991
+Predicted: 9359 actual:12990 diff=0.27952 cost=0.00094090
+Predicted: 6953 actual:7500 diff=0.07293 cost=0.00002135
+Predicted: 11374 actual:9000 diff=0.26378 cost=0.00040219
+Predicted: 6814 actual:5500 diff=0.23891 cost=0.00012320
+Predicted: 16281 actual:14750 diff=0.10380 cost=0.00016734
+Predicted: 26271 actual:27520 diff=0.04539 cost=0.00011125
+Predicted: 13729 actual:13500 diff=0.01696 cost=0.00000373
+Predicted: 11016 actual:10500 diff=0.04914 cost=0.00001894
+Predicted: 9299 actual:8750 diff=0.06274 cost=0.00002152
+Predicted: 10521 actual:14900 diff=0.29389 cost=0.00136871
+Predicted: 26032 actual:23990 diff=0.08512 cost=0.00029747
+Predicted: 13722 actual:11990 diff=0.14445 cost=0.00021398
+Predicted: 7412 actual:7000 diff=0.05886 cost=0.00001212
+Predicted: 8022 actual:7800 diff=0.02846 cost=0.00000351
+Predicted: 6771 actual:6500 diff=0.04169 cost=0.00000524
+Predicted: 17628 actual:18500 diff=0.04714 cost=0.00005435
+Predicted: 8669 actual:9990 diff=0.13223 cost=0.00012447
+Predicted: 13547 actual:15890 diff=0.14745 cost=0.00039183
+Predicted: 10119 actual:12950 diff=0.21861 cost=0.00057198
+Predicted: 13943 actual:16000 diff=0.12856 cost=0.00030198
+Predicted: 10125 actual:6800 diff=0.48897 cost=0.00078930
+Predicted: 18511 actual:17710 diff=0.04523 cost=0.00004574
+Predicted: 11473 actual:12900 diff=0.11062 cost=0.00014534
+Predicted: 10002 actual:12000 diff=0.16650 cost=0.00028502
+Predicted: 22768 actual:18590 diff=0.22474 cost=0.00124613
+Predicted: 30645 actual:25990 diff=0.17911 cost=0.00154681
+Predicted: 13290 actual:11000 diff=0.20818 cost=0.00037422
+Predicted: 15241 actual:16000 diff=0.04744 cost=0.00004115
+Predicted: 9732 actual:7800 diff=0.24769 cost=0.00026636
+Predicted: 9086 actual:8600 diff=0.05651 cost=0.00001681
+Predicted: 14449 actual:15500 diff=0.06781 cost=0.00007872
+Predicted: 16004 actual:14500 diff=0.10372 cost=0.00016142
+Predicted: 16045 actual:13990 diff=0.14689 cost=0.00030142
+Predicted: 6335 actual:5500 diff=0.15182 cost=0.00004976
+Predicted: 30639 actual:35509 diff=0.13715 cost=0.00169274
+Predicted: 33225 actual:33200 diff=0.00075 cost=0.00000005
+Predicted: 25393 actual:29987 diff=0.15320 cost=0.00150652
+Predicted: 15294 actual:12650 diff=0.20901 cost=0.00049905
+Predicted: 8540 actual:5950 diff=0.43529 cost=0.00047859
+Predicted: 18063 actual:19900 diff=0.09231 cost=0.00024088
+Predicted: 13513 actual:16990 diff=0.20465 cost=0.00086293
+Predicted: 6910 actual:5500 diff=0.25636 cost=0.00014178
+Predicted: 9228 actual:12500 diff=0.26176 cost=0.00076404
+Predicted: 6163 actual:6000 diff=0.02717 cost=0.00000190
+Predicted: 18072 actual:15500 diff=0.16594 cost=0.00047216
+Predicted: 6659 actual:7000 diff=0.04871 cost=0.00000830
+Predicted: 13806 actual:13200 diff=0.04591 cost=0.00002621
+Predicted: 14356 actual:18900 diff=0.24042 cost=0.00147313
+Predicted: 12476 actual:12399 diff=0.00621 cost=0.00000043
+Predicted: 19289 actual:18990 diff=0.01575 cost=0.00000638
+Predicted: 12640 actual:12800 diff=0.01250 cost=0.00000183
+Predicted: 26191 actual:36400 diff=0.28047 cost=0.00743831
+Predicted: 17687 actual:21000 diff=0.15776 cost=0.00078295
+Predicted: 7526 actual:6200 diff=0.21387 cost=0.00012562
+Predicted: 31085 actual:26990 diff=0.15172 cost=0.00119673
+Predicted: 9020 actual:7200 diff=0.25278 cost=0.00023630
+Predicted: 6759 actual:5500 diff=0.22891 cost=0.00011306
+Predicted: 9893 actual:9490 diff=0.04247 cost=0.00001161
+Predicted: 14264 actual:13550 diff=0.05269 cost=0.00003635
+Predicted: 11994 actual:12900 diff=0.07023 cost=0.00005855
+Predicted: 18874 actual:15990 diff=0.18036 cost=0.00059373
+Predicted: 9445 actual:8800 diff=0.07330 cost=0.00002970
+Predicted: 10949 actual:11900 diff=0.07992 cost=0.00006450
+Predicted: 7509 actual:9990 diff=0.24835 cost=0.00043911
+Predicted: 15136 actual:15400 diff=0.01714 cost=0.00000499
+Predicted: 14895 actual:7500 diff=0.98600 cost=0.00390290
+Predicted: 4870 actual:4500 diff=0.08222 cost=0.00000978
+Predicted: 18725 actual:16980 diff=0.10277 cost=0.00021733
+Predicted: 16837 actual:22490 diff=0.25136 cost=0.00228073
+Predicted: 21394 actual:16500 diff=0.29661 cost=0.00170964
+Predicted: 7109 actual:6400 diff=0.11078 cost=0.00003591
+Predicted: 15851 actual:16490 diff=0.03875 cost=0.00002916
+Predicted: 11760 actual:10900 diff=0.07890 cost=0.00005279
+Predicted: 8728 actual:6900 diff=0.26493 cost=0.00023838
+Predicted: 6822 actual:6000 diff=0.13700 cost=0.00004822
+Predicted: 17801 actual:17789 diff=0.00067 cost=0.00000001
+Predicted: 20115 actual:21990 diff=0.08527 cost=0.00025092
+Predicted: 16273 actual:24900 diff=0.34647 cost=0.00531195
+Predicted: 10132 actual:9000 diff=0.12578 cost=0.00009140
+Predicted: 14172 actual:19000 diff=0.25411 cost=0.00166357
+Predicted: 19253 actual:17900 diff=0.07559 cost=0.00013063
+Predicted: 10891 actual:9499 diff=0.14654 cost=0.00013814
+Predicted: 21509 actual:23700 diff=0.09245 cost=0.00034248
+Predicted: 14170 actual:13990 diff=0.01287 cost=0.00000233
+Predicted: 7226 actual:6000 diff=0.20433 cost=0.00010725
+Predicted: 7680 actual:7300 diff=0.05205 cost=0.00001030
+Predicted: 7833 actual:6000 diff=0.30550 cost=0.00023990
+Predicted: 6697 actual:5550 diff=0.20667 cost=0.00009388
+Predicted: 30706 actual:39900 diff=0.23043 cost=0.00603301
+Predicted: 28826 actual:22400 diff=0.28687 cost=0.00294694
+Predicted: 19209 actual:20950 diff=0.08310 cost=0.00021651
+Predicted: 13072 actual:13500 diff=0.03170 cost=0.00001310
+Predicted: 15596 actual:13500 diff=0.15526 cost=0.00031341
+Predicted: 22301 actual:19500 diff=0.14364 cost=0.00056003
+Predicted: 7935 actual:7400 diff=0.07230 cost=0.00002040
+Predicted: 30598 actual:23990 diff=0.27545 cost=0.00311640
+Predicted: 5507 actual:4300 diff=0.28070 cost=0.00010393
+Predicted: 6429 actual:3500 diff=0.83686 cost=0.00061250
+Predicted: 10209 actual:14000 diff=0.27079 cost=0.00102579
+Predicted: 12394 actual:9900 diff=0.25192 cost=0.00044400
+Predicted: 26244 actual:38730 diff=0.32239 cost=0.01112546
+Predicted: 5795 actual:8990 diff=0.35539 cost=0.00072879
+Predicted: 26018 actual:30900 diff=0.15799 cost=0.00170094
+Predicted: 4868 actual:4800 diff=0.01417 cost=0.00000033
+Predicted: 14833 actual:12700 diff=0.16795 cost=0.00032464
+Predicted: 10834 actual:14890 diff=0.27240 cost=0.00117455
+Predicted: 17309 actual:18300 diff=0.05415 cost=0.00007011
+Predicted: 17020 actual:16000 diff=0.06375 cost=0.00007421
+Predicted: 17223 actual:17900 diff=0.03782 cost=0.00003275
+Predicted: 15852 actual:16500 diff=0.03927 cost=0.00002998
+Predicted: 19703 actual:15900 diff=0.23918 cost=0.00103244
+Predicted: 21998 actual:17490 diff=0.25775 cost=0.00145028
+Predicted: 12497 actual:12200 diff=0.02434 cost=0.00000629
+Predicted: 23078 actual:18490 diff=0.24813 cost=0.00150204
+Predicted: 14236 actual:17500 diff=0.18651 cost=0.00076040
+Predicted: 25975 actual:24990 diff=0.03942 cost=0.00006932
+Predicted: 9038 actual:9350 diff=0.03337 cost=0.00000698
+Predicted: 19524 actual:15600 diff=0.25154 cost=0.00109871
+Predicted: 20978 actual:20900 diff=0.00373 cost=0.00000044
+Predicted: 5469 actual:4000 diff=0.36725 cost=0.00015393
+Predicted: 9890 actual:9000 diff=0.09889 cost=0.00005652
+Predicted: 5934 actual:4500 diff=0.31867 cost=0.00014682
+Predicted: 23024 actual:25300 diff=0.08996 cost=0.00036986
+Predicted: 11140 actual:10750 diff=0.03628 cost=0.00001085
+Predicted: 9669 actual:9700 diff=0.00320 cost=0.00000007
+Predicted: 5378 actual:4800 diff=0.12042 cost=0.00002382
+Predicted: 6332 actual:5900 diff=0.07322 cost=0.00001332
+Predicted: 24836 actual:18990 diff=0.30785 cost=0.00243907
+Predicted: 12944 actual:14490 diff=0.10669 cost=0.00017056
+Predicted: 19248 actual:18990 diff=0.01359 cost=0.00000476
+Predicted: 8746 actual:6900 diff=0.26754 cost=0.00024315
+Predicted: 12426 actual:12500 diff=0.00592 cost=0.00000039
+Predicted: 12779 actual:11800 diff=0.08297 cost=0.00006832
+Predicted: 12105 actual:9400 diff=0.28777 cost=0.00052243
+Predicted: 25711 actual:27912 diff=0.07885 cost=0.00034598
+Predicted: 18217 actual:19990 diff=0.08869 cost=0.00022445
+Predicted: 8770 actual:9200 diff=0.04674 cost=0.00001317
+Predicted: 6637 actual:9000 diff=0.26256 cost=0.00039855
+Predicted: 8512 actual:6490 diff=0.31156 cost=0.00029187
+Predicted: 10651 actual:21500 diff=0.50460 cost=0.00840038
+Predicted: 20723 actual:18900 diff=0.09646 cost=0.00023720
+Predicted: 14126 actual:16000 diff=0.11713 cost=0.00025062
+Predicted: 16177 actual:15900 diff=0.01742 cost=0.00000548
+Predicted: 20595 actual:18380 diff=0.12051 cost=0.00035009
+Predicted: 12180 actual:13500 diff=0.09778 cost=0.00012435
+Predicted: 20672 actual:18700 diff=0.10545 cost=0.00027751
+Predicted: 15953 actual:14900 diff=0.07067 cost=0.00007914
+Predicted: 19537 actual:20990 diff=0.06922 cost=0.00015067
+Predicted: 18545 actual:19900 diff=0.06809 cost=0.00013098
+Predicted: 7492 actual:7000 diff=0.07029 cost=0.00001726
+Predicted: 25703 actual:22200 diff=0.15779 cost=0.00087597
+Predicted: 16793 actual:12490 diff=0.34452 cost=0.00132135
+Predicted: 11217 actual:16900 diff=0.33627 cost=0.00230467
+Predicted: 8822 actual:8200 diff=0.07585 cost=0.00002759
+Predicted: 13943 actual:19000 diff=0.26616 cost=0.00182502
+Predicted: 9490 actual:8300 diff=0.14337 cost=0.00010106
+Predicted: 21171 actual:19650 diff=0.07740 cost=0.00016494
+Predicted: 11334 actual:9200 diff=0.23196 cost=0.00032524
+Predicted: 19482 actual:14490 diff=0.34451 cost=0.00177854
+Predicted: 17912 actual:19000 diff=0.05726 cost=0.00008456
+Predicted: 15430 actual:14800 diff=0.04257 cost=0.00002835
+Predicted: 5885 actual:7990 diff=0.26345 cost=0.00031627
+Predicted: 15929 actual:17000 diff=0.06300 cost=0.00008187
+Predicted: 16676 actual:22500 diff=0.25884 cost=0.00242104
+Predicted: 7242 actual:5000 diff=0.44840 cost=0.00035867
+Predicted: 15416 actual:12990 diff=0.18676 cost=0.00041977
+Predicted: 26116 actual:33570 diff=0.22204 cost=0.00396553
+Predicted: 22885 actual:30000 diff=0.23717 cost=0.00361286
+Predicted: 26163 actual:30900 diff=0.15330 cost=0.00160147
+Predicted: 26458 actual:29740 diff=0.11036 cost=0.00076852
+Predicted: 13061 actual:15900 diff=0.17855 cost=0.00057509
+Predicted: 18072 actual:15500 diff=0.16594 cost=0.00047216
+Predicted: 9940 actual:9000 diff=0.10444 cost=0.00006305
+Predicted: 7555 actual:7900 diff=0.04367 cost=0.00000850
+Predicted: 7975 actual:9000 diff=0.11389 cost=0.00007500
+Predicted: 30445 actual:40290 diff=0.24435 cost=0.00691737
+Predicted: 12617 actual:11490 diff=0.09809 cost=0.00009069
+Predicted: 30445 actual:22500 diff=0.35311 cost=0.00450480
+Predicted: 10796 actual:10500 diff=0.02819 cost=0.00000625
+Predicted: 15402 actual:17000 diff=0.09400 cost=0.00018223
+Predicted: 12795 actual:11500 diff=0.11261 cost=0.00011980
+Predicted: 9271 actual:8300 diff=0.11699 cost=0.00006730
+Predicted: 10580 actual:9600 diff=0.10208 cost=0.00006855
+Predicted: 13897 actual:17500 diff=0.20589 cost=0.00092635
+Predicted: 30471 actual:26900 diff=0.13275 cost=0.00091029
+Predicted: 6988 actual:8000 diff=0.12650 cost=0.00007317
+Predicted: 18040 actual:19670 diff=0.08287 cost=0.00018949
+Predicted: 9214 actual:12500 diff=0.26288 cost=0.00077080
+Predicted: 20130 actual:12500 diff=0.61040 cost=0.00415518
+Predicted: 12517 actual:9000 diff=0.39078 cost=0.00088267
+Predicted: 18258 actual:22250 diff=0.17942 cost=0.00113735
+Predicted: 5383 actual:7500 diff=0.28227 cost=0.00031982
+Predicted: 6335 actual:5500 diff=0.15182 cost=0.00004978
+Predicted: 17748 actual:18500 diff=0.04065 cost=0.00004044
+Predicted: 9186 actual:6990 diff=0.31416 cost=0.00034405
+Predicted: 12370 actual:11500 diff=0.07565 cost=0.00005400
+Predicted: 10527 actual:10900 diff=0.03422 cost=0.00000994
+Predicted: 25984 actual:23590 diff=0.10148 cost=0.00040889
+Predicted: 13574 actual:12280 diff=0.10537 cost=0.00011956
+Predicted: 22610 actual:17800 diff=0.27022 cost=0.00165168
+Predicted: 18724 actual:19000 diff=0.01453 cost=0.00000543
+Predicted: 15699 actual:15600 diff=0.00635 cost=0.00000069
+Predicted: 10573 actual:8700 diff=0.21529 cost=0.00025052
+Predicted: 7242 actual:6000 diff=0.20700 cost=0.00011016
+Predicted: 33244 actual:32690 diff=0.01695 cost=0.00002193
+Predicted: 5837 actual:5000 diff=0.16740 cost=0.00004996
+Predicted: 16371 actual:17990 diff=0.08999 cost=0.00018699
+Predicted: 10046 actual:8500 diff=0.18188 cost=0.00017065
+Predicted: 21080 actual:18200 diff=0.15824 cost=0.00059192
+Predicted: 5890 actual:6000 diff=0.01833 cost=0.00000086
+Predicted: 6117 actual:5300 diff=0.15415 cost=0.00004760
+Predicted: 25732 actual:35900 diff=0.28323 cost=0.00737840
+Predicted: 17852 actual:11990 diff=0.48891 cost=0.00245206
+Predicted: 15913 actual:16900 diff=0.05840 cost=0.00006947
+Predicted: 31266 actual:42990 diff=0.27271 cost=0.00980981
+Predicted: 19837 actual:14788 diff=0.34143 cost=0.00181918
+Predicted: 6440 actual:8700 diff=0.25977 cost=0.00036452
+Predicted: 21109 actual:19900 diff=0.06075 cost=0.00010432
+Predicted: 17544 actual:14990 diff=0.17038 cost=0.00046573
+Predicted: 19116 actual:16450 diff=0.16207 cost=0.00050751
+Predicted: 15862 actual:14990 diff=0.05817 cost=0.00005431
+Predicted: 22534 actual:25500 diff=0.11631 cost=0.00062780
+Predicted: 11349 actual:10000 diff=0.13490 cost=0.00012993
+Predicted: 5950 actual:6000 diff=0.00833 cost=0.00000017
+Predicted: 11344 actual:9900 diff=0.14586 cost=0.00014886
+Predicted: 24322 actual:28990 diff=0.16102 cost=0.00155462
+Predicted: 12600 actual:13500 diff=0.06667 cost=0.00005782
+Predicted: 16082 actual:17900 diff=0.10156 cost=0.00023607
+Predicted: 30823 actual:45100 diff=0.31656 cost=0.01454774
+Predicted: 26393 actual:26900 diff=0.01885 cost=0.00001832
+Predicted: 21874 actual:26490 diff=0.17425 cost=0.00152063
+Predicted: 11328 actual:11700 diff=0.03179 cost=0.00000987
+Predicted: 15793 actual:14000 diff=0.12807 cost=0.00022953
+Predicted: 17839 actual:17900 diff=0.00341 cost=0.00000027
+Predicted: 15545 actual:18900 diff=0.17751 cost=0.00080338
+Predicted: 18615 actual:23900 diff=0.22113 cost=0.00199371
+Predicted: 14764 actual:16900 diff=0.12639 cost=0.00032560
+Predicted: 19203 actual:15890 diff=0.20850 cost=0.00078340
+Predicted: 9101 actual:4500 diff=1.02244 cost=0.00151128
+Predicted: 18845 actual:17900 diff=0.05279 cost=0.00006376
+Predicted: 7454 actual:6200 diff=0.20226 cost=0.00011228
+Predicted: 9480 actual:8200 diff=0.15610 cost=0.00011698
+Predicted: 17249 actual:17999 diff=0.04167 cost=0.00004019
+Predicted: 16887 actual:20490 diff=0.17584 cost=0.00092636
+Predicted: 20189 actual:18892 diff=0.06865 cost=0.00012006
+Predicted: 16883 actual:15000 diff=0.12553 cost=0.00025309
+Predicted: 25777 actual:26900 diff=0.04175 cost=0.00008990
+Predicted: 25435 actual:25980 diff=0.02098 cost=0.00002119
+Predicted: 19703 actual:15990 diff=0.23221 cost=0.00098396
+Predicted: 25441 actual:21990 diff=0.15693 cost=0.00084988
+Predicted: 9052 actual:8500 diff=0.06494 cost=0.00002178
+Predicted: 9747 actual:7500 diff=0.29960 cost=0.00036057
+Predicted: 9221 actual:10500 diff=0.12181 cost=0.00011673
+Predicted: 14425 actual:18500 diff=0.22027 cost=0.00118529
+Predicted: 11138 actual:15490 diff=0.28096 cost=0.00135148
+Predicted: 10573 actual:10000 diff=0.05730 cost=0.00002349
+Predicted: 17662 actual:14990 diff=0.17825 cost=0.00050973
+Predicted: 9401 actual:15000 diff=0.37327 cost=0.00223711
+Predicted: 7701 actual:7590 diff=0.01462 cost=0.00000087
+Predicted: 9963 actual:7990 diff=0.24693 cost=0.00027775
+Predicted: 10438 actual:11890 diff=0.12212 cost=0.00015032
+Predicted: 19173 actual:14500 diff=0.32228 cost=0.00155863
+Predicted: 7964 actual:8600 diff=0.07395 cost=0.00002889
+Predicted: 11004 actual:12700 diff=0.13354 cost=0.00020517
+Predicted: 12447 actual:14100 diff=0.11723 cost=0.00019499
+Predicted: 8518 actual:8200 diff=0.03878 cost=0.00000722
+Predicted: 12949 actual:12200 diff=0.06139 cost=0.00003997
+Predicted: 19406 actual:18000 diff=0.07811 cost=0.00014105
+Predicted: 19447 actual:24500 diff=0.20624 cost=0.00182239
+Predicted: 7451 actual:5990 diff=0.24391 cost=0.00015243
+Predicted: 5928 actual:5700 diff=0.04000 cost=0.00000371
+Predicted: 7863 actual:7600 diff=0.03461 cost=0.00000494
+Predicted: 21956 actual:22990 diff=0.04498 cost=0.00007638
+Predicted: 7288 actual:6450 diff=0.12992 cost=0.00005017
+Predicted: 21673 actual:15790 diff=0.37258 cost=0.00246997
+Predicted: 26010 actual:35800 diff=0.27346 cost=0.00684060
+Predicted: 18508 actual:15990 diff=0.15747 cost=0.00045259
+Predicted: 5890 actual:4700 diff=0.25319 cost=0.00010111
+Predicted: 15567 actual:15200 diff=0.02414 cost=0.00000960
+Predicted: 30393 actual:49910 diff=0.39104 cost=0.02718506
+Predicted: 17052 actual:15500 diff=0.10013 cost=0.00017192
+Predicted: 13338 actual:10300 diff=0.29495 cost=0.00065847
+Predicted: 7708 actual:9300 diff=0.17118 cost=0.00018097
+Predicted: 10687 actual:12900 diff=0.17155 cost=0.00034950
+Predicted: 18835 actual:15990 diff=0.17792 cost=0.00057757
+Predicted: 9054 actual:7700 diff=0.17584 cost=0.00013091
+Predicted: 8172 actual:8900 diff=0.08180 cost=0.00003784
+Predicted: 21117 actual:23490 diff=0.10102 cost=0.00040175
+Predicted: 2701 actual:13500 diff=0.79993 cost=0.00832368
+Predicted: 11265 actual:13500 diff=0.16556 cost=0.00035663
+Predicted: 5771 actual:5500 diff=0.04927 cost=0.00000523
+Predicted: 17289 actual:14990 diff=0.15337 cost=0.00037708
+Predicted: 16013 actual:12490 diff=0.28207 cost=0.00088609
+Predicted: 30758 actual:23400 diff=0.31444 cost=0.00386433
+Predicted: 21117 actual:17000 diff=0.24218 cost=0.00121002
+Predicted: 9020 actual:15800 diff=0.42911 cost=0.00328066
+Predicted: 24389 actual:9000 diff=1.70989 cost=0.01690149
+Predicted: 9401 actual:11000 diff=0.14536 cost=0.00018240
+Predicted: 9358 actual:8700 diff=0.07563 cost=0.00003087
+Predicted: 15874 actual:26000 diff=0.38946 cost=0.00731790
+Predicted: 21842 actual:29900 diff=0.26950 cost=0.00463457
+Predicted: 10088 actual:9800 diff=0.02939 cost=0.00000591
+Predicted: 7877 actual:6800 diff=0.15838 cost=0.00008285
+Predicted: 6315 actual:4500 diff=0.40333 cost=0.00023526
+Predicted: 27407 actual:39500 diff=0.30615 cost=0.01043691
+Predicted: 19465 actual:23900 diff=0.18556 cost=0.00140401
+Predicted: 10194 actual:10700 diff=0.04729 cost=0.00001833
+Predicted: 18422 actual:13000 diff=0.41708 cost=0.00209883
+Predicted: 26029 actual:20400 diff=0.27593 cost=0.00226121
+Predicted: 26325 actual:29900 diff=0.11957 cost=0.00091236
+Predicted: 15484 actual:16290 diff=0.04948 cost=0.00004637
+Predicted: 14236 actual:11800 diff=0.20644 cost=0.00042348
+Predicted: 8081 actual:9000 diff=0.10211 cost=0.00006030
+Predicted: 15839 actual:22990 diff=0.31105 cost=0.00364952
+Predicted: 14983 actual:17900 diff=0.16296 cost=0.00060720
+Predicted: 9732 actual:13000 diff=0.25138 cost=0.00076203
+Predicted: 10757 actual:16700 diff=0.35587 cost=0.00252100
+Predicted: 15017 actual:13300 diff=0.12910 cost=0.00021048
+Predicted: 10481 actual:8700 diff=0.20471 cost=0.00022650
+Predicted: 7680 actual:7400 diff=0.03784 cost=0.00000558
+Predicted: 12031 actual:9800 diff=0.22765 cost=0.00035532
+Predicted: 5686 actual:5600 diff=0.01536 cost=0.00000054
+Predicted: 16361 actual:15000 diff=0.09073 cost=0.00013217
+Predicted: 17174 actual:11000 diff=0.56127 cost=0.00272023
+Predicted: 21431 actual:17990 diff=0.19127 cost=0.00084496
+Predicted: 10436 actual:17500 diff=0.40366 cost=0.00356163
+Predicted: 6301 actual:5500 diff=0.14564 cost=0.00004573
+Predicted: 10346 actual:16800 diff=0.38417 cost=0.00297310
+Predicted: 15707 actual:17900 diff=0.12251 cost=0.00034316
+Predicted: 12196 actual:10500 diff=0.16152 cost=0.00020523
+Predicted: 15888 actual:14000 diff=0.13486 cost=0.00025446
+Predicted: 12379 actual:12700 diff=0.02528 cost=0.00000737
+Predicted: 28892 actual:41890 diff=0.31029 cost=0.01205868
+Predicted: 12608 actual:7999 diff=0.57620 cost=0.00151609
+Predicted: 9846 actual:12990 diff=0.24203 cost=0.00070553
+Predicted: 9579 actual:8900 diff=0.07629 cost=0.00003292
+Predicted: 11323 actual:10500 diff=0.07838 cost=0.00004835
+Predicted: 8602 actual:7200 diff=0.19472 cost=0.00014026
+Predicted: 11959 actual:9600 diff=0.24573 cost=0.00039718
+Predicted: 18947 actual:20700 diff=0.08469 cost=0.00021941
+Predicted: 18045 actual:16890 diff=0.06838 cost=0.00009519
+Predicted: 18560 actual:13990 diff=0.32666 cost=0.00149064
+Predicted: 6925 actual:5990 diff=0.15609 cost=0.00006240
+Predicted: 10667 actual:9890 diff=0.07856 cost=0.00004305
+Predicted: 17393 actual:17877 diff=0.02707 cost=0.00001668
+Predicted: 10172 actual:9500 diff=0.07074 cost=0.00003221
+Predicted: 6759 actual:5690 diff=0.18787 cost=0.00008150
+Predicted: 11234 actual:14600 diff=0.23055 cost=0.00080838
+Predicted: 9401 actual:14500 diff=0.35166 cost=0.00185560
+Predicted: 26719 actual:22500 diff=0.18751 cost=0.00126989
+Predicted: 9186 actual:8800 diff=0.04386 cost=0.00001059
+Predicted: 19419 actual:19987 diff=0.02842 cost=0.00002305
+Predicted: 12193 actual:12990 diff=0.06135 cost=0.00004543
+Predicted: 9965 actual:8300 diff=0.20060 cost=0.00019784
+Predicted: 14591 actual:16500 diff=0.11570 cost=0.00025995
+Predicted: 6581 actual:5800 diff=0.13466 cost=0.00004355
+Predicted: 15168 actual:12000 diff=0.26400 cost=0.00071631
+Predicted: 6910 actual:6700 diff=0.03134 cost=0.00000312
+Predicted: 14982 actual:16990 diff=0.11819 cost=0.00028776
+Predicted: 17997 actual:19480 diff=0.07613 cost=0.00015687
+Predicted: 14295 actual:23500 diff=0.39170 cost=0.00604655
+Predicted: 9020 actual:8900 diff=0.01348 cost=0.00000103
+Predicted: 13463 actual:17000 diff=0.20806 cost=0.00089263
+Predicted: 20839 actual:30800 diff=0.32341 cost=0.00708214
+Predicted: 17513 actual:14990 diff=0.16831 cost=0.00045442
+Predicted: 4870 actual:4499 diff=0.08246 cost=0.00000982
+Predicted: 20284 actual:16900 diff=0.20024 cost=0.00081718
+Predicted: 26095 actual:24840 diff=0.05052 cost=0.00011242
+Predicted: 26244 actual:38900 diff=0.32535 cost=0.01143033
+Predicted: 11387 actual:15000 diff=0.24087 cost=0.00093178
+Predicted: 11236 actual:9490 diff=0.18398 cost=0.00021768
+Predicted: 10580 actual:9490 diff=0.11486 cost=0.00008475
+Predicted: 7709 actual:5500 diff=0.40164 cost=0.00034815
+Predicted: 8750 actual:8500 diff=0.02941 cost=0.00000447
+Predicted: 15909 actual:12500 diff=0.27272 cost=0.00082928
+Predicted: 10355 actual:12900 diff=0.19729 cost=0.00046224
+Predicted: 20453 actual:14000 diff=0.46093 cost=0.00297237
+Predicted: 8552 actual:12000 diff=0.28733 cost=0.00084846
+Predicted: 9287 actual:15000 diff=0.38087 cost=0.00232916
+Predicted: 12027 actual:21600 diff=0.44319 cost=0.00653965
+Predicted: 11337 actual:9700 diff=0.16876 cost=0.00019116
+Predicted: 16087 actual:17490 diff=0.08022 cost=0.00014060
+Predicted: 12651 actual:15500 diff=0.18381 cost=0.00057933
+Predicted: 15851 actual:23600 diff=0.32835 cost=0.00428614
+Predicted: 13792 actual:15990 diff=0.13746 cost=0.00034492
+Predicted: 15625 actual:18700 diff=0.16444 cost=0.00067519
+Predicted: 12794 actual:15500 diff=0.17458 cost=0.00052232
+Predicted: 7719 actual:6900 diff=0.11870 cost=0.00004787
+Predicted: 16588 actual:14490 diff=0.14479 cost=0.00031402
+Predicted: 12313 actual:11900 diff=0.03471 cost=0.00001221
+Predicted: 11823 actual:15500 diff=0.23723 cost=0.00096463
+Predicted: 18291 actual:14490 diff=0.26232 cost=0.00103107
+Predicted: 9850 actual:8500 diff=0.15882 cost=0.00013010
+Predicted: 10483 actual:12200 diff=0.14074 cost=0.00021047
+Predicted: 13745 actual:12500 diff=0.09960 cost=0.00011057
+Predicted: 11651 actual:10000 diff=0.16510 cost=0.00019467
+Predicted: 30641 actual:25986 diff=0.17913 cost=0.00154691
+Predicted: 15967 actual:14000 diff=0.14050 cost=0.00027616
+Predicted: 6404 actual:3800 diff=0.68526 cost=0.00048402
+Predicted: 18386 actual:14800 diff=0.24230 cost=0.00091755
+Predicted: 9142 actual:6600 diff=0.38515 cost=0.00046115
+Predicted: 15927 actual:19000 diff=0.16174 cost=0.00067413
+Predicted: 13298 actual:11300 diff=0.17681 cost=0.00028514
+Predicted: 8424 actual:6900 diff=0.22087 cost=0.00016579
+Predicted: 5649 actual:5200 diff=0.08635 cost=0.00001442
+Predicted: 5758 actual:5000 diff=0.15160 cost=0.00004101
+Predicted: 17756 actual:12990 diff=0.36690 cost=0.00162105
+Predicted: 21221 actual:30800 diff=0.31101 cost=0.00654895
+Predicted: 19762 actual:14970 diff=0.32011 cost=0.00163882
+Predicted: 16694 actual:19990 diff=0.16488 cost=0.00077534
+Predicted: 9020 actual:7500 diff=0.20267 cost=0.00016494
+Predicted: 9895 actual:10500 diff=0.05762 cost=0.00002613
+Predicted: 16676 actual:17500 diff=0.04709 cost=0.00004846
+Predicted: 7681 actual:6050 diff=0.26959 cost=0.00018995
+Predicted: 24224 actual:19400 diff=0.24866 cost=0.00166112
+Predicted: 24200 actual:19500 diff=0.24103 cost=0.00157689
+Predicted: 13474 actual:11990 diff=0.12377 cost=0.00015716
+Predicted: 7833 actual:7500 diff=0.04440 cost=0.00000793
+Predicted: 18919 actual:17995 diff=0.05135 cost=0.00006091
+Predicted: 10088 actual:9100 diff=0.10857 cost=0.00006961
+Predicted: 13513 actual:9990 diff=0.35265 cost=0.00088606
+Predicted: 12273 actual:10900 diff=0.12596 cost=0.00013447
+Predicted: 8141 actual:7399 diff=0.10028 cost=0.00003931
+Predicted: 11228 actual:15999 diff=0.29821 cost=0.00162469
+Predicted: 21842 actual:28000 diff=0.21993 cost=0.00270674
+Predicted: 9895 actual:9290 diff=0.06512 cost=0.00002614
+Predicted: 17930 actual:17990 diff=0.00334 cost=0.00000026
+Predicted: 9228 actual:12990 diff=0.28961 cost=0.00101028
+Predicted: 18921 actual:14690 diff=0.28802 cost=0.00127757
+Predicted: 16996 actual:22000 diff=0.22745 cost=0.00178666
+Predicted: 12537 actual:15500 diff=0.19116 cost=0.00062635
+Predicted: 17826 actual:14490 diff=0.23023 cost=0.00079428
+Predicted: 26191 actual:32990 diff=0.20609 cost=0.00329913
+Predicted: 22249 actual:18990 diff=0.17162 cost=0.00075807
+Predicted: 9850 actual:6790 diff=0.45066 cost=0.00066834
+Predicted: 12434 actual:10600 diff=0.17302 cost=0.00024019
+Predicted: 8394 actual:7900 diff=0.06253 cost=0.00001741
+Predicted: 21905 actual:19800 diff=0.10631 cost=0.00031626
+Predicted: 10628 actual:9990 diff=0.06386 cost=0.00002910
+Predicted: 19059 actual:14500 diff=0.31441 cost=0.00148347
+Predicted: 13150 actual:11490 diff=0.14447 cost=0.00019674
+Predicted: 30611 actual:26590 diff=0.15122 cost=0.00115418
+Predicted: 9446 actual:11500 diff=0.17861 cost=0.00030100
+Predicted: 25292 actual:21990 diff=0.15016 cost=0.00077829
+Predicted: 18114 actual:13000 diff=0.39338 cost=0.00186691
+Predicted: 10294 actual:7900 diff=0.30304 cost=0.00040903
+Predicted: 17929 actual:21990 diff=0.18467 cost=0.00117697
+Predicted: 16716 actual:14800 diff=0.12946 cost=0.00026215
+Predicted: 17736 actual:19500 diff=0.09046 cost=0.00022212
+Predicted: 17231 actual:15490 diff=0.11240 cost=0.00021632
+Predicted: 7084 actual:8200 diff=0.13610 cost=0.00008893
+Predicted: 14496 actual:14000 diff=0.03543 cost=0.00001760
+Predicted: 16380 actual:16200 diff=0.01111 cost=0.00000232
+Predicted: 25107 actual:30900 diff=0.18748 cost=0.00239522
+Predicted: 12499 actual:9980 diff=0.25240 cost=0.00045307
+Predicted: 7122 actual:5950 diff=0.19697 cost=0.00009796
+Predicted: 7150 actual:6500 diff=0.10000 cost=0.00003009
+Predicted: 25502 actual:26460 diff=0.03621 cost=0.00006553
+Predicted: 31292 actual:51990 diff=0.39812 cost=0.03057537
+Predicted: 7792 actual:6490 diff=0.20062 cost=0.00012098
+Predicted: 16441 actual:14750 diff=0.11464 cost=0.00020424
+Predicted: 16913 actual:14995 diff=0.12791 cost=0.00026259
+Predicted: 11278 actual:10990 diff=0.02621 cost=0.00000592
+Predicted: 10046 actual:14490 diff=0.30669 cost=0.00140958
+Predicted: 18354 actual:15730 diff=0.16682 cost=0.00049157
+Predicted: 8784 actual:7800 diff=0.12615 cost=0.00006906
+Predicted: 11384 actual:11900 diff=0.04336 cost=0.00001898
+Predicted: 13409 actual:10000 diff=0.34090 cost=0.00082946
+Predicted: 17991 actual:20500 diff=0.12239 cost=0.00044923
+Predicted: 7360 actual:7400 diff=0.00541 cost=0.00000012
+Predicted: 6962 actual:7800 diff=0.10744 cost=0.00005018
+Predicted: 11634 actual:12500 diff=0.06928 cost=0.00005349
+Predicted: 8265 actual:11800 diff=0.29958 cost=0.00089187
+Predicted: 14756 actual:11500 diff=0.28313 cost=0.00075696
+Predicted: 13080 actual:9800 diff=0.33469 cost=0.00076801
+Predicted: 8530 actual:8000 diff=0.06625 cost=0.00002002
+Predicted: 5482 actual:4990 diff=0.09860 cost=0.00001726
+Predicted: 20069 actual:19990 diff=0.00395 cost=0.00000044
+Predicted: 12478 actual:11450 diff=0.08978 cost=0.00007539
+Predicted: 22750 actual:15000 diff=0.51667 cost=0.00428700
+Predicted: 19824 actual:22990 diff=0.13771 cost=0.00071530
+Predicted: 6851 actual:8150 diff=0.15939 cost=0.00012045
+Predicted: 20719 actual:18780 diff=0.10325 cost=0.00026833
+Predicted: 26511 actual:37550 diff=0.29398 cost=0.00869664
+Predicted: 13904 actual:11990 diff=0.15963 cost=0.00026135
+Predicted: 8111 actual:11900 diff=0.31840 cost=0.00102442
+Predicted: 30850 actual:36990 diff=0.16599 cost=0.00268999
+Predicted: 16964 actual:16400 diff=0.03439 cost=0.00002268
+Predicted: 19406 actual:18500 diff=0.04897 cost=0.00005849
+Predicted: 7931 actual:9900 diff=0.19889 cost=0.00027680
+Predicted: 6782 actual:6900 diff=0.01710 cost=0.00000100
+Predicted: 8862 actual:8499 diff=0.04271 cost=0.00000942
+Predicted: 7087 actual:11000 diff=0.35573 cost=0.00109291
+Predicted: 12506 actual:17900 diff=0.30134 cost=0.00207668
+Predicted: 14218 actual:13900 diff=0.02288 cost=0.00000721
+Predicted: 11459 actual:11500 diff=0.00357 cost=0.00000012
+Predicted: 15429 actual:19490 diff=0.20836 cost=0.00117687
+Predicted: 26002 actual:21990 diff=0.18245 cost=0.00114897
+Predicted: 17334 actual:18000 diff=0.03700 cost=0.00003160
+Predicted: 13034 actual:14500 diff=0.10110 cost=0.00015336
+Predicted: 10163 actual:8990 diff=0.13048 cost=0.00009820
+Predicted: 11605 actual:12990 diff=0.10662 cost=0.00013700
+Predicted: 10130 actual:12500 diff=0.18960 cost=0.00040100
+Predicted: 9446 actual:8490 diff=0.11260 cost=0.00006524
+Predicted: 22330 actual:32985 diff=0.32303 cost=0.00810233
+Predicted: 6855 actual:12800 diff=0.46445 cost=0.00252288
+Predicted: 10580 actual:8700 diff=0.21609 cost=0.00025221
+Predicted: 18160 actual:21960 diff=0.17304 cost=0.00103023
+Predicted: 8265 actual:7300 diff=0.13219 cost=0.00006653
+Predicted: 7764 actual:10500 diff=0.26057 cost=0.00053440
+Predicted: 8353 actual:8590 diff=0.02759 cost=0.00000403
+Predicted: 25013 actual:20900 diff=0.19679 cost=0.00120716
+Predicted: 30445 actual:43500 diff=0.30011 cost=0.01216350
+Predicted: 25641 actual:32800 diff=0.21826 cost=0.00365799
+Predicted: 8353 actual:11500 diff=0.27365 cost=0.00070686
+Predicted: 22670 actual:33890 diff=0.33107 cost=0.00898537
+Predicted: 12610 actual:12500 diff=0.00880 cost=0.00000086
+Predicted: 30850 actual:19900 diff=0.55025 cost=0.00855846
+Predicted: 16207 actual:13000 diff=0.24669 cost=0.00073444
+Predicted: 26715 actual:31490 diff=0.15164 cost=0.00162680
+Predicted: 18361 actual:14000 diff=0.31150 cost=0.00135741
+Predicted: 11637 actual:10000 diff=0.16370 cost=0.00019141
+Predicted: 10833 actual:15000 diff=0.27780 cost=0.00123927
+Predicted: 10635 actual:10500 diff=0.01286 cost=0.00000130
+Predicted: 16550 actual:16900 diff=0.02071 cost=0.00000873
+Predicted: 10125 actual:9990 diff=0.01351 cost=0.00000130
+Predicted: 9182 actual:11000 diff=0.16527 cost=0.00023594
+Predicted: 14865 actual:12990 diff=0.14434 cost=0.00025075
+Predicted: 5279 actual:4600 diff=0.14761 cost=0.00003287
+Predicted: 12173 actual:10490 diff=0.16044 cost=0.00020213
+Predicted: 26148 actual:26999 diff=0.03152 cost=0.00005176
+Predicted: 7410 actual:6000 diff=0.23500 cost=0.00014190
+Predicted: 18838 actual:19490 diff=0.03345 cost=0.00003034
+Predicted: 14574 actual:10500 diff=0.38800 cost=0.00118459
+Predicted: 14014 actual:12800 diff=0.09484 cost=0.00010515
+Predicted: 18824 actual:15950 diff=0.18019 cost=0.00058956
+Predicted: 11384 actual:10500 diff=0.08419 cost=0.00005574
+Predicted: 10046 actual:11600 diff=0.13397 cost=0.00017234
+Predicted: 9378 actual:11000 diff=0.14745 cost=0.00018771
+Predicted: 33364 actual:23990 diff=0.39075 cost=0.00627152
+Predicted: 9925 actual:7500 diff=0.32333 cost=0.00041974
+Predicted: 15788 actual:15900 diff=0.00704 cost=0.00000089
+Predicted: 23047 actual:17900 diff=0.28754 cost=0.00189074
+Predicted: 10809 actual:13000 diff=0.16854 cost=0.00034250
+Predicted: 7512 actual:10450 diff=0.28115 cost=0.00061607
+Predicted: 24815 actual:15900 diff=0.56069 cost=0.00567204
+Predicted: 9228 actual:9300 diff=0.00774 cost=0.00000037
+Predicted: 8020 actual:7900 diff=0.01519 cost=0.00000103
+Predicted: 7884 actual:9500 diff=0.17011 cost=0.00018638
+Predicted: 20619 actual:23800 diff=0.13366 cost=0.00072243
+Predicted: 26277 actual:34490 diff=0.23813 cost=0.00481509
+Predicted: 11090 actual:13000 diff=0.14692 cost=0.00026017
+Predicted: 6139 actual:6500 diff=0.05554 cost=0.00000931
+Predicted: 10745 actual:9999 diff=0.07461 cost=0.00003970
+Predicted: 8428 actual:7900 diff=0.06684 cost=0.00001988
+Predicted: 12699 actual:10700 diff=0.18682 cost=0.00028515
+Predicted: 19567 actual:24403 diff=0.19817 cost=0.00166939
+Predicted: 25612 actual:28570 diff=0.10354 cost=0.00062446
+Predicted: 14218 actual:12200 diff=0.16541 cost=0.00029058
+Predicted: 12697 actual:13490 diff=0.05878 cost=0.00004487
+Predicted: 9401 actual:13500 diff=0.30363 cost=0.00119901
+Predicted: 15579 actual:19500 diff=0.20108 cost=0.00109697
+Predicted: 17283 actual:16990 diff=0.01725 cost=0.00000610
+Predicted: 30346 actual:33420 diff=0.09198 cost=0.00067448
+Predicted: 23064 actual:20500 diff=0.12507 cost=0.00046921
+Predicted: 13236 actual:11500 diff=0.15096 cost=0.00021513
+Predicted: 6697 actual:7200 diff=0.06986 cost=0.00001805
+Predicted: 18053 actual:15500 diff=0.16471 cost=0.00046512
+Predicted: 9401 actual:9300 diff=0.01086 cost=0.00000073
+Predicted: 12410 actual:9990 diff=0.24224 cost=0.00041806
+Predicted: 9705 actual:7990 diff=0.21464 cost=0.00020994
+Predicted: 7398 actual:6800 diff=0.08794 cost=0.00002551
+Predicted: 10809 actual:15000 diff=0.27940 cost=0.00125363
+Predicted: 8647 actual:13500 diff=0.35948 cost=0.00168090
+Predicted: 7255 actual:5500 diff=0.31909 cost=0.00021969
+Predicted: 6842 actual:6000 diff=0.14033 cost=0.00005064
+Predicted: 14148 actual:10990 diff=0.28735 cost=0.00071199
+Predicted: 12769 actual:15450 diff=0.17353 cost=0.00051318
+Predicted: 6759 actual:6800 diff=0.00603 cost=0.00000012
+Predicted: 6773 actual:3600 diff=0.88139 cost=0.00071857
+Predicted: 10570 actual:7990 diff=0.32290 cost=0.00047492
+Predicted: 15909 actual:14500 diff=0.09717 cost=0.00014155
+Predicted: 18480 actual:14990 diff=0.23282 cost=0.00086942
+Predicted: 13413 actual:10900 diff=0.23055 cost=0.00045075
+Predicted: 14314 actual:13990 diff=0.02316 cost=0.00000751
+Predicted: 12476 actual:10600 diff=0.17698 cost=0.00025121
+Predicted: 8234 actual:9000 diff=0.08511 cost=0.00004195
+Predicted: 7068 actual:6000 diff=0.17800 cost=0.00008138
+Predicted: 17164 actual:15000 diff=0.14427 cost=0.00033408
+Predicted: 30850 actual:23900 diff=0.29079 cost=0.00344796
+Predicted: 22722 actual:22950 diff=0.00993 cost=0.00000372
+Predicted: 5225 actual:5500 diff=0.05000 cost=0.00000542
+Predicted: 22534 actual:23000 diff=0.02026 cost=0.00001548
+Predicted: 14591 actual:14990 diff=0.02662 cost=0.00001136
+Predicted: 11430 actual:7600 diff=0.50395 cost=0.00104666
+Predicted: 19881 actual:24990 diff=0.20444 cost=0.00186254
+Predicted: 7438 actual:6500 diff=0.14431 cost=0.00006269
+Predicted: 8428 actual:9790 diff=0.13912 cost=0.00013242
+Predicted: 25888 actual:30578 diff=0.15338 cost=0.00156986
+Predicted: 8262 actual:6500 diff=0.27108 cost=0.00022155
+Predicted: 7833 actual:6900 diff=0.13522 cost=0.00006203
+Predicted: 25705 actual:36200 diff=0.28992 cost=0.00786128
+Predicted: 11852 actual:10490 diff=0.12984 cost=0.00013237
+Predicted: 12900 actual:13900 diff=0.07194 cost=0.00007139
+Predicted: 25546 actual:25889 diff=0.01325 cost=0.00000843
+Predicted: 21353 actual:19390 diff=0.10124 cost=0.00027496
+Predicted: 11790 actual:11000 diff=0.07182 cost=0.00004450
+Predicted: 13953 actual:15000 diff=0.06980 cost=0.00007817
+Predicted: 10619 actual:9800 diff=0.08357 cost=0.00004792
+Predicted: 11790 actual:13500 diff=0.12667 cost=0.00020866
+Predicted: 5824 actual:5800 diff=0.00414 cost=0.00000004
+Predicted: 18606 actual:13900 diff=0.33856 cost=0.00158046
+Predicted: 19594 actual:26900 diff=0.27160 cost=0.00380890
+Predicted: 19937 actual:14900 diff=0.33805 cost=0.00181045
+Predicted: 26574 actual:23500 diff=0.13081 cost=0.00067436
+Predicted: 22579 actual:26990 diff=0.16343 cost=0.00138840
+Predicted: 26352 actual:30900 diff=0.14718 cost=0.00147627
+Predicted: 9117 actual:5900 diff=0.54525 cost=0.00073873
+Predicted: 20806 actual:28000 diff=0.25693 cost=0.00369403
+Predicted: 9143 actual:13000 diff=0.29669 cost=0.00106127
+Predicted: 11022 actual:7800 diff=0.41308 cost=0.00074080
+Predicted: 19436 actual:49990 diff=0.61120 cost=0.06662673
+Predicted: 11300 actual:9990 diff=0.13113 cost=0.00012262
+Predicted: 30850 actual:26900 diff=0.14684 cost=0.00111400
+Predicted: 19597 actual:18490 diff=0.05987 cost=0.00008741
+Predicted: 14735 actual:12400 diff=0.18831 cost=0.00038900
+Predicted: 21355 actual:16900 diff=0.26361 cost=0.00141679
+Predicted: 7398 actual:7500 diff=0.01360 cost=0.00000074
+Predicted: 9066 actual:6700 diff=0.35313 cost=0.00039958
+Predicted: 25251 actual:36900 diff=0.31569 cost=0.00968468
+Predicted: 7964 actual:11000 diff=0.27600 cost=0.00065799
+Predicted: 18734 actual:22500 diff=0.16738 cost=0.00101221
+Predicted: 8235 actual:8500 diff=0.03118 cost=0.00000501
+Predicted: 22747 actual:23890 diff=0.04784 cost=0.00009314
+Predicted: 13268 actual:9900 diff=0.34020 cost=0.00080933
+Predicted: 9467 actual:7990 diff=0.18486 cost=0.00015559
+Predicted: 10667 actual:11900 diff=0.10361 cost=0.00010849
+Predicted: 12130 actual:11800 diff=0.02797 cost=0.00000777
+Predicted: 25684 actual:22960 diff=0.11864 cost=0.00052981
+Predicted: 15811 actual:14990 diff=0.05477 cost=0.00004811
+Predicted: 12031 actual:10990 diff=0.09472 cost=0.00007735
+Predicted: 7637 actual:6900 diff=0.10681 cost=0.00003877
+Predicted: 10905 actual:8500 diff=0.28294 cost=0.00041274
+Predicted: 10679 actual:9000 diff=0.18656 cost=0.00020108
+Predicted: 13619 actual:14900 diff=0.08597 cost=0.00011710
+Predicted: 22778 actual:32900 diff=0.30766 cost=0.00731281
+Predicted: 17545 actual:18990 diff=0.07609 cost=0.00014899
+Predicted: 19423 actual:18900 diff=0.02767 cost=0.00001957
+Predicted: 8643 actual:8300 diff=0.04133 cost=0.00000842
+Predicted: 10030 actual:11990 diff=0.16347 cost=0.00027429
+Predicted: 30850 actual:37935 diff=0.18677 cost=0.00358182
+Predicted: 7913 actual:6500 diff=0.21738 cost=0.00014238
+Predicted: 7177 actual:7800 diff=0.07987 cost=0.00002768
+Predicted: 7757 actual:6500 diff=0.19338 cost=0.00011278
+Predicted: 16070 actual:20900 diff=0.23110 cost=0.00166488
+Predicted: 13897 actual:17000 diff=0.18253 cost=0.00068683
+Predicted: 6284 actual:6500 diff=0.03323 cost=0.00000332
+Predicted: 19879 actual:18700 diff=0.06305 cost=0.00009914
+Predicted: 7234 actual:9000 diff=0.19622 cost=0.00022268
+Predicted: 20919 actual:14790 diff=0.41440 cost=0.00268102
+Predicted: 10527 actual:10500 diff=0.00257 cost=0.00000005
+Predicted: 19173 actual:13930 diff=0.37638 cost=0.00196203
+Predicted: 15909 actual:12500 diff=0.27272 cost=0.00082932
+Predicted: 9789 actual:8990 diff=0.08888 cost=0.00004548
+Predicted: 15241 actual:18000 diff=0.15328 cost=0.00054325
+Predicted: 30393 actual:31120 diff=0.02336 cost=0.00003771
+Predicted: 11704 actual:10900 diff=0.07376 cost=0.00004608
+Predicted: 14538 actual:16468 diff=0.11720 cost=0.00026593
+Predicted: 5686 actual:3700 diff=0.53676 cost=0.00028164
+Predicted: 10626 actual:8790 diff=0.20887 cost=0.00024052
+Predicted: 8286 actual:6500 diff=0.27477 cost=0.00022767
+Predicted: 13145 actual:11500 diff=0.14304 cost=0.00019323
+Predicted: 11080 actual:11200 diff=0.01071 cost=0.00000102
+Predicted: 5395 actual:5290 diff=0.01985 cost=0.00000078
+Predicted: 16647 actual:20500 diff=0.18795 cost=0.00105965
+Predicted: 6744 actual:5500 diff=0.22618 cost=0.00011045
+Predicted: 16763 actual:16900 diff=0.00811 cost=0.00000134
+Predicted: 25933 actual:17000 diff=0.52547 cost=0.00569570
+Predicted: 21011 actual:20400 diff=0.02995 cost=0.00002659
+Predicted: 8151 actual:6900 diff=0.18130 cost=0.00011167
+Predicted: 23178 actual:19998 diff=0.15902 cost=0.00072164
+Predicted: 20940 actual:16490 diff=0.26986 cost=0.00141342
+Predicted: 8937 actual:7000 diff=0.27671 cost=0.00026785
+Predicted: 14982 actual:16490 diff=0.09145 cost=0.00016218
+Predicted: 10346 actual:12000 diff=0.13783 cost=0.00019526
+Predicted: 19687 actual:17990 diff=0.09433 cost=0.00020567
+Predicted: 16620 actual:16590 diff=0.00181 cost=0.00000006
+Predicted: 10251 actual:12000 diff=0.14575 cost=0.00021846
+Predicted: 9143 actual:11000 diff=0.16882 cost=0.00024600
+Predicted: 20679 actual:20490 diff=0.00922 cost=0.00000254
+Predicted: 5316 actual:5000 diff=0.06320 cost=0.00000709
+Predicted: 18031 actual:16990 diff=0.06127 cost=0.00007729
+Predicted: 18505 actual:16490 diff=0.12220 cost=0.00028994
+Predicted: 17744 actual:21900 diff=0.18977 cost=0.00123305
+Predicted: 21821 actual:18740 diff=0.16441 cost=0.00067772
+Predicted: 16793 actual:15900 diff=0.05616 cost=0.00005690
+Predicted: 20528 actual:25500 diff=0.19498 cost=0.00176438
+Predicted: 24832 actual:17000 diff=0.46071 cost=0.00437782
+Predicted: 18730 actual:15890 diff=0.17873 cost=0.00057590
+Predicted: 20403 actual:25900 diff=0.21224 cost=0.00215671
+Predicted: 9695 actual:8499 diff=0.14072 cost=0.00010205
+Predicted: 25373 actual:30990 diff=0.18125 cost=0.00225208
+Predicted: 8984 actual:7800 diff=0.15179 cost=0.00010003
+Predicted: 3945 actual:4000 diff=0.01375 cost=0.00000021
+Predicted: 16202 actual:16900 diff=0.04130 cost=0.00003474
+Predicted: 9445 actual:9800 diff=0.03622 cost=0.00000896
+Predicted: 16735 actual:14590 diff=0.14702 cost=0.00032843
+Predicted: 30851 actual:29900 diff=0.03181 cost=0.00006446
+Predicted: 9228 actual:9500 diff=0.02863 cost=0.00000528
+Predicted: 30860 actual:36930 diff=0.16437 cost=0.00262966
+Predicted: 14819 actual:16700 diff=0.11263 cost=0.00025255
+Predicted: 30850 actual:34900 diff=0.11605 cost=0.00117055
+Testing result: Mean diff=0.17024272 Mean cost=NaN
