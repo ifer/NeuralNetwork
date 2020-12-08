@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "csv-generate": "^3.2.4",
-    "fast-csv": "^4.0.2",
+    "fast-csv": "^4.3.6",
     "fs": "^0.0.1-security",
     "mathjs": "^6.2.5",
     "sprintf-js": "^1.1.2",
